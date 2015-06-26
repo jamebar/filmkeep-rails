@@ -1,0 +1,24 @@
+<div class="compare-container">
+  <button type="button" class="close" ng-click="$close()" ><span class="modal-close glyphicon glyphicon-remove"></span></button>
+  <p ng-show="!cancompare">I'm sorry, none of your connections have reviewed this film yet</p>
+  <div class="preloader" ng-hide="showcompare || !cancompare">loading <img src="/img/loaders/loading-bubbles.svg" alt="Loading icon" /></div>
+  <span ng-show="showcompare">
+    <ul class="compare-avatars clearfix">
+      <li ng-repeat="review in compares | limitTo: 6" ng-class="{active:review.active}">
+        <avatar class="avatar" info="review.user" disable-click="true" ng-click="review.active = !review.active"></avatar>
+      </li>
+    </ul>
+
+    <div class="clearfix">
+        <div ng-repeat="(rIndex,rating) in compares[0].ratings">
+          <p>%%rating.rating_type.label%%</p>
+          <div class="progress compare%%$index%%" ng-repeat="comp in compares | filter: {active:'true'} | limitTo:6" ng-if="comp.ratings[rIndex].rating_type_id === rating.rating_type_id">
+            <div class="progress-bar" role="progressbar"  aria-valuenow="%%comp.ratings[rIndex].value%%" aria-valuemin="0" aria-valuemax="2000" ng-style="{width: toPercent(comp.ratings[rIndex].value) + '%'}">
+              %%comp.user.name%%
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+</div>

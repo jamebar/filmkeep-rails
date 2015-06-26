@@ -1,0 +1,116 @@
+.info-page{
+  // margin-top:50px;
+}
+.info-wrapper{
+  max-width: 800px;
+  margin:0 auto;
+  & > h3{
+    margin-bottom: 1.5em;
+  }
+}
+.info-section{
+  padding:2em;
+  text-align: center;
+  color:$filmkeep-beige;
+  h2{
+    font-size:30px;
+  }
+  h3{
+  }
+  .row p{
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 40.063em)
+{
+  .info-section{
+    padding:4em;
+    h2{
+      font-size:40px;
+    }
+  }
+}
+.sign-up{
+  max-width: 250px;
+  margin-top:2em;
+  border-radius:3px !important;
+}
+.section1{
+  
+  background-image:url( asset-path("homepage/theater-large.jpg") );
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+}
+
+
+.section2{
+  background-color:$filmkeep-red;
+  color:$filmkeep-beige;
+  font-size: 1.5em;
+
+}
+.section3{
+  background-image:url(asset-path("homepage/filmreel-large.jpg")) ;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+  padding:6em;
+
+}
+.section4{
+  background-color:$filmkeep-beige;
+  color:$brown-dark;
+  i{
+    font-size:6em;
+    &.red{
+      color:$filmkeep-red;
+    }
+  }
+}
+
+.section5{
+ background-image:url(asset-path("homepage/jimmy-stewart-large.jpg")) ;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+
+  color:$filmkeep-beige;
+  i{
+    font-size: 5em;
+  }
+  i.icon-custom{
+    font-size: 4em;
+    line-height: 1.8em;
+  }
+
+}
+
+.section6{
+  background-color:$filmkeep-red;
+  color:$filmkeep-beige;
+
+}
+
+a.btn-open{
+  margin:1em;
+  display: inline-block;
+  padding:1em 2em;
+  color:$filmkeep-beige;
+  border-radius: 3px;
+  border:1px solid $filmkeep-beige;
+
+  &:hover{
+    background-color:rgba(0,0,0,.1);
+  }
+}
+
+a.learn-more{
+  color: #f4e8d0;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -72px;
+  display: inline-block;
+  text-align: center;
+}

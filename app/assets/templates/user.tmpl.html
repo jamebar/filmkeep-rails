@@ -1,0 +1,32 @@
+<style>
+.navbar {background-color:#323232 !important;}
+</style>
+<div class="padding-top min-content-height site-max">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <avatar class="avatar large pull-left" info="page_user"></avatar>
+      <div class="page-user-actions">
+        <h3><a ui-sref='root.user.filmkeep({username: page_user.username})'>%%page_user.name%%</a></h3>
+        <a ng-show="showFollow" ng-click="follow(page_user)"><span class="glyphicon glyphicon-ok" ng-show="page_user.following"></span> %% page_user.following ? "following" : "follow" %%</a> <span ng-show="showFollow" style="margin:0 .5em;"> | </span>
+        <a ui-sref='root.user.watchlist({username: page_user.username})'>watchlist</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="pull-right stats">
+        <div class="stat">
+          <span>%%page_user.total_reviews || 0%%</span>
+          <em>reviews</em>
+        </div>
+        <div class="stat">
+          <span>%%page_user.total_followers || 0%%</span>
+          <em>followers</em>
+        </div>
+        <div class="stat">
+          <span>%%page_user.total_following || 0%%</span>
+          <em>following</em>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ui-view="page-child" class="page-child clearfix" ></div>
+</div>

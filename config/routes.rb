@@ -16,6 +16,16 @@ Rails.application.routes.draw do
   # get '/auth/:provider/callback', :to => 'sessions#create'
   get '/auth/failure', :to => 'sessions#failure'
 
+  scope :api, defaults: {format: 'json'} do
+    get 'me' => 'me#index'
+    get 'user/is_authorized' => 'me#is_authorized'
+    get 'notifications' => 'notifications#index'
+    post 'notifications' => 'notifications#mark_seen'
+    get 'stream' => 'stream#index'
+    resources :custom_lists, path: 'lists'
+    resources :rating_types
+    resources :reviews
+  end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

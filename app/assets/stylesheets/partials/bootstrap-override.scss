@@ -1,0 +1,207 @@
+label{
+  font-weight: 400;
+}
+.btn{
+  border-radius: 3px !important;
+  border:none !important;
+  box-shadow:none !important; 
+}
+
+.btn-primary{
+  background-color:$filmkeep-blue;
+  z-index: 10;
+  position: relative;
+  &:active, &:focus{
+    background-color:$filmkeep-blue;
+  }
+  padding:1em;
+  width:100%;
+  color:$filmkeep-beige;
+  &:hover{
+    background-color:lighten($filmkeep-blue,5%);
+  }
+}
+
+.btn-success{
+  background-color:$filmkeep-blue;
+  &:active, &:focus{
+    background-color:$filmkeep-blue;
+  }
+  
+}
+.navbar-nav>li>a{
+  line-height: 32px;
+  padding-bottom: 0px;
+  padding-top:8px;
+}
+
+.pagination>li>a, .pagination>li>span{
+  border:none;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+  border-radius:5px;
+  border-color:$filmkeep-red;
+  background: $filmkeep-red;
+} 
+
+.pagination>li>a, .pagination>li>span{
+  color:$filmkeep-red;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus
+{
+  color:$filmkeep-red;
+  border-radius: 5px;
+}
+
+.progress{
+  box-shadow: none;
+  background-color:$filmkeep-orange;
+  position:relative;
+  height:25px;
+}
+
+.progress-bar{
+  box-shadow: none;
+  background-color:$filmkeep-sage;
+}
+
+.navbar-inverse{
+
+  border:none;
+}
+
+.feed-review-ratings {
+  .progress{
+    background-color:$filmkeep-sage;
+  }
+
+  .progress-bar{
+    background-color:$filmkeep-orange;
+  }
+}
+
+
+.form-control{
+  padding:1em;
+  height:100%;
+  font-size:16px;
+}
+
+.alert-box{
+  width:100%;
+  position:fixed;
+  top:50px;
+  left:0px;
+  text-align:center;
+  z-index: 10000;
+  border-radius: 0px;
+  color:$filmkeep-beige;  
+  border:none;
+}
+.alert-box.no-header{
+  top:0px !important;
+}
+.alert-box.success,.alert-box.alert{
+  background-color:$filmkeep-blue;
+}
+.alert-box.warning,{
+  background-color:$filmkeep-orange;
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+  color:$filmkeep-beige;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  margin-left:0px;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+  margin-left:0px;
+}
+
+.navbar-inverse .navbar-toggle{
+  border:none;
+}
+
+.modal.fade .modal-dialog {
+ -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0); // IE9 only
+          transform: translate(0, 0);
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+  border:none;
+  border-radius:0px;
+  padding:1em 2em;
+}
+
+.nav-tabs>li>a{
+  border-radius:0px;
+  background-color:rgba(255,255,255,.4);
+  color:#fff;
+  border:none;
+  padding:1em 2em;
+
+  &:hover{
+    background-color:rgba(255,255,255,.6);
+    border:none;
+  }
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+  background: none;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active{
+  background-color:#ccc;
+  border-color:#ccc;
+  color:#333;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+  background-color: $filmkeep-red;
+}
+
+.nav.terms-nav>li>a {
+
+  padding: 5px 15px;
+}
+
+.media {
+    margin-top: 15px;
+}.media:first-child {
+    margin-top: 0;
+}.media, .media-body {
+    overflow: hidden;zoom: 1
+}.media-body {
+    width: 10000px;
+}.media-object {
+    display: block;
+}.media-right, .media > .pull-right {
+    padding-left: 10px;
+}.media-left, .media > .pull-left {
+    padding-right: 10px;
+}.media-body, .media-left, .media-right {
+    display: table-cell;vertical-align: middle;
+}.media-middle {
+    vertical-align: middle;
+}.media-bottom {
+    vertical-align: bottom;
+}.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.media-left{
+  vertical-align: top;
+}
+
+.dropdown-menu {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

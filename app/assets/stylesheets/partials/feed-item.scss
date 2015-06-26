@@ -1,0 +1,200 @@
+.feed-item{
+  margin-top:1em;
+  padding-left:0px;
+
+
+  img{
+    margin-bottom: 1em;
+  }
+  & > .media{
+    margin-left:0px;
+  }
+
+  .activity-item{
+    
+
+    img{
+      display: block;
+
+    }
+  }
+
+  .activity-item.activity-review{
+    float:inherit;
+  }
+}
+
+.feed-actor{
+  text-transform: capitalize;
+}
+
+
+
+.feed-review-ratings{
+  .progress{
+    margin-bottom: 0px;
+    height:15px;
+  }
+}
+
+.activity-review{
+  background:$filmkeep-beige;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 0;
+  margin-top: 0;
+    
+  .title{
+    font-size: 2em;
+    margin-top: -91px;
+    width: 60%;
+    line-height: 1em;
+    display: block;
+    float: left;
+    font-family: 'Volkhov',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    color:$filmkeep-beige;
+
+    span{
+      font-size:.7em;
+    }
+  }
+
+  .feed-review-ratings{
+    p{
+      margin-bottom: 0px;
+      margin-top:5px;
+    }
+  }
+
+  .film-object{
+    margin-right: 1em;
+    .poster{
+      width:200px;
+      height:304px;
+      
+
+
+    }
+  }
+
+}
+
+.poster{
+  position: relative;
+  .poster-overlay{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.6);
+        display: none;
+        
+        .top{
+          top:20%;
+          
+        }
+        .bottom{
+         
+          bottom:20%;
+
+        }
+        .overlay-action{
+          position: absolute;
+          font-size:2.5em;
+          left:50%;
+          color:#fff;
+          margin-left:-.75em;
+
+          .ficon{
+            padding:10px;
+            border-radius:40px;
+            border: 1px solid rgba(255,255,255,.8);
+          }
+        }
+      }
+
+      &:hover .poster-overlay{
+          display: block;
+      }
+}
+
+.activity-review.collapsed{
+    background: #f5f1e8;
+    padding:1em;
+  }
+
+.feed-review-wrapper{
+  padding:25px;
+}
+
+.feed-review-cover{
+  background-size: cover;
+  .cover{
+    width:100%;
+    min-height: 150px;
+    background-color:rgba(123, 113, 113, 0.6);
+  }
+}
+
+.feed-review-poster{
+  margin-top:-100px;
+}
+
+.feed-review-notes{
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 40em)
+{
+  .feed-item{
+    padding-left:60px;
+
+    img{
+      margin-bottom: 0em;
+
+    }
+
+    & > .media{
+      margin-left:-60px;
+    }
+  }
+
+  .activity-review{
+    margin-left: -31px;
+    margin-top:-7px;
+  }
+
+  .pullup{
+    margin-top: -20px;
+  }
+
+}
+
+@media only screen and (max-width:768px)
+{
+  .activity-review .film-object .poster{
+    display: none;
+  }
+
+  .feed-review-poster{
+    margin-top: -20px;
+    float:none !important;
+  }
+
+  .activity-review .title{
+    margin-top: -139px;
+  }
+}
+
+.feed-date{
+  color:#aaa;
+}
+
+.feed-comments{
+  background: #fff;
+  padding: 1em;
+  // border: 1px solid #ccc;
+  // border-radius: 5px;
+}

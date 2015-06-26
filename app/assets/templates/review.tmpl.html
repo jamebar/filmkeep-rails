@@ -1,0 +1,82 @@
+<div class="film-cover-wrapper row-full-width " ng-style="{'background-image':'url(%%review.film.backdrop_path | imageFilter :'backdrop':'1' %%)'}">
+  <div class="film-cover full-width-section">
+    <div class="site-max">
+        <div class="fc-info">
+          <div class="fc-profile">
+            
+            <avatar class="avatar large" info="review.user"></avatar>
+           
+            <!-- <a ui-sref='root.user.filmkeep({username: review.user.username})'>%%review.user.name%%</a> -->
+          </div>
+          <div class="fc-content">
+            <h2>%%review.film.title%% <span ng-if="review.film.certification">(%%review.film.certification%%)</span></h2>
+            <div class="film-actions">
+              <a class="visible-xs-inline" ng-click="getTrailer(review.film.tmdb_id)"><span class="glyphicon glyphicon-facetime-video"></span></a>
+              <a ng-click="newReview(review.film)" ng-if="review.reviewed === 'false' ">review this</a>
+              <a ng-click="watchlist(review.film)" ng-if="me.id"><span ng-class="{'glyphicon-plus': review.film.on_watchlist === 'false','glyphicon-ok': review.film.on_watchlist === 'true'}" class="glyphicon"></span> watchlist</a>
+              <a ng-click="editReview(review.id)" ng-if="me.id === review.user_id">edit</a>
+              <a ng-click="compare(review)" ng-if="review.reviewed === 'true' ">compare </a>
+            </div>
+          </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+<div class="full-width-section theme-beige row-full-width">
+  
+  <div class="row site-max">
+    <div class="col-xs-12 col-sm-2">
+      
+      <div class="trailer-review hidden-xs" ng-style="{'background-image':'url(%%review.film.backdrop_path | imageFilter :'backdrop':'0' %%)'}">
+        <a ng-click="getTrailer(review.film.tmdb_id)">Trailer</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-8">
+      <p>%%review.film.summary%%</p>
+    </div>
+    <div class="col-xs-12 col-sm-2">
+      <!-- <div class="mpaa %%review.film.rotten.mpaa%%" ng-if="review.film.rotten && review.film.rotten.mpaa"><span>RATED</span><strong>%%review.film.rotten.mpaa%%</strong> </div> -->
+       <p ng-if="review.film.rotten && review.film.rotten.critics_score > -1" class="rotten-wrapper">
+        <a ng-href="%%review.film.rotten.link%%"><span class="rotten-icon" ng-class="{fresh: review.film.rotten.critics_rating =='Fresh', certified_fresh: review.film.rotten.critics_rating =='Certified Fresh', rotten: review.film.rotten.critics_rating =='Rotten'}"></span>
+        %%review.film.rotten.critics_score%%%</a>
+      </p>
+    </div>
+    <!-- <div class="col-xs-12 col-sm-9"></div> -->
+
+  </div>
+  
+</div>
+
+<div class="full-width-section theme-red row-full-width">
+  <div class="review-ratings site-max" ng-repeat="rating_type in rating_types | filter:{new: false}">
+    <p type="rating_type" rating-type-label></p>
+    <div class="progress" >
+      <span class="dot" tooltip="%%r.film.title%%" tooltip-append-to-body="true" ng-repeat="r in review.reviews" tooltip-animation="false" ng-style="{'left': (r.ratings[rating_type.id].value/2000)*100 + '%' }" ui-sref='root.review({reviewId: r.id})'></span>
+      <div class="progress-bar" role="progressbar" aria-valuenow="%%rating_type.value%%" aria-valuemin="0" aria-valuemax="2000" ng-style="{width: toPercent(rating_type.value)}">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full-width-section theme-orange row-full-width" ng-show="review.notes.length > 1">
+  <div class="site-max">
+    <h3>Notes</h3>
+    <p>%%review.notes%%</p>
+  </div>
+</div>
+
+<div class="full-width-section theme-sage row-full-width" >
+  <div class="site-max">
+    <h3 >Comments</h3><a name="comments"></a>
+    <comments type="review" commentable-id="review.id" film-id="review.film.id"></comments>
+  </div>
+</div>
+
+<!-- <div class="full-width-section theme-toast row-full-width">
+  <h3>Comments</h3>
+  <p></p>
+</div> -->
+
+

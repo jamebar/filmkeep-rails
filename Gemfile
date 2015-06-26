@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'bootstrap-sass', '~> 3.3.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -27,6 +27,7 @@ gem 'pg'
 gem 'omniauth',  '>= 1.0.0'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
+gem 'stream_rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -47,3 +48,33 @@ group :development, :test do
   gem 'spring'
 end
 
+  gem 'angular-rails-templates'
+
+source 'https://rails-assets.org' do
+  # Front end Resource
+
+  gem 'rails-assets-lodash', '~> 3.9.3'
+  gem 'rails-assets-momentjs', '~> 2.7.0'
+  gem 'rails-assets-angular', '~> 1.3.0'
+  gem 'rails-assets-angular-animate', '~>1.3.13'
+  gem 'rails-assets-angular-ui-router', '~> 0.2.10'
+  gem 'rails-assets-angular-strap', '2.2.3'
+  gem 'rails-assets-angular-bootstrap', '~> 0.13.0'
+  gem 'rails-assets-angular-resource', '~> 1.3.0'
+  gem 'rails-assets-angular-filter', '~> 0.4.5'
+  gem 'rails-assets-angularjs-rails-resource', '~> 1.1.1'
+  gem 'rails-assets-angular-placeholder-tai', '~> 1.0.1'
+  gem 'rails-assets-perfect-scrollbar', '~> 0.5'
+  gem 'rails-assets-angular-perfect-scrollbar', '~> 0.0.4'
+  gem 'rails-assets-hammerjs'
+  gem 'rails-assets-angular-hammer'
+  gem 'rails-assets-angular-sanitize'
+  gem 'rails-assets-venturocket-angular-slider'
+  # gem 'rails-assets-angular-slugify', '~> 1.0.0'
+  gem 'rails-assets-angular-touch'
+  gem 'rails-assets-angular-typeahead'
+  gem 'rails-assets-angular-utils-pagination'
+  gem 'rails-assets-angular-elastic'
+  # gem 'rails-assets-angular-gestures'
+  gem 'rails-assets-getstream'
+end

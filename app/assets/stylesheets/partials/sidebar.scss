@@ -1,0 +1,64 @@
+.watchlist-sidebar{
+  ul, ul li{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+
+
+  }
+  li{
+    float:left;
+    list-style: none;
+
+
+  }
+  img{
+    width:100px;
+  }
+}
+
+
+.friends-sidebar{
+  ul, ul li{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+  }
+  li{
+    float:left;
+    list-style: none;
+  }
+  img{
+    width:60px;
+  }
+}
+
+.sidebar-item > h3, .sidebar-item > h3 a{
+  color:rgba(0,0,0,.3);
+  text-transform: uppercase;
+  font-family: 'Volkhov',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: .9em;
+
+  & a:hover{
+    color:$filmkeep-blue;
+  }
+}
+
+.sidebar-item {
+  padding-top: 1em;
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 3em;
+
+
+}
+
+.nowplaying-sidebar{
+  p a{
+      color:$filmkeep-blue;
+    }
+
+  .film-object.horizontal p , & h3 a{
+    color: rgba(244, 232, 208, 0.5);
+  }
+}
