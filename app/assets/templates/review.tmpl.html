@@ -12,10 +12,10 @@
             <h2>%%review.film.title%% <span ng-if="review.film.certification">(%%review.film.certification%%)</span></h2>
             <div class="film-actions">
               <a class="visible-xs-inline" ng-click="getTrailer(review.film.tmdb_id)"><span class="glyphicon glyphicon-facetime-video"></span></a>
-              <a ng-click="newReview(review.film)" ng-if="review.reviewed === 'false' ">review this</a>
-              <a ng-click="watchlist(review.film)" ng-if="me.id"><span ng-class="{'glyphicon-plus': review.film.on_watchlist === 'false','glyphicon-ok': review.film.on_watchlist === 'true'}" class="glyphicon"></span> watchlist</a>
+              <a ng-click="newReview(review.film)" ng-if="review.reviewed === false ">review this</a>
+              <a ng-click="watchlist(review.film)" ng-if="me.id"><span ng-class="{'glyphicon-plus': review.film.on_watchlist === false,'glyphicon-ok': review.film.on_watchlist === true}" class="glyphicon"></span> watchlist</a>
               <a ng-click="editReview(review.id)" ng-if="me.id === review.user_id">edit</a>
-              <a ng-click="compare(review)" ng-if="review.reviewed === 'true' ">compare </a>
+              <a ng-click="compare(review)" ng-if="review.reviewed === true ">compare </a>
             </div>
           </div>
         </div>

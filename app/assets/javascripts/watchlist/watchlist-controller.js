@@ -24,7 +24,7 @@
 
         Api.getWatchlist(page_user.id).then(function(response) {
 
-                $scope.watchlist_items = response.results;
+                $scope.watchlist_items = response;
             });
 
         $scope.htoggle = false;

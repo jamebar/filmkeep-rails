@@ -3,14 +3,14 @@
     <div class="site-max">
         <div class="fc-info">
           <div class="fc-poster hidden-xs hidden-sm">
-            <img ng-src="%%film.poster_path | imageFilter:'poster':'1'%%" onerror="if (this.src != '/assets/img/fallback-poster.jpg') this.src = '/assets/img/fallback-poster.jpg';"/>
+            <img ng-src="%%film.poster_path | imageFilter:'poster':'1'%%" onerror="if (this.src != '/img/fallback-poster.jpg') this.src = '/img/fallback-poster.jpg';"/>
           </div>
           <div class="fc-content">
             <h2>%%film.title%% <span ng-if="film.certification">(%%film.certification%%)</span></h2>
             <div class="film-actions">
               <a class="visible-xs-inline" ng-click="getTrailer(film.tmdb_id)"><span class="glyphicon glyphicon-facetime-video"></span></a>
-              <a ng-click="newReview(film)" ng-show="film.reviewed == 'false'">Review this</a>
-              <a ng-click="watchlist(film)"  ng-if="me.id"><span ng-class="{'glyphicon-plus': film.on_watchlist === 'false','glyphicon-ok': film.on_watchlist === 'true'}" class="glyphicon"></span> watchlist</a>
+              <a ng-click="newReview(film)" ng-show="film.reviewed == false">Review this</a>
+              <a ng-click="watchlist(film)"  ng-if="me.id"><span ng-class="{'glyphicon-plus': film.on_watchlist === false,'glyphicon-ok': film.on_watchlist === true}" class="glyphicon"></span> watchlist</a>
             </div>
           </div>
         </div>

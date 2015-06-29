@@ -29,7 +29,9 @@ angular.module('Api', ['ngResource'])
                   params: {id: '@id'},
                 },
                 'query': {
-                    method: 'GET'
+                    method: 'GET',
+                    isArray:true
+
                 }
             }),
         addRemoveListItem: function(params){
@@ -50,7 +52,7 @@ angular.module('Api', ['ngResource'])
         getCompares: function(film_id) {
             return $http({ method: "get", url: "/api/compares", params: { action: "get", film_id: film_id } }).then( handleSuccess, handleError );
         },
-        me: function(){
+        bootstrap: function(){
             return $http({ method: "get", url: "/api/me", params: { action: "get" } }).then( function(response){
               meData = response.data;
               return( response.data );
@@ -63,13 +65,13 @@ angular.module('Api', ['ngResource'])
             return $http({ method: "get", url: "/api/user/is_authorized", params: { action: "get"} }).then( handleSuccess, handleError );
         },
         getFilm: function(tmdb_id) {
-            return $http({ method: "get", url: "/api/film", params: { action: "get", tmdb_id: tmdb_id } }).then( handleSuccess, handleError );
+            return $http({ method: "get", url: "/api/films", params: { action: "get", tmdb_id: tmdb_id } }).then( handleSuccess, handleError );
         },
         getTrailer: function(tmdb_id) {
-            return $http({ method: "get", url: "/api/tmdb/trailer/" + tmdb_id, params: { action: "get", tmdb_id: tmdb_id } }).then( handleSuccess, handleError );
+            return $http({ method: "get", url: "/api/films/trailer/" + tmdb_id, params: { action: "get", tmdb_id: tmdb_id } }).then( handleSuccess, handleError );
         },
         getNowPlaying: function() {
-            return $http({ method: "get", url: "/api/tmdb/nowplaying/", params: { action: "get" } }).then( handleSuccess, handleError );
+            return $http({ method: "get", url: "/api/films/nowplaying/", params: { action: "get" } }).then( handleSuccess, handleError );
         },
         follow: function(follower_id){
             return $http({ method: "post", url: "/api/follow/" + follower_id, params: { action: "post", follower_id: follower_id} }).then( handleSuccess, handleError );

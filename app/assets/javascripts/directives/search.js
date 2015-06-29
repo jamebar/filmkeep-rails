@@ -22,9 +22,9 @@
                     },
                     queryTokenizer: Bloodhound.tokenizers.whitespace,
                     remote: {
-                        url: '/api/user/search?query=%QUERY',
+                        url: '/api/users/search/%QUERY',
                         filter: function(list) {
-                            return $.map(list.results, function(data) {
+                            return $.map(list, function(data) {
                                 // if(data.avatar.length < 2) data.avatar = '/assets/img/default-profile.jpg';
                                 
                                 
@@ -44,9 +44,9 @@
                     },
                     queryTokenizer: Bloodhound.tokenizers.whitespace,
                     remote: {
-                        url: '/api/tmdb/%QUERY',
+                        url: '/api/films/search/%QUERY',
                         filter: function(list) {
-                            return $.map(list.results, function(data) {
+                            return $.map(list, function(data) {
                                 data.release_date  = data.release_date || 'N/A';
                                 return {
                                     title: data.title ,
@@ -87,7 +87,7 @@
                     templates: {
                       header: '<h3 class="search-title">Films</h3>',
                       suggestion: function (context) {
-                        return '<div class="clearfix search-item"><div class="search-item-img"><img src="'+context.poster + '" onerror="if (this.src != \'/assets/img/fallback-poster.jpg\') this.src = \'/assets/img/fallback-poster.jpg\';"/></div> <div class="search-item-content">' +context.title+' <span class="release-date">('+context.release_date + ')</span></div></div>'
+                        return '<div class="clearfix search-item"><div class="search-item-img"><img src="'+context.poster + '" onerror="if (this.src != \'/img/fallback-poster.jpg\') this.src = \'/img/fallback-poster.jpg\';"/></div> <div class="search-item-content">' +context.title+' <span class="release-date">('+context.release_date + ')</span></div></div>'
                       }
                     }
                 }

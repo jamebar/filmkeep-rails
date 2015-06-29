@@ -12,7 +12,7 @@
   <%= csrf_meta_tags %>
     <base href="/" />
     <script>
-      // var image_path_config = {{json_encode($image_path_config)}};
+       var image_path_config = <%= raw @image_path_config.to_json %>;
     </script>
 
     <script>
@@ -88,14 +88,16 @@
             
             <li class="divider"></li>
             
-            <li><a href="/users/logout" target="_self">Logout</a></li>
+            <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :self %></li>
             
           </ul>
         </li>
         <li ng-if="!navbarCollapsed"><a ui-sref="root.settings.profile">Settings</a></li>
-        <li ng-if="!navbarCollapsed"><a href="/users/logout" target="_self">Logout</a></li>
+        <li ng-if="!navbarCollapsed"><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :self %></li>
+
+
         <% else %>
-        <li ><a href="/users/login" target="_self">log in</a></li>
+        <li ><%= link_to "Sign in", 'users/sign_in' , :target => :self %></li>
         <% end %>
 
       </ul>

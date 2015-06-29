@@ -79,8 +79,8 @@ angular.module('myApp', [
     templateUrl: 'app.tmpl.html',
     controller: 'appCtrl',
     resolve: {
-      me: function (Api) {
-          return Api.me();
+      bootstrap: function (Api) {
+          return Api.bootstrap();
       } 
     }
   });
@@ -251,17 +251,17 @@ angular.module('myApp', [
     }
   
 ])
-.controller('appCtrl', ['$sce','msgBus','$scope','$rootScope','$modal','ReviewService','$timeout','me','Slug','Api',
-    function($sce,msgBus,$scope,$rootScope,$modal,ReviewService,$timeout,me,Slug,Api) {
+.controller('appCtrl', ['$sce','msgBus','$scope','$rootScope','$modal','ReviewService','$timeout','bootstrap','Slug','Api',
+    function($sce,msgBus,$scope,$rootScope,$modal,ReviewService,$timeout,bootstrap,Slug,Api) {
        var reviewModalInstance;
-       if(me.user)
-       $scope.first_name = me.name.split(' ')[0];
+       if(bootstrap.me)
+       $scope.first_name = bootstrap.me.name.split(' ')[0];
 
        $rootScope.$on('modal::close', function(){
         reviewModalInstance.close();
        });
 
-       msgBus.emitMsg('user::loaded', me);
+       msgBus.emitMsg('user::loaded', bootstrap);
 
        msgBus.onMsg('review::new', function(e, data){
           $scope.newReview(data);
@@ -326,7 +326,7 @@ angular.module('myApp', [
               $scope.cancompare = false;
               return false;
             }
-            var actives = [me.id, obj.user_id];
+            var actives = [bootstrap.me.id, obj.user_id];
 
             _.forEach(response, function(review){
 
@@ -338,7 +338,7 @@ angular.module('myApp', [
 
             response = _.sortBy(response, function(r) { return r.active });
 
-            var me_review = _.remove(response, function(r){ return r.user_id === me.id});
+            var me_review = _.remove(response, function(r){ return r.user_id === bootstrap.me.id});
             response.unshift(me_review[0]);
 
             if(angular.isDefined(response[1]))
@@ -351,7 +351,7 @@ angular.module('myApp', [
         }
 
         Api.Lists.query({with_films:true}, function(results){
-          $scope.lists = results.results;
+          $scope.lists = results;
         })
         
         $scope.newList = function(){
@@ -365,7 +365,7 @@ angular.module('myApp', [
         }
 
         $scope.viewList = function(list){
-          if(me.id == list.user.id)
+          if(bootstrap.me.id == list.user.id)
           {
             return $scope.manageList(list);
           }
@@ -473,7 +473,7 @@ angular.module('myApp', [
           $scope.gs_state = s;
         }
 
-        if(me.user && me.new)
+        if(bootstrap.me && bootstrap.me.new)
         {
           $scope.gs_state = 1;
           var gsModalInstance = $modal.open({
@@ -552,7 +552,6 @@ angular.module('myApp', [
         scope.openComments = function(){
           scope.film.showcomments = !scope.film.showcomments
           scope.watchlistmodal(scope.commentObject);
-          // console.log(scope.commentObject)
         }
 
         scope.slugify = function(input) {
@@ -583,12 +582,13 @@ angular.module('myApp', [
         })
 
         scope.goToLink = function(){
-          if(scope.film)
-            $state.go('root.film', {filmId: scope.film.tmdb_id, filmSlug: scope.slugify(scope.film.title) });
-
-          if(scope.review)
+          if(scope.review){
             $state.go('root.review',{reviewId: scope.review.id})
-          
+          }
+          else{
+            $state.go('root.film', {filmId: scope.film.tmdb_id, filmSlug: scope.slugify(scope.film.title) });
+          }
+
         }
     }
   }
@@ -649,6 +649,9 @@ angular.module('myApp', [
         
         function getInitials(name)
         {
+          if (typeof variable == 'undefined') {
+              return '';
+          }
           var temp_name = name.split(' ');
           var initials = '';
           _.forEach(temp_name, function(n){
@@ -669,7 +672,6 @@ angular.module('myApp', [
   return {
     isFollowing : function(user)
     {
-      
       return checkFollowing(user)
     },
 
@@ -678,16 +680,15 @@ angular.module('myApp', [
       _.forEach(users, function(u){
         u.following = checkFollowing(u);
       })
-
       return users;
     }
   }
 
   function checkFollowing(user){
-    var me = Api.meData();
-      if(!angular.isDefined(me.user))
+    var bootstrap = Api.meData();
+      if(!angular.isDefined(bootstrap))
         return false;
-    return _.find(me.followers, {'id': user.id}) ? true : false;
+    return _.find(bootstrap.me.followers, {'follower_id': user.id}) ? true : false;
   }
 
 }])

@@ -24,12 +24,12 @@
     });
   }])
 
-  .controller('ReviewCtrl', ['$scope','msgBus','$rootScope', '$stateParams','ReviewService','ReviewLoad','me',
-    function ($scope,msgBus,$rootScope,$stateParams,ReviewService,ReviewLoad,me) {
+  .controller('ReviewCtrl', ['$scope','msgBus','$rootScope', '$stateParams','ReviewService','ReviewLoad','bootstrap',
+    function ($scope,msgBus,$rootScope,$stateParams,ReviewService,ReviewLoad,bootstrap) {
             msgBus.emitMsg('pagetitle::change', "Review: " +  ReviewLoad.review.film.title );
             $scope.rating_types = ReviewLoad.rating_types;
             $scope.review = ReviewLoad.review;
-            $scope.me = me;
+            $scope.me = bootstrap.me;
             
             // console.log($scope.review);
             $scope.toPercent = function(num){

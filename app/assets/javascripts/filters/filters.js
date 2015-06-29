@@ -20,7 +20,7 @@ angular.module('Filters',[])
     var s = size || 0;
     var t = type || 'poster';
 
-    return image_config.images.base_url + image_config.images[type + '_sizes'][size] +  path;
+    return image_config.base_url + image_config[type + '_sizes'][size] +  path;
 
   }
     

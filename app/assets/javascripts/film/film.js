@@ -22,12 +22,12 @@
     });
   }])
 
-  .controller('FilmCtrl', ['$scope', 'msgBus','$stateParams','me','FilmLoad',
-    function ($scope,msgBus,$stateParams,me,FilmLoad) {
-        msgBus.emitMsg('pagetitle::change', FilmLoad.film.title );
-        $scope.me = me;
-        FilmLoad.film.film_id = FilmLoad.film.id;
-        $scope.film = FilmLoad.film;
+  .controller('FilmCtrl', ['$scope', 'msgBus','$stateParams','bootstrap','FilmLoad',
+    function ($scope,msgBus,$stateParams,bootstrap,FilmLoad) {
+        msgBus.emitMsg('pagetitle::change', FilmLoad.title );
+        $scope.me = bootstrap.me;
+        FilmLoad.film_id = FilmLoad.id;
+        $scope.film = FilmLoad;
         $scope.follower_reviews = FilmLoad.follower_reviews;
 
         $scope.$on('watchlist::addremove', function(event, film_id) {

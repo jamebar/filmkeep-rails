@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150622005943) do
+ActiveRecord::Schema.define(version: 20150629180823) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,9 +55,11 @@ ActiveRecord::Schema.define(version: 20150622005943) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "rotten_id"
-    t.string   "tmdb_id"
+    t.string   "tmdb_id",       null: false
     t.string   "imdb_id"
   end
+
+  add_index "films", ["tmdb_id"], name: "index_films_on_tmdb_id", unique: true, using: :btree
 
   create_table "followers", force: :cascade do |t|
     t.integer  "user_id"

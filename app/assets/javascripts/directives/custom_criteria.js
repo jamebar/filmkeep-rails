@@ -11,7 +11,6 @@
             scope:{},
             templateUrl: 'custom_criteria.tmpl.html',
             link: function($scope, element, attrs) {
-              var me = Api.me();
               $scope.common = attrs.common || false;
               $scope.custom = attrs.custom || false;
 

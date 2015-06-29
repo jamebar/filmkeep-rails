@@ -5,7 +5,11 @@ class Bootstrapper
   end
 
   def me
-    User.includes('followers').where(id: @current_user.id).first
+    @me ||= @current_user
+  end
+
+  def following
+    Follower.select('followers.*, users.name, users.avatar, users.username').joins('join users on follower_id = users.id').where(user_id: me.id)
   end
 
   def announcements
@@ -24,7 +28,7 @@ class Bootstrapper
     {
       me: me.serializable_hash.tap do |h|
             h[:new] = me.reviews.count < 1
-            h[:followers] = me.followers
+            h[:followers] = following
           end,
       announcements: announcements,
       stream: {

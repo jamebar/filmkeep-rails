@@ -56,18 +56,18 @@
     
   }])
 
-  .controller('userCtrl', ['$scope', 'msgBus', '$stateParams','ReviewService','followerFactory','me','page_user','Api',
-    function ($scope, msgBus, $stateParams, ReviewService, followerFactory,  me, page_user, Api) {
+  .controller('userCtrl', ['$scope', 'msgBus', '$stateParams','ReviewService','followerFactory','bootstrap','page_user','Api',
+    function ($scope, msgBus, $stateParams, ReviewService, followerFactory,  bootstrap, page_user, Api) {
         
         $scope.user_reviews = [];
         $scope.total_reviews = 0;
 
         page_user.following = followerFactory.isFollowing(page_user);
 
-        if(angular.isDefined(me.user))
-          $scope.myPage = page_user.id === me.id;
+        if(angular.isDefined(bootstrap.me))
+          $scope.myPage = page_user.id === bootstrap.me.id;
 
-        $scope.showFollow = angular.isDefined(me.user) && !$scope.myPage;
+        $scope.showFollow = angular.isDefined(bootstrap.me) && !$scope.myPage;
 
         $scope.page_user = page_user;
                 
@@ -78,14 +78,14 @@
             //make change immediately, should be in callback, but it's too slow
             page_user.following = false;
             Api.unfollow(page_user.id).then(function(response){
-              me.followers = response.followers;
+              bootstrap.me.followers = response.followers;
             });
 
           }else{
 
             page_user.following = true;
             Api.follow(page_user.id).then(function(response){
-              me.followers = response.followers;
+              bootstrap.me.followers = response.followers;
             });
 
           }
@@ -120,7 +120,6 @@
 
         $scope.sortByRatingType = function(type_id){
           $scope.sort_by_rating_type = type_id;
-          // getResultsPage(1);
           if($scope.pagination.current === 1)
             getResultsPage(1);
           else

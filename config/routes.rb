@@ -19,59 +19,23 @@ Rails.application.routes.draw do
   scope :api, defaults: {format: 'json'} do
     get 'me' => 'me#index'
     get 'user/is_authorized' => 'me#is_authorized'
+    get 'user/:username' => 'users#show'
     get 'notifications' => 'notifications#index'
     post 'notifications' => 'notifications#mark_seen'
     get 'stream' => 'stream#index'
+    get 'films' => 'films#index'
+    get 'films/nowplaying' => 'films#now_playing'
+    get 'films/search/:query' => 'films#search'
+    get 'users/search/:query' => 'users#search'
+
+    get 'watchlist' => 'watchlists#index'
+    post 'watchlist/add_remove' => 'watchlists#add_remove'
+
     resources :custom_lists, path: 'lists'
     resources :rating_types
     resources :reviews
   end
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  
 
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
-
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+  get '*path', to: "pages#index"
 end

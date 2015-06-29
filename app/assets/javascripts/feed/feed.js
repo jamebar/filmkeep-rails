@@ -27,14 +27,14 @@
     });
   }])
 
-.controller('feedCtrl', ['$scope', 'msgBus','me', 'ReviewService','Api','$state',
-  function($scope, msgBus,me,ReviewService,Api,$state){
+.controller('feedCtrl', ['$scope', 'msgBus','bootstrap', 'ReviewService','Api','$state',
+  function($scope, msgBus,bootstrap,ReviewService,Api,$state){
     msgBus.emitMsg('pagetitle::change', 'My Feed' );
     $scope.loading = true;
-    $scope.me = me;
-    $scope.announcements = me.announcements;
-    var client = stream.connect(me.stream.key, null, me.stream.id);
-    var stream_user = client.feed('aggregated', me.me.id, me.stream.agg_token);
+    $scope.me = bootstrap.me;
+    $scope.announcements = bootstrap.announcements;
+    var client = stream.connect(bootstrap.stream.key, null, bootstrap.stream.id);
+    var stream_user = client.feed('aggregated', bootstrap.me.id, bootstrap.stream.agg_token);
 
     stream_user.subscribe(function(data){
        getFeed();
@@ -51,8 +51,8 @@
       $scope.now_playing = response;
     })
 
-    Api.getWatchlist(me.id).then(function(response) {
-                $scope.watchlist_items = response.results;
+    Api.getWatchlist(bootstrap.me.id).then(function(response) {
+                $scope.watchlist_items = response;
             });
     $scope.releaseDate = function(d){
       return moment(d).format('YYYY');

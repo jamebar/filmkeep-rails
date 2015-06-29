@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
 
   has_many :followers
   has_many :reviews
+  has_many :watchlist
 
   before_create :ensure_username_uniqueness
 
@@ -34,6 +35,10 @@ class User < ActiveRecord::Base
       end
       self.username = new_username
     end
+  end
+
+  def find_by_username(username)
+    where(username: username).first
   end
 
 end

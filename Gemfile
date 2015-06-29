@@ -28,6 +28,9 @@ gem 'omniauth',  '>= 1.0.0'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'stream_rails'
+gem "active_model_serializers", "~> 0.8.0"
+gem 'enceladus'
+gem 'rottentomatoes', '~> 1.1.3'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,9 +46,9 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
+  gem 'httplog'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  # gem 'spring'
 end
 
   gem 'angular-rails-templates'
@@ -54,7 +57,7 @@ source 'https://rails-assets.org' do
   # Front end Resource
 
   gem 'rails-assets-lodash', '~> 3.9.3'
-  gem 'rails-assets-momentjs', '~> 2.7.0'
+  gem 'rails-assets-momentjs', '~> 2.8.0'
   gem 'rails-assets-angular', '~> 1.3.0'
   gem 'rails-assets-angular-animate', '~>1.3.13'
   gem 'rails-assets-angular-ui-router', '~> 0.2.10'

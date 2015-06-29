@@ -13,6 +13,11 @@ class CustomListsController < ApplicationController
   end
 
   def show
+    list = List.includes(:films, :user).where(id: params[:id]).first
+    all = []
+    all = List.where(user_id: list.user_id) if params[:include_all]
+    output = list.serializable_hash
+    render json: {:list => Enrich.new(current_user, output).enrich, :all => all}
   end
 
   def update

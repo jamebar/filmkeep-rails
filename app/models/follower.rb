@@ -4,10 +4,6 @@ class Follower < ActiveRecord::Base
   include StreamRails::Activity
   as_activity
 
-  def activity_verb
-    'filmkeep\follower'
-  end
-
   def activity_object
     self
   end
