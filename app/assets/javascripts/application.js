@@ -27,7 +27,7 @@
 //= require perfect-scrollbar
 //= require angular-rails-templates
 
-//= require venturocket-angular-slider
+// = require angular-slider
 //= require angular-touch
 //= require typeahead.bundle
 //= require angular-typeahead

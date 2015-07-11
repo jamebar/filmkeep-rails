@@ -72,7 +72,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-hammerjs'
   gem 'rails-assets-angular-hammer'
   gem 'rails-assets-angular-sanitize'
-  gem 'rails-assets-venturocket-angular-slider'
+  # gem 'rails-assets-venturocket-angular-slider'
   # gem 'rails-assets-angular-slugify', '~> 1.0.0'
   gem 'rails-assets-angular-touch'
   gem 'rails-assets-angular-typeahead'

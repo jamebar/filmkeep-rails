@@ -1,7 +1,7 @@
-<div ng-switch="feed_item.verb" >
+<div ng-switch="getVerb(feed_item.verb)" >
 
   <!-- REVIEW FEED ITEM -->
-  <div class="feed-item clearfix" ng-switch-when="filmkeep\review">
+  <div class="feed-item clearfix" ng-switch-when="review">
     <!-- <img ng-src="%%feed_item.activities[0].actor.avatar | profileFilter%%" width="60" height="60" class="circle-corners avatar" /> -->
     <div class="media">
       <div class="media-left"><avatar class="avatar" info="feed_item.activities[0].actor"></avatar></div>
@@ -52,7 +52,7 @@
   </div>
 
 <!-- WATCHLIST FEED ITEM -->
-  <div class="feed-item clearfix" ng-switch-when="filmkeep\watchlist">
+  <div class="feed-item clearfix" ng-switch-when="watchlist">
     <!-- <img ng-src="%%feed_item.activities[0].actor.avatar | profileFilter%%" width="60" height="60" class="circle-corners avatar" /> -->
     <div class="media">
       <div class="media-left"><avatar class="avatar" info="feed_item.activities[0].actor"></avatar></div>
@@ -90,7 +90,7 @@
   </div>
 
   <!-- FOLLOWER FEED ITEM -->
-  <div class="feed-item clearfix" ng-switch-when="filmkeep\follower">
+  <div class="feed-item clearfix" ng-switch-when="follower">
     <!-- <img ng-src="%%feed_item.activities[0].actor.avatar | profileFilter%%" width="60" height="60" class="circle-corners avatar" /> -->
     <div class="media">
       <div class="media-left"><avatar class="avatar" info="feed_item.activities[0].actor"></avatar></div>
@@ -110,7 +110,7 @@
   </div>
 
   <!-- COMMENT FEED ITEM -->
-  <div class="feed-item clearfix" ng-switch-when="filmkeep\comment">
+  <div class="feed-item clearfix" ng-switch-when="comment">
     <!-- <img ng-src="%%feed_item.activities[0].actor.avatar | profileFilter%%" width="60" height="60" class="circle-corners avatar" /> -->
     <div class="media">
       <div class="media-left"><avatar class="avatar" info="feed_item.activities[0].actor"></avatar></div>
@@ -135,7 +135,7 @@
   </div>
 
   <!-- LIST FEED ITEM -->
-  <div class="feed-item clearfix" ng-switch-when="filmkeep\customlist">
+  <div class="feed-item clearfix" ng-switch-when="customlist">
     <!-- <img ng-src="%%feed_item.activities[0].actor.avatar | profileFilter%%" width="60" height="60" class="circle-corners avatar" /> -->
     <div class="media">
       <div class="media-left"><avatar class="avatar" info="feed_item.activities[0].actor"></avatar></div>

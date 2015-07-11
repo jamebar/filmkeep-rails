@@ -49,11 +49,11 @@
 
   }])
 
-  .controller('settingsCtrl', ['$scope','me','AlertService','$state','Api',
-    function ($scope, me,AlertService,$state,Api) {
+  .controller('settingsCtrl', ['$scope','bootstrap','AlertService','$state','Api',
+    function ($scope, bootstrap,AlertService,$state,Api) {
 
       $scope.current_user = new Api.Users();
-        _.assign($scope.current_user, me.user);
+        _.assign($scope.current_user, bootstrap.me);
         
       $scope.tabs = [
         {title: 'Profile', state:'root.settings.profile', active:false},
@@ -71,14 +71,14 @@
 
   }]) 
 
-  .controller('settingsProfileCtrl', ['$scope','me','AlertService','msgBus',
-    function ($scope, me,AlertService,msgBus) {
+  .controller('settingsProfileCtrl', ['$scope','bootstrap','AlertService','msgBus',
+    function ($scope, bootstrap,AlertService,msgBus) {
         msgBus.emitMsg('pagetitle::change', "Settings: Profile");
 
         $scope.saveUser = function(){
           $scope.current_user.$update(function(response){
               AlertService.Notice("Your changes have been saved");
-              _.assign(me.user, response);
+              _.assign(bootstrap.me, response);
           },function(response_headers){
               AlertService.Warning(response_headers.data);
           });
@@ -92,8 +92,8 @@
 
   }]) 
 
-  .controller('settingsFilmetersCtrl', ['$scope','me','AlertService','ReviewService','msgBus','Api',
-    function ($scope, me,AlertService,ReviewService,msgBus,Api) {
+  .controller('settingsFilmetersCtrl', ['$scope','bootstrap','AlertService','ReviewService','msgBus','Api',
+    function ($scope, bootstrap,AlertService,ReviewService,msgBus,Api) {
         msgBus.emitMsg('pagetitle::change', "Settings: Sliders");
         
 

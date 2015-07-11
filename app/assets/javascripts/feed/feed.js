@@ -54,6 +54,12 @@
     Api.getWatchlist(bootstrap.me.id).then(function(response) {
                 $scope.watchlist_items = response;
             });
+
+    $scope.getVerb = function(v)
+    {
+      return v.split('\\').pop().toLowerCase();
+    }
+
     $scope.releaseDate = function(d){
       return moment(d).format('YYYY');
     }

@@ -5,14 +5,18 @@ class FilmsController < ApplicationController
   end
 
   def now_playing
-    results = ExternalFilmService.new.now_playing
+    results = ExternalFilmService.now_playing
     output = results.map {|k| k.serializable_hash }
     render json: Enrich.new(current_user, output).enrich  
   end
 
   def search
-    results = ExternalFilmService.new.search(params[:query])
+    results = ExternalFilmService.search(params[:query])
     render json: results
+  end
+
+  def trailer
+    render json: ExternalFilmService.trailer(params[:tmdb_id])
   end
 
 end

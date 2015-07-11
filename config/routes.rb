@@ -24,12 +24,13 @@ Rails.application.routes.draw do
     post 'notifications' => 'notifications#mark_seen'
     get 'stream' => 'stream#index'
     get 'films' => 'films#index'
+    get 'films/trailer/:tmdb_id' => 'films#trailer'
     get 'films/nowplaying' => 'films#now_playing'
     get 'films/search/:query' => 'films#search'
     get 'users/search/:query' => 'users#search'
 
-    get 'watchlist' => 'watchlists#index'
-    post 'watchlist/add_remove' => 'watchlists#add_remove'
+    get 'watchlists' => 'watchlists#index'
+    post 'watchlists/add_remove' => 'watchlists#add_remove'
 
     resources :custom_lists, path: 'lists'
     resources :rating_types

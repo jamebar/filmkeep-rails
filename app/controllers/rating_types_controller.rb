@@ -1,21 +1,21 @@
 class RatingTypesController < ApplicationController
   def index
-    render json: {:results => RatingType.where("user_id = ? or user_id = ?", current_user.id, 0) }
+    render json: {results: RatingType.where("user_id = ? or user_id = ?", current_user.id, 0) }
   end
 
   def create
-  end
-
-  def edit
-  end
-
-  def show
+    render json: RatingType.create(user: current_user, label: params[:label])
   end
 
   def update
+    rt = RatingType.where(user: current_user, id: params[:id]).first
+    rt.update(label: params[:label])
+    render json: true
   end
 
   def destroy
+    RatingType.where(user: current_user, id: params[:id]).first.destroy
+    render json: {results: RatingType.where("user_id = ? or user_id = ?", current_user.id, 0) }
   end
 
 end

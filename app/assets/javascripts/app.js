@@ -418,10 +418,10 @@ angular.module('myApp', [
           $scope.trailer_sources = [];
           
           Api.getTrailer(tmdb_id).then(function(response){
-            if(angular.isDefined(response.youtube) && response.youtube.length>0){
-              $scope.trailer_source = $sce.trustAsResourceUrl('//www.youtube.com/embed/' + response.youtube[0].source);
-              $scope.current_trailer = response.youtube[0].source;
-              $scope.trailer_sources = response.youtube;
+            if(response.length>0){
+              $scope.trailer_source = $sce.trustAsResourceUrl('//www.youtube.com/embed/' + response[0].source);
+              $scope.current_trailer = response[0].source;
+              $scope.trailer_sources = response;
             }
             trailerModal();
             
@@ -577,7 +577,7 @@ angular.module('myApp', [
         scope.$on('watchlist::addremove', function(ev, film_id){
           if(scope.film.id === film_id)
             {
-              scope.film.on_watchlist = scope.film.on_watchlist === 'true' ? 'false' : 'true';
+              scope.film.on_watchlist = !scope.film.on_watchlist ;
             }
         })
 

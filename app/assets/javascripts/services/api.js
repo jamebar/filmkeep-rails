@@ -41,10 +41,10 @@ angular.module('Api', ['ngResource'])
             return $http({ method: "post", url: "/api/lists/sort-order", params: {list_id: list_id, ordered_ids: ordered_ids} }).then( handleSuccess, handleError );
         },
         getWatchlist: function(user_id) {
-            return $http({ method: "get", url: "/api/watchlist", params: { action: "get", user_id: user_id } }).then( handleSuccess, handleError );
+            return $http({ method: "get", url: "/api/watchlists", params: { action: "get", user_id: user_id } }).then( handleSuccess, handleError );
         },
         addRemoveWatchlist: function(film_id) {
-            return $http({ method: "post", url: "/api/watchlist/add-remove", params: { action: "post", film_id: film_id } }).then( handleSuccess, handleError );
+            return $http({ method: "post", url: "/api/watchlists/add_remove", params: { action: "post", film_id: film_id } }).then( handleSuccess, handleError );
         },
         getAggregated: function() {
             return $http({ method: "get", url: "/api/stream", params: { action: "get", type: 'aggregated' } }).then( handleSuccess, handleError );

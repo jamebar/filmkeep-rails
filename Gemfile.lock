@@ -191,9 +191,6 @@ GEM
       rails-assets-jquery (>= 1.10)
     rails-assets-typeahead.js (0.10.5)
       rails-assets-jquery (>= 1.7)
-    rails-assets-venturocket-angular-slider (0.1.1)
-      rails-assets-angular
-      rails-assets-angular-touch
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.6)
@@ -306,7 +303,6 @@ DEPENDENCIES
   rails-assets-lodash (~> 3.9.3)!
   rails-assets-momentjs (~> 2.8.0)!
   rails-assets-perfect-scrollbar (~> 0.5)!
-  rails-assets-venturocket-angular-slider!
   rottentomatoes (~> 1.1.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
