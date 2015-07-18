@@ -1,4 +1,5 @@
 class WatchlistsController < ApplicationController
+  before_action :authenticate_user!, only: [:add_remove]
   def index
     watchlist = Watchlist.includes(:film).where(user_id: params[:user_id])
     output = watchlist.map {|w| w.serializable_hash }

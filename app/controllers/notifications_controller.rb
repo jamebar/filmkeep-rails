@@ -1,4 +1,6 @@
 class NotificationsController < ApplicationController
+  before_action :authenticate_user!
+  
   def index
 
     notification_feed = StreamRails.feed_manager.get_notification_feed(current_user.id)

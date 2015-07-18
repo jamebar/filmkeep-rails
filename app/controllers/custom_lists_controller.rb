@@ -1,4 +1,6 @@
 class CustomListsController < ApplicationController
+  before_action :authenticate_user! #, only: [:show, :update, :destroy, :edit]
+
   def index
     user_id = params.fetch('user_id', current_user.id)
     list = List.includes(:films).where(user_id: user_id).order(name: :asc)

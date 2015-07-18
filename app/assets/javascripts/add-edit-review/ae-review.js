@@ -187,9 +187,9 @@ var aeReview = angular.module('ae-review', [
                     },
                     queryTokenizer: Bloodhound.tokenizers.whitespace,
                     remote: {
-                        url: '/api/films/%QUERY',
+                        url: '/api/films/search/%QUERY',
                         filter: function(list) {
-                            return $.map(list.results, function(data) {
+                            return $.map(list, function(data) {
                                 data.release_date  = data.release_date || 'N/A';
                                 return {
                                     title: data.title,

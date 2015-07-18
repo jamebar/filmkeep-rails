@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   scope :api, defaults: {format: 'json'} do
     get 'me' => 'me#index'
     get 'user/is_authorized' => 'me#is_authorized'
-    get 'user/:username' => 'users#show'
+    get 'user/:id' => 'users#show', :constraints => { :id => /[^\/]+/ }
     get 'notifications' => 'notifications#index'
     post 'notifications' => 'notifications#mark_seen'
     get 'stream' => 'stream#index'
@@ -28,6 +28,8 @@ Rails.application.routes.draw do
     get 'films/nowplaying' => 'films#now_playing'
     get 'films/search/:query' => 'films#search'
     get 'users/search/:query' => 'users#search'
+    post 'follow/:follower_id' => 'followers#follow'
+    post 'unfollow/:follower_id' => 'followers#unfollow'
 
     get 'watchlists' => 'watchlists#index'
     post 'watchlists/add_remove' => 'watchlists#add_remove'

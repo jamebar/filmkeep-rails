@@ -10,6 +10,11 @@ class User < ActiveRecord::Base
 
   before_create :ensure_username_uniqueness
 
+  def serializable_hash(options = {})
+    options[:only] = [:id, :name, :username, :avatar, :email , :followers, :reviews, :watchlist]
+    super(options)
+  end
+
   def self.from_omniauth(auth)
     user = where("#{auth.provider}_id = ? OR email = ?", auth.uid, auth.info.email).first
     return user.update_from_omniauth(auth) if user

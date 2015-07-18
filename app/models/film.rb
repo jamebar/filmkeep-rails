@@ -4,24 +4,27 @@ class Film < ActiveRecord::Base
 
   attr_accessor :on_watchlist, :reviewed
 
+  def serializable_hash(options={})
+    options = { 
+      :on_watchlist => on_watchlist,
+      :reviewed => reviewed
+    }
+    super.merge(options)
+  end
+
   def self.digest(ids)
     ids = Array.wrap(ids)
-    films = where(tmdb_id: ids)
-    return films if films.length == ids.count
-
-    results = []
-    [*ids].each do |id|
-      f = films.select{|k| k.tmdb_id.to_s == id.to_s}.first
-      f = parse(id) if f.nil?
-      results << f
+    films = where(tmdb_id: ids).index_by(&:tmdb_id)
+    return ids.map{|i| films[i.to_s] } if films.length == ids.count
+    ids.map do |id| 
+      f = films.fetch(id.to_s, nil) 
+      parse(id) if f.nil?
     end
-    results
-
   end
 
   def self.parse(id)
-    film_from_external = ExternalFilmService.new.film_by_id(id)
-    
+    film_from_external = ExternalFilmService.film_by_id(id)
+
     create(
       tmdb_id: film_from_external.id,
       title: film_from_external.title,

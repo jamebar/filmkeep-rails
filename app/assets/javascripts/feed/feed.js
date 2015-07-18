@@ -28,7 +28,7 @@
   }])
 
 .controller('feedCtrl', ['$scope', 'msgBus','bootstrap', 'ReviewService','Api','$state',
-  function($scope, msgBus,bootstrap,ReviewService,Api,$state){
+  function($scope, msgBus, bootstrap, ReviewService, Api, $state){
     msgBus.emitMsg('pagetitle::change', 'My Feed' );
     $scope.loading = true;
     $scope.me = bootstrap.me;
@@ -37,7 +37,7 @@
     var stream_user = client.feed('aggregated', bootstrap.me.id, bootstrap.stream.agg_token);
 
     stream_user.subscribe(function(data){
-       getFeed();
+      console.log(data)
     })
 
     ReviewService.getRatingTypes().then(function(results){
@@ -64,15 +64,16 @@
       return moment(d).format('YYYY');
     }
 
-    function getFeed(){
-      Api.getAggregated()
+    
+    var getFeed = function () {
+        Api.getAggregated()
             .then(
               function(response){
                 $scope.feed_items = response;
                 $scope.loading = false;
                 
             });
-    }
+    };
     
 
     $scope.toPercent = function(num){
@@ -120,7 +121,6 @@
       }
     });
     // var now = moment.utc();
-    // console.log('now', date)
     return moment.utc(date).fromNow(true);
   }
 })

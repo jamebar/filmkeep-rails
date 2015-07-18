@@ -6,7 +6,7 @@ class FilmsController < ApplicationController
 
   def now_playing
     results = ExternalFilmService.now_playing
-    output = results.map {|k| k.serializable_hash }
+    output = results.map {|k| k.serializable_hash unless k.blank? }
     render json: Enrich.new(current_user, output).enrich  
   end
 

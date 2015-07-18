@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!
   def index
   end
 
@@ -11,7 +12,7 @@ class UsersController < ApplicationController
   def show
     render json: User.includes(:followers).find(params[:id]) unless params[:username]
 
-    user = User.find_by_username(params[:username])
+    user = User.find_by_username(params[:id])
     total_followers = Follower.where(follower_id: user.id).count
     total_following = user.followers.count
     total_reviews = user.reviews.count

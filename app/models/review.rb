@@ -1,7 +1,7 @@
 class Review < ActiveRecord::Base
   belongs_to :film
   belongs_to :user
-  has_many :ratings
+  has_many :ratings , -> { order(rating_type_id: :asc) }
 
   include StreamRails::Activity
   as_activity

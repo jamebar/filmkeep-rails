@@ -78,14 +78,14 @@
             //make change immediately, should be in callback, but it's too slow
             page_user.following = false;
             Api.unfollow(page_user.id).then(function(response){
-              bootstrap.me.followers = response.followers;
+              bootstrap.me.followers = response;
             });
 
           }else{
 
             page_user.following = true;
             Api.follow(page_user.id).then(function(response){
-              bootstrap.me.followers = response.followers;
+              bootstrap.me.followers = response;
             });
 
           }

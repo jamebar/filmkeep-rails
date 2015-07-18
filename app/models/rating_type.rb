@@ -3,6 +3,6 @@ class RatingType < ActiveRecord::Base
   belongs_to :user
 
   def self.default_scope
-    order('id asc')
+    order('user_id asc')
   end
 end

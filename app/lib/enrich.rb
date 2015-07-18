@@ -1,4 +1,5 @@
 class Enrich
+
   attr_accessor :data, :current_user
   def initialize(current_user, data, include_rotten = false)
     @current_user = current_user
@@ -10,6 +11,7 @@ class Enrich
     @ids ||= begin
       ids = []
       Array.wrap(data).each do |d|
+        next if d.nil?
         ids << d['id'] if d.has_key? "tmdb_id"
 
         ids << d['film']['id'] if d.has_key? "film"
@@ -38,17 +40,20 @@ class Enrich
   end
 
   def assign_values(d)
-    d['on_watchlist'] = !watchlist_items.select{|k| k.film_id == d['id']}.blank? 
-    d['reviewed'] = !review_items.select{|k| k.film_id == d['id']}.blank? 
+    d['on_watchlist'] = watchlist_items.include?(d['id']) 
+    d['reviewed'] = review_items.include?(d['id']) 
     d['rotten'] = RottenService.new.rating(d['imdb_id']) if @include_rotten && d.has_key?('imdb_id')
     d
   end
 
   def watchlist_items
-    @watchlist_items ||= Watchlist.where(user_id: current_user.id).where(film_id: ids)
+    @watchlist_items ||= Watchlist.where(user_id: current_user.id).where(film_id: ids).pluck(:film_id)
   end
 
   def review_items
-    @review_items ||= Review.where(user_id: current_user.id).where(film_id: ids)
+    @review_items ||= Review.where(user_id: current_user.id).where(film_id: ids).pluck(:film_id)
   end
+
+
+  
 end

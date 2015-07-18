@@ -44,6 +44,8 @@ angular.module('Filters',[])
                 'filmkeep\\customlist':'created',
                 'filmkeep\\follower':'started following'
                 };
-    return keys[verb];
+    return _.find(keys, function(v,k){
+      return k.indexOf(verb.toLowerCase()) > -1
+    });
   }
 })
