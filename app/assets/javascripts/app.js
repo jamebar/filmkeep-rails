@@ -528,7 +528,7 @@ angular.module('myApp', [
     templateUrl: 'film_object.tmpl.html',
     link: function(scope, element,attrs) {
 
-        scope.me = Api.meData();
+        scope.me = Api.meData().me;
         scope.comments_show = angular.isDefined(scope.comments);
 
         if(scope.film)

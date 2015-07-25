@@ -9,6 +9,8 @@ class ReviewsController < ApplicationController
     else
       current_user
     end
+    raise ApiError, "No user found" if user.blank?
+
     num = params.fetch(:num, 24).to_i
     page = params.fetch(:page, 1).to_i
     offset = num * (page - 1)

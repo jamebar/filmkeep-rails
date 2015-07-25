@@ -88,16 +88,16 @@
             
             <li class="divider"></li>
             
-            <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :self %></li>
+            <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :_self %></li>
             
           </ul>
         </li>
         <li ng-if="!navbarCollapsed"><a ui-sref="root.settings.profile">Settings</a></li>
-        <li ng-if="!navbarCollapsed"><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :self %></li>
+        <li ng-if="!navbarCollapsed"><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :target => :_self %></li>
 
 
         <% else %>
-        <li ><%= link_to "Sign in", 'users/sign_in' , :target => :self %></li>
+        <li ><%= link_to "Sign in", 'users/sign_in' , :target => :_self %></li>
         <% end %>
 
       </ul>

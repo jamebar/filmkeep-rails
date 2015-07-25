@@ -6,10 +6,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-<%= yield %>
-
+<body class="body-bg">
+  <div class="container">
+    <% if notice or alert %>
+    <div class="alert-box alert no-header" close-me="3000"><%= notice %></div>
+    <div class="alert-box alert alert-error alert-danger no-header" close-me="3000"><%= alert %></div>
+    <% end %>
+    <div class="row">
+      <div class="col-md-12">
+          <div class="login-logo"><%= image_tag('filmkeep-logo-large.png') %></div>
+            <%= yield %>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

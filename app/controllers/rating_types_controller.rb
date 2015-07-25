@@ -1,5 +1,5 @@
 class RatingTypesController < ApplicationController
-  before_action :authenticate_user!, only: [:create, :update, :destroy, :edit]
+  before_action :authenticate_user!, only: [:index, :create, :update, :destroy, :edit]
   
   def index
     render json: {results: RatingType.where("user_id = ? or user_id = ?", current_user.id, 0) }

@@ -25,6 +25,7 @@ class Bootstrapper
   end
 
   def to_h
+    return {} unless me
     {
       me: me.serializable_hash.tap do |h|
             h[:new] = me.reviews.count < 1

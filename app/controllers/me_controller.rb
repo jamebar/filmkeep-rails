@@ -1,5 +1,5 @@
 class MeController < ApplicationController
-
+  
   def index
     render json: ::Bootstrapper.new(current_user).to_h
   end
