@@ -20,7 +20,9 @@ Rails.application.routes.draw do
     get 'me' => 'me#index'
     get 'user/is_authorized' => 'me#is_authorized'
     get 'user/:id' => 'users#show', :constraints => { :id => /[^\/]+/ }
+    put 'user/:id' => 'users#update'
     get 'notifications' => 'notifications#index'
+    get 'compares' => 'reviews#compares'
     post 'notifications' => 'notifications#mark_seen'
     get 'stream' => 'stream#index'
     get 'films' => 'films#index'
@@ -34,9 +36,12 @@ Rails.application.routes.draw do
     get 'watchlists' => 'watchlists#index'
     post 'watchlists/add_remove' => 'watchlists#add_remove'
 
+    post 'lists/sort-order' => 'custom_lists#sort_order'
+    post 'lists/add-remove' => 'custom_lists#add_remove'
     resources :custom_lists, path: 'lists'
     resources :rating_types
     resources :reviews
+    resources :comments
   end
   
 

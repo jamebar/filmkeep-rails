@@ -28,6 +28,9 @@ class UsersController < ApplicationController
   end
 
   def update
+    user = User.find(params[:id])
+    user.update(user_params)
+    render json: user
   end
 
   def destroy
@@ -37,4 +40,8 @@ class UsersController < ApplicationController
     render json: User.where('name ilike ?', "%#{params[:query]}%")
   end
 
+  private
+  def user_params
+    params.permit(:email, :username, :name, :password, :confirmation_password)
+  end
 end

@@ -71,7 +71,7 @@
               {
                 source =  (typeof source !== 'undefined') ? source : target;
                 _.forEach(source, function(s, key){
-                  target[key].pivot.sort_order = key;
+                  target[key].sort_order = key;
                 })
 
                 return target;

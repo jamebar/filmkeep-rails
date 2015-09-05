@@ -10,6 +10,14 @@ class User < ActiveRecord::Base
 
   before_create :ensure_username_uniqueness
 
+  def self.current
+    Thread.current[:user]
+  end
+  
+  def self.current=(user)
+    Thread.current[:user] = user
+  end
+
   def serializable_hash(options = {})
     options[:only] = [:id, :name, :username, :avatar, :email , :followers, :reviews, :watchlist]
     super(options)

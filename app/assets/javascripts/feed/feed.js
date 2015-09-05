@@ -81,7 +81,7 @@
     }
 
     $scope.openComments = function(obj){
-      if(obj.commentable_type == 'Filmkeep\\Review')
+      if(obj.commentable_type == 'Review')
         $state.go('root.review', {reviewId: obj.commentable_id });
       else
         $scope.watchlistModal(obj);
@@ -114,13 +114,13 @@
           hh: "%dh",
           d:  "1d",
           dd: "%dd",
-          M:  "1m",
+          M:  "1mon",
           MM: "%dm",
           y:  "1y",
           yy: "%dy"
       }
     });
-    // var now = moment.utc();
+    if (date == null) return '';
     return moment.utc(date).fromNow(true);
   }
 })

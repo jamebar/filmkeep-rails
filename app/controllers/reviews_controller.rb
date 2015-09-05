@@ -39,7 +39,7 @@ class ReviewsController < ApplicationController
     render json: review
   end
 
-  def compare
+  def compares
     film_id = params[:film_id]
     user_id = current_user.id
     ids = followers = Follower.where(user_id: user_id).pluck(:follower_id)
@@ -49,13 +49,19 @@ class ReviewsController < ApplicationController
       reviews = Review.where(film_id: film_id, user_id: ids).take(30)
     end
 
-    respond json: reviews
+    render json: reviews
   end
 
   def show
     review = Review.includes(:user).find(params[:id])
+    reviews = Review.where(user: review.user_id).limit(50).order('created_at desc')
     output = review.serializable_hash.tap do |h|
       h[:user] = review.user
+      h[:reviews] = reviews.map do |r|
+        r.serializable_hash.tap do |h|
+          h[:ratings] = r.ratings.index_by(&:rating_type_id)
+        end
+      end
     end
     render json: Enrich.new(current_user, output, true).enrich
   end

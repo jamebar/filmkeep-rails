@@ -26,9 +26,9 @@
               };
               
               Api.Comments.query({type: scope.type, type_id: scope.commentableId}, function(response){
-                scope.comments = response.results;
+                scope.comments = response;
               });
-              scope.me = Api.meData();
+              scope.bootstrap = Api.meData();
 
               scope.newComment = function(){
                 scope.comment = new Api.Comments();

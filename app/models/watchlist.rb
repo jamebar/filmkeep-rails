@@ -1,14 +1,15 @@
 class Watchlist < ActiveRecord::Base
   belongs_to :film
   belongs_to :user
+  has_many :comments,  as: :commentable
 
   def self.default_scope
-    includes(:film)
+    includes(:film, :comments)
   end
 
   def serializable_hash(options={})
     options = { 
-      :include => :film
+      :include => [:film, :comments]
     }.update(options)
     super(options)
   end
