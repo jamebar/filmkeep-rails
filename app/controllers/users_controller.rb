@@ -29,8 +29,10 @@ class UsersController < ApplicationController
 
   def update
     user = User.find(params[:id])
-    user.update(user_params)
+    user.update!(user_params)
     render json: user
+  rescue ActiveRecord::RecordInvalid => e
+    raise ApiError, e.message
   end
 
   def destroy

@@ -80,7 +80,7 @@
               AlertService.Notice("Your changes have been saved");
               _.assign(bootstrap.me, response);
           },function(response_headers){
-              AlertService.Warning(response_headers.data);
+              AlertService.Warning(response_headers.headers('X-API-MESSAGE'));
           });
         }
 

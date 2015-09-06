@@ -5,7 +5,8 @@ class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
   after_filter :set_csrf_cookie_for_ng
   before_filter :set_current_user
-
+  rescue_from ApiError, with: :handle_api_exception
+  
   def set_current_user
     User.current = current_user
   end
@@ -17,6 +18,14 @@ class ApplicationController < ActionController::Base
 
   def set_csrf_cookie_for_ng
     cookies['XSRF-TOKEN'] = form_authenticity_token if protect_against_forgery?
+  end
+
+  def handle_api_exception(exception)
+    status = 400
+    message = exception.message
+
+    response.headers['X-API-MESSAGE'] = message unless message.nil?
+    render status: status, nothing: true
   end
 
   protected

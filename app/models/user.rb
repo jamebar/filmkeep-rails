@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
   has_many :watchlist
 
   before_create :ensure_username_uniqueness
+  validates :username, :uniqueness => true
+  validates :email, :uniqueness => true
 
   def self.current
     Thread.current[:user]
