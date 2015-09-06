@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4096
+-
+- http://www.sequelpro.com/
+- http://code.google.com/p/sequel-pro/
+-
+- Host: 104.236.116.82 (MySQL 5.5.44-0ubuntu0.14.04.1)
+- Database: filmkeep_production
+- Generation Time Time: 2015-09-06 19:59:28 +0000
+-
+-->
+
+<filmkeep_production>
+
+	<invites>
+	<row>
+		<id>1</id>
+		<code>rocky</code>
+		<email></email>
+		<claimed_at>NULL</claimed_at>
+		<created_at>0000-00-00 00:00:00</created_at>
+		<updated_at>0000-00-00 00:00:00</updated_at>
+	</row>
+
+	</invites>
+
+</filmkeep_production>

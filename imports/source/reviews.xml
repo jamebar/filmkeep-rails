@@ -1,0 +1,3974 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4096
+-
+- http://www.sequelpro.com/
+- http://code.google.com/p/sequel-pro/
+-
+- Host: 104.236.116.82 (MySQL 5.5.44-0ubuntu0.14.04.1)
+- Database: filmkeep_production
+- Generation Time Time: 2015-09-06 19:59:28 +0000
+-
+-->
+
+<filmkeep_production>
+
+	<reviews>
+	<row>
+		<id>1</id>
+		<user_id>1</user_id>
+		<film_id>2</film_id>
+		<notes>There is a good movie somewhere in there, but the wachowski's made the story too cluttered, it was hard for me to get into. On a positive note,  the action was great, other action movie directors should take note.  Even though it fell very short,  I want to support this so that original stories are rewarded and encouraged in Hollywood.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-10 07:06:41</created_at>
+		<updated_at>2015-02-10 07:06:41</updated_at>
+	</row>
+
+	<row>
+		<id>2</id>
+		<user_id>1</user_id>
+		<film_id>1</film_id>
+		<notes>This is so far from the fun, excitement of the first installment.  The action was shot in a way that you could tell they were trying to hide their budget and production shortcomings.  really really disappointing.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-10 07:10:32</created_at>
+		<updated_at>2015-02-10 07:10:32</updated_at>
+	</row>
+
+	<row>
+		<id>3</id>
+		<user_id>3</user_id>
+		<film_id>19</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-11 22:22:39</created_at>
+		<updated_at>2015-02-11 22:22:39</updated_at>
+	</row>
+
+	<row>
+		<id>4</id>
+		<user_id>3</user_id>
+		<film_id>20</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-11 22:23:44</created_at>
+		<updated_at>2015-02-11 22:23:44</updated_at>
+	</row>
+
+	<row>
+		<id>5</id>
+		<user_id>4</user_id>
+		<film_id>21</film_id>
+		<notes>Forgot this existed before it popped up on my amazon feed. Just a fun movie to watch.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-12 03:18:57</created_at>
+		<updated_at>2015-02-12 03:18:57</updated_at>
+	</row>
+
+	<row>
+		<id>6</id>
+		<user_id>4</user_id>
+		<film_id>22</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-12 03:23:25</created_at>
+		<updated_at>2015-02-12 03:23:25</updated_at>
+	</row>
+
+	<row>
+		<id>7</id>
+		<user_id>4</user_id>
+		<film_id>23</film_id>
+		<notes>This is one of my all time favorite films. One of the few that I can say I've watched over 10 times. I remember how blown away I was when I first watched it 15 years ago, affected me for weeks, and it still has a lasting impression on me.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-12 03:30:12</created_at>
+		<updated_at>2015-02-16 04:47:39</updated_at>
+	</row>
+
+	<row>
+		<id>8</id>
+		<user_id>1</user_id>
+		<film_id>27</film_id>
+		<notes>Nicholas Cage seems to get more flack than he deserves.  Lord of War is one of his many good movies.  The intro alone might be in the top 5 best openings as you follow a bullet from it's manufacturing all the way to it's murderous conclusion.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-12 08:26:07</created_at>
+		<updated_at>2015-02-12 08:26:07</updated_at>
+	</row>
+
+	<row>
+		<id>9</id>
+		<user_id>3</user_id>
+		<film_id>29</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:00:15</created_at>
+		<updated_at>2015-02-13 21:00:15</updated_at>
+	</row>
+
+	<row>
+		<id>10</id>
+		<user_id>3</user_id>
+		<film_id>30</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:00:59</created_at>
+		<updated_at>2015-02-13 21:00:59</updated_at>
+	</row>
+
+	<row>
+		<id>11</id>
+		<user_id>3</user_id>
+		<film_id>31</film_id>
+		<notes>The best there is</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:02:00</created_at>
+		<updated_at>2015-02-13 21:02:00</updated_at>
+	</row>
+
+	<row>
+		<id>12</id>
+		<user_id>3</user_id>
+		<film_id>32</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:18:17</created_at>
+		<updated_at>2015-02-13 21:18:17</updated_at>
+	</row>
+
+	<row>
+		<id>13</id>
+		<user_id>3</user_id>
+		<film_id>33</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:26:11</created_at>
+		<updated_at>2015-02-13 21:26:11</updated_at>
+	</row>
+
+	<row>
+		<id>14</id>
+		<user_id>3</user_id>
+		<film_id>34</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:27:14</created_at>
+		<updated_at>2015-02-13 21:27:14</updated_at>
+	</row>
+
+	<row>
+		<id>15</id>
+		<user_id>3</user_id>
+		<film_id>35</film_id>
+		<notes>I thought it was pretty good, but got sick of the cheap philosophical drivel. There were a couple of realizations that really redeemed the movie, however.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-13 21:29:44</created_at>
+		<updated_at>2015-02-13 21:29:44</updated_at>
+	</row>
+
+	<row>
+		<id>16</id>
+		<user_id>3</user_id>
+		<film_id>36</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-14 01:12:01</created_at>
+		<updated_at>2015-02-14 01:12:01</updated_at>
+	</row>
+
+	<row>
+		<id>17</id>
+		<user_id>1</user_id>
+		<film_id>35</film_id>
+		<notes>I loved the ambition of this film, such a cool approach.  I don't think I'd ever watch it again, but it really hit home with me and stayed with me for days.  One particular line, &quot;is this all there is?&quot; given by the boys mother is something I still think about, months after having seen it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-14 22:32:47</created_at>
+		<updated_at>2015-02-14 22:32:47</updated_at>
+	</row>
+
+	<row>
+		<id>18</id>
+		<user_id>1</user_id>
+		<film_id>40</film_id>
+		<notes>In my opinion, one of the best movies ever made.  Most people dismiss it as a mindless boxing movie, probably based on their opinion of the later Rockies.  Everything about this movie is iconic, the music, the character, the underdog storyline.  Best of all, *spoiler alert*, Rocky doesn't win in the end, at least not in the traditional sense, but he feels like the winner and  of course his only concern at that point is AAAAADRIAN!!!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-15 01:53:05</created_at>
+		<updated_at>2015-02-15 01:53:05</updated_at>
+	</row>
+
+	<row>
+		<id>19</id>
+		<user_id>1</user_id>
+		<film_id>41</film_id>
+		<notes>It took me a long time to finally see this one and it didn't disappoint.  Billy Crystal is an actor that I appreciate more as I get older.  He's great in this and Meg Ryan (the pre-cosmetic surgery Meg Ryan) is charming as usual.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-16 01:24:55</created_at>
+		<updated_at>2015-02-16 01:24:55</updated_at>
+	</row>
+
+	<row>
+		<id>20</id>
+		<user_id>4</user_id>
+		<film_id>42</film_id>
+		<notes>Needed a good film for valentine's day, and this one certainly fit the bill. Classic Cary Grant.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-16 04:45:20</created_at>
+		<updated_at>2015-02-16 04:45:20</updated_at>
+	</row>
+
+	<row>
+		<id>21</id>
+		<user_id>4</user_id>
+		<film_id>35</film_id>
+		<notes>What an undertaking! Very enjoyable to see this boy grow up over a 12 year period, however, each year that passed by felt like a time marker, as though I were consistently watching my watch during a movie. It took me out of the element on several occasions, and made the film seem longer than necessary. But worth the wait in the end. Great performance by Patricia Arquette.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-16 04:55:18</created_at>
+		<updated_at>2015-02-16 04:55:18</updated_at>
+	</row>
+
+	<row>
+		<id>22</id>
+		<user_id>6</user_id>
+		<film_id>32</film_id>
+		<notes>While certainly derivative of many war movies from past, the tank warfare kept my interest along with the supporting cast (I hate Shia LeBouf but damn he was good in this).  I was hoping to see a Brad Pitt film without the director's love for Brad Pitt oozing all over the screen but I wasn't satisfied.  
+
+The tank scenes were pretty exciting on the big screen and the scene with the two girls were pretty intense.   However, the movie tanked (ahem) on the drawn out and far-fetched closing scene.  Still an entertaining film for Pitt fans and war movie fans.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-16 15:35:08</created_at>
+		<updated_at>2015-02-16 15:35:08</updated_at>
+	</row>
+
+	<row>
+		<id>23</id>
+		<user_id>4</user_id>
+		<film_id>45</film_id>
+		<notes>Some nice 'holy crap' moments for me in this one. I needed about 10 years to pass by before I rewatched it, which was probably a perfect amount of time to wait.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-17 05:34:50</created_at>
+		<updated_at>2015-02-17 05:34:50</updated_at>
+	</row>
+
+	<row>
+		<id>24</id>
+		<user_id>6</user_id>
+		<film_id>46</film_id>
+		<notes>rambo rox</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-17 17:45:15</created_at>
+		<updated_at>2015-02-17 17:45:15</updated_at>
+	</row>
+
+	<row>
+		<id>25</id>
+		<user_id>7</user_id>
+		<film_id>50</film_id>
+		<notes>Greatest Bond for years! Bardem is really good and memorable bad guy.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-17 19:37:45</created_at>
+		<updated_at>2015-02-17 19:37:45</updated_at>
+	</row>
+
+	<row>
+		<id>26</id>
+		<user_id>7</user_id>
+		<film_id>52</film_id>
+		<notes>Ben Affleck is great choise for this role. Cold and raw.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-18 17:36:44</created_at>
+		<updated_at>2015-02-18 17:36:44</updated_at>
+	</row>
+
+	<row>
+		<id>27</id>
+		<user_id>7</user_id>
+		<film_id>54</film_id>
+		<notes>One man show of the hardest thing that man can experience because of lie of a small child.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-18 17:39:55</created_at>
+		<updated_at>2015-02-18 17:39:55</updated_at>
+	</row>
+
+	<row>
+		<id>28</id>
+		<user_id>7</user_id>
+		<film_id>55</film_id>
+		<notes>Very minimalistic movie, but Shannon shines here and I could feel the conflict what his character goes through.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-18 17:44:29</created_at>
+		<updated_at>2015-02-18 17:44:29</updated_at>
+	</row>
+
+	<row>
+		<id>29</id>
+		<user_id>10</user_id>
+		<film_id>56</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 07:46:47</created_at>
+		<updated_at>2015-02-19 07:46:47</updated_at>
+	</row>
+
+	<row>
+		<id>30</id>
+		<user_id>9</user_id>
+		<film_id>57</film_id>
+		<notes>Eddie Redmayne is phenomenal as Stephen Hawking, conveying believably his deterioration into ALS, while still refusing to let the disease destroy his personality . Really reminded me of Daniel Day-Lewis' performance in My Left Foot.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 08:01:18</created_at>
+		<updated_at>2015-02-19 08:01:18</updated_at>
+	</row>
+
+	<row>
+		<id>31</id>
+		<user_id>9</user_id>
+		<film_id>58</film_id>
+		<notes>I had heard good things about this, so I went into it expecting to be entertained. I was. It is a solid, well choreographed, tightly edited action movie. Unlike most action movies lately, this one did not get bogged down by a long running time, featured no pop culture references, and delivered the goods. I understand that the directors were former stunt doubles for Keanu Reeves, which would explain why the action sequences are so awesome. It's also interesting, considering the fact that Keanu gave up a large chunk of his paycheck from the Matrix movies to his stunt team, which maybe allowed them to step out and make this movie. Good fun.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 08:05:55</created_at>
+		<updated_at>2015-02-19 08:05:55</updated_at>
+	</row>
+
+	<row>
+		<id>32</id>
+		<user_id>9</user_id>
+		<film_id>19</film_id>
+		<notes>I had read the book, and went into this feeling a bit nervous about how much it would glorify war. I was really impressed with how Eastwood left the political message ambiguous, so that if you are inclined to view this as a celebration of Chris Kyle, you can, but if you prefer to see it as a depiction of how awful war is, that is also available. It's rare to see a mainstream movie that is brave enough and competent enough to maturely tackle this topic. I wouldn't say it was perfect, but quite solid, and a few years ago, who would've guessed that Bradley Cooper would turn into such a decent actor?</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 08:09:30</created_at>
+		<updated_at>2015-02-19 08:09:30</updated_at>
+	</row>
+
+	<row>
+		<id>33</id>
+		<user_id>9</user_id>
+		<film_id>35</film_id>
+		<notes>I had followed the story of Linklater making this movie for years before it was released, and was really interested in the process of filming and editing a movie over the course of a young boy's life. That said, I was still a little wary of actually watching it, because I worried that it would be boring or meandering. There were so many ways that it could have gone wrong, but in the end I should have had more faith. This was a really insightful show about families and childhood, and a beautiful portrait of central Texas. It gave me a lot to think about, and was on my mind for days after I watched it.  All of the performances were great, but  Ellar Koltrane really had to carry the film, and he did. This is my pick for best director for 2014.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 08:14:21</created_at>
+		<updated_at>2015-02-19 08:14:21</updated_at>
+	</row>
+
+	<row>
+		<id>34</id>
+		<user_id>12</user_id>
+		<film_id>59</film_id>
+		<notes>Decent YA adaptation from a well matched director.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 08:27:26</created_at>
+		<updated_at>2015-02-19 08:27:26</updated_at>
+	</row>
+
+	<row>
+		<id>35</id>
+		<user_id>14</user_id>
+		<film_id>13</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 12:10:56</created_at>
+		<updated_at>2015-02-19 12:10:56</updated_at>
+	</row>
+
+	<row>
+		<id>36</id>
+		<user_id>14</user_id>
+		<film_id>60</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 12:16:41</created_at>
+		<updated_at>2015-02-19 12:16:41</updated_at>
+	</row>
+
+	<row>
+		<id>37</id>
+		<user_id>16</user_id>
+		<film_id>19</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 15:44:02</created_at>
+		<updated_at>2015-02-19 15:44:02</updated_at>
+	</row>
+
+	<row>
+		<id>38</id>
+		<user_id>13</user_id>
+		<film_id>13</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 18:47:28</created_at>
+		<updated_at>2015-02-19 18:47:28</updated_at>
+	</row>
+
+	<row>
+		<id>39</id>
+		<user_id>7</user_id>
+		<film_id>62</film_id>
+		<notes>I didn't like Bridesmaids and I had a bad feeling about this when my wife chose this. I didn't like any of the characters. I hated them even Dunst. Where is the fun? None is found in this movie. Stay away!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 19:37:57</created_at>
+		<updated_at>2015-02-19 19:37:57</updated_at>
+	</row>
+
+	<row>
+		<id>40</id>
+		<user_id>18</user_id>
+		<film_id>64</film_id>
+		<notes>Saw this 3-d on Imax. Blew me away. We rematch frequently.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 19:46:06</created_at>
+		<updated_at>2015-02-19 19:46:06</updated_at>
+	</row>
+
+	<row>
+		<id>41</id>
+		<user_id>18</user_id>
+		<film_id>65</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 19:47:23</created_at>
+		<updated_at>2015-02-19 19:47:23</updated_at>
+	</row>
+
+	<row>
+		<id>42</id>
+		<user_id>18</user_id>
+		<film_id>66</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 19:47:59</created_at>
+		<updated_at>2015-02-19 19:47:59</updated_at>
+	</row>
+
+	<row>
+		<id>43</id>
+		<user_id>7</user_id>
+		<film_id>63</film_id>
+		<notes>Looks good, especially the hair. Story is little mixed bag that just doesn't deliver in the end. Could have been so much better.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 19:48:15</created_at>
+		<updated_at>2015-02-19 19:48:15</updated_at>
+	</row>
+
+	<row>
+		<id>44</id>
+		<user_id>7</user_id>
+		<film_id>70</film_id>
+		<notes>Nice and fun &quot;boy grows up&quot;-movie. Side character are great fun and the whole movie makes you feel like living childhood summer holiday with some adult problems.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 20:12:09</created_at>
+		<updated_at>2015-02-19 20:12:09</updated_at>
+	</row>
+
+	<row>
+		<id>45</id>
+		<user_id>7</user_id>
+		<film_id>71</film_id>
+		<notes>This makes you think long after the credits roll. Looks and feels so out of this world. You have to watch it again!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 20:18:25</created_at>
+		<updated_at>2015-02-19 20:18:25</updated_at>
+	</row>
+
+	<row>
+		<id>46</id>
+		<user_id>9</user_id>
+		<film_id>24</film_id>
+		<notes>Alejandro can be a frustrating director (looking at you, Babel), but I thought this was one of his best. Keaton killed it, the frentic pace and long takes were appropriately uncomfortable, and the sound design was interesting. It was a bit navel gazing (film makers sure love films about acting), but also quite a brave take for Keaton as meta commentary on his career.  Kim felt like this was the third in the &quot;artist has a mental breakdown&quot; trilogy, with Black Swan and Whiplash. i felt like it has more to say than that.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-19 22:00:53</created_at>
+		<updated_at>2015-02-19 22:00:53</updated_at>
+	</row>
+
+	<row>
+		<id>47</id>
+		<user_id>17</user_id>
+		<film_id>13</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-20 03:20:19</created_at>
+		<updated_at>2015-02-20 03:20:19</updated_at>
+	</row>
+
+	<row>
+		<id>48</id>
+		<user_id>9</user_id>
+		<film_id>22</film_id>
+		<notes>I had no idea what this film was before I first saw it.  I had never seen Lock, Stock, or really any British gangster movie. I loved this film. Brad Pitt's character is ridiculous, the British slang is wonderfully crass, and Turkish's voice ends up being my mental narrator for at least the following day after watching this.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-20 09:41:33</created_at>
+		<updated_at>2015-02-20 09:41:33</updated_at>
+	</row>
+
+	<row>
+		<id>49</id>
+		<user_id>7</user_id>
+		<film_id>97</film_id>
+		<notes>Fun, fresh and truthful movie. Looks good!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-20 19:40:34</created_at>
+		<updated_at>2015-02-20 19:40:34</updated_at>
+	</row>
+
+	<row>
+		<id>50</id>
+		<user_id>19</user_id>
+		<film_id>98</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-20 22:08:29</created_at>
+		<updated_at>2015-02-20 22:08:29</updated_at>
+	</row>
+
+	<row>
+		<id>51</id>
+		<user_id>19</user_id>
+		<film_id>99</film_id>
+		<notes>So awful. The whole charm of Avatar is the humor mixed in the seriousness of their goal. There was no humor. The acting and playwright was worse than your 4 year old putting on a play.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-20 22:12:47</created_at>
+		<updated_at>2015-02-20 22:12:47</updated_at>
+	</row>
+
+	<row>
+		<id>52</id>
+		<user_id>20</user_id>
+		<film_id>101</film_id>
+		<notes>This senseless movie may have artistic qualities that I'm not qualified to judge, but what a waste of time!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 03:15:04</created_at>
+		<updated_at>2015-02-21 03:15:04</updated_at>
+	</row>
+
+	<row>
+		<id>53</id>
+		<user_id>20</user_id>
+		<film_id>102</film_id>
+		<notes>This will forever be my standard of humor in animation. I can (and do) watch it over and over.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 03:34:13</created_at>
+		<updated_at>2015-02-21 03:34:13</updated_at>
+	</row>
+
+	<row>
+		<id>54</id>
+		<user_id>20</user_id>
+		<film_id>16</film_id>
+		<notes>My expectations for humor were high and I was completely let down. Not a bad story, just not much humor.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 03:35:48</created_at>
+		<updated_at>2015-02-21 03:35:48</updated_at>
+	</row>
+
+	<row>
+		<id>55</id>
+		<user_id>20</user_id>
+		<film_id>103</film_id>
+		<notes>My expectations were too high. I thought some of the storyline clever but was disappointed with the music.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 03:42:09</created_at>
+		<updated_at>2015-02-21 03:42:09</updated_at>
+	</row>
+
+	<row>
+		<id>56</id>
+		<user_id>21</user_id>
+		<film_id>104</film_id>
+		<notes>Love this</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 05:47:23</created_at>
+		<updated_at>2015-02-21 05:47:23</updated_at>
+	</row>
+
+	<row>
+		<id>57</id>
+		<user_id>21</user_id>
+		<film_id>60</film_id>
+		<notes>Loved it</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 05:48:16</created_at>
+		<updated_at>2015-02-21 05:48:16</updated_at>
+	</row>
+
+	<row>
+		<id>58</id>
+		<user_id>21</user_id>
+		<film_id>105</film_id>
+		<notes>I watch the three Lord of the Rings movie every year and they never grow old!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 05:51:09</created_at>
+		<updated_at>2015-02-21 05:51:09</updated_at>
+	</row>
+
+	<row>
+		<id>59</id>
+		<user_id>21</user_id>
+		<film_id>103</film_id>
+		<notes>I liked the music, but thought the story was dumb</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 05:54:29</created_at>
+		<updated_at>2015-02-21 05:54:29</updated_at>
+	</row>
+
+	<row>
+		<id>60</id>
+		<user_id>21</user_id>
+		<film_id>106</film_id>
+		<notes>I enjoy this movie just for the fun of it. It has so much energy and I love the humor. Brent made me an edited version, so the one I watch is cleaned up.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 06:16:10</created_at>
+		<updated_at>2015-03-01 04:22:10</updated_at>
+	</row>
+
+	<row>
+		<id>61</id>
+		<user_id>1</user_id>
+		<film_id>103</film_id>
+		<notes>The music was disappointing and as with most movies, it could benefit from a lot less Meryl Streep.  This is based on the Broadway Musical and not the Disney fairy tales as you know them, so you have to know what you're getting into.  I liked some of the themes and the song with the 2 princes was pretty funny, but overall, I wouldn't recommend it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-21 06:54:12</created_at>
+		<updated_at>2015-02-21 06:54:12</updated_at>
+	</row>
+
+	<row>
+		<id>62</id>
+		<user_id>20</user_id>
+		<film_id>108</film_id>
+		<notes>Good vampire movie to pass the time. Don't expect much.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:16:22</created_at>
+		<updated_at>2015-02-22 04:16:22</updated_at>
+	</row>
+
+	<row>
+		<id>63</id>
+		<user_id>20</user_id>
+		<film_id>109</film_id>
+		<notes>Big Star Trek fan. Excellent job of casting and capturing the essence of the original cast.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:18:05</created_at>
+		<updated_at>2015-02-22 04:18:05</updated_at>
+	</row>
+
+	<row>
+		<id>64</id>
+		<user_id>20</user_id>
+		<film_id>104</film_id>
+		<notes>Waited my whole life for this and wasn't disappointed! This review is for all three LOTR movies. It is a  yearly event at our house (sometimes two or three times a year).</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:18:57</created_at>
+		<updated_at>2015-02-22 04:22:18</updated_at>
+	</row>
+
+	<row>
+		<id>65</id>
+		<user_id>21</user_id>
+		<film_id>108</film_id>
+		<notes>Didn't notice it was rate R, until I noticed how violent it was....didn't finish it. Too violent for me and the movie took itself to seriously.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:20:15</created_at>
+		<updated_at>2015-02-22 04:20:15</updated_at>
+	</row>
+
+	<row>
+		<id>66</id>
+		<user_id>20</user_id>
+		<film_id>110</film_id>
+		<notes>This comment will cover all 3 hobbit movies which I thoroughly enjoyed. I even enjoyed the extras that purists hate. As a sidenote, there is an excellent edit on the net removing all the non-hobbit elements.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:21:25</created_at>
+		<updated_at>2015-02-22 04:21:25</updated_at>
+	</row>
+
+	<row>
+		<id>67</id>
+		<user_id>20</user_id>
+		<film_id>111</film_id>
+		<notes>Danny Kaye at his best!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:26:22</created_at>
+		<updated_at>2015-02-22 04:26:22</updated_at>
+	</row>
+
+	<row>
+		<id>68</id>
+		<user_id>20</user_id>
+		<film_id>112</film_id>
+		<notes>Great 4th of July movie. We watch it every year.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:27:07</created_at>
+		<updated_at>2015-02-22 04:27:07</updated_at>
+	</row>
+
+	<row>
+		<id>69</id>
+		<user_id>20</user_id>
+		<film_id>113</film_id>
+		<notes>Hilarious. Best of Paul Lynde</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:28:14</created_at>
+		<updated_at>2015-02-24 04:32:33</updated_at>
+	</row>
+
+	<row>
+		<id>70</id>
+		<user_id>20</user_id>
+		<film_id>114</film_id>
+		<notes>Still enjoy watching the first one. Sequels weren't as good.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:30:15</created_at>
+		<updated_at>2015-02-22 04:30:15</updated_at>
+	</row>
+
+	<row>
+		<id>71</id>
+		<user_id>20</user_id>
+		<film_id>115</film_id>
+		<notes>Not as good as original but still has it's merits.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:31:11</created_at>
+		<updated_at>2015-02-22 04:31:11</updated_at>
+	</row>
+
+	<row>
+		<id>72</id>
+		<user_id>20</user_id>
+		<film_id>116</film_id>
+		<notes>Good action movie - just for fun.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:33:07</created_at>
+		<updated_at>2015-02-22 04:33:07</updated_at>
+	</row>
+
+	<row>
+		<id>73</id>
+		<user_id>20</user_id>
+		<film_id>117</film_id>
+		<notes>Great concept. Don't bother with sequels.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:35:28</created_at>
+		<updated_at>2015-02-22 04:35:28</updated_at>
+	</row>
+
+	<row>
+		<id>74</id>
+		<user_id>20</user_id>
+		<film_id>118</film_id>
+		<notes>Fun vampire/werewolf movie. Watch it every Halloween.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 04:37:49</created_at>
+		<updated_at>2015-02-22 04:37:49</updated_at>
+	</row>
+
+	<row>
+		<id>75</id>
+		<user_id>7</user_id>
+		<film_id>45</film_id>
+		<notes>Sorry, this classic movie is just too long tooth for me. Yeah, some scenes still looks awesome, but generally I was just bored.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 13:50:08</created_at>
+		<updated_at>2015-02-22 13:50:08</updated_at>
+	</row>
+
+	<row>
+		<id>76</id>
+		<user_id>7</user_id>
+		<film_id>119</film_id>
+		<notes>I didn't like the Avengers because it was too crowded. Iron Man doesn't need so much to be awesome. It's interesting that Marvel gets great actors like Kingsley to be a part in their universe. RDJ is as cool and funny as always, but gives us some emotions that are harder to achieve usually in these CGI-movies.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 14:19:22</created_at>
+		<updated_at>2015-02-22 14:19:22</updated_at>
+	</row>
+
+	<row>
+		<id>77</id>
+		<user_id>4</user_id>
+		<film_id>120</film_id>
+		<notes>Just a solid movie to watch with the family.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-22 21:13:07</created_at>
+		<updated_at>2015-02-22 21:13:07</updated_at>
+	</row>
+
+	<row>
+		<id>78</id>
+		<user_id>4</user_id>
+		<film_id>122</film_id>
+		<notes>It's difficult to accurately rate various short films lumped into one film, so this is what I would consider the average rating for each of the films. &quot;The Dam Keeper&quot; was by far my favorite of all the nominated shorts. Very emotional, beautiful, and well written. &quot;Single Life&quot; made me laugh. &quot;The Bigger Picture&quot; was great visually, didn't care for the story as much. &quot;Me and My Moulton&quot; I thought was fun. &quot;Feast&quot; is an enjoyable heartwarming story. Oscar winner in my mind would be &quot;The Dam Keeper&quot; barely beating &quot;Feast&quot;.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-23 17:48:11</created_at>
+		<updated_at>2015-02-23 17:48:11</updated_at>
+	</row>
+
+	<row>
+		<id>79</id>
+		<user_id>4</user_id>
+		<film_id>123</film_id>
+		<notes>I was under the impression the film was more about the artists than the heads of the company, but the focus seemed to be more about the crazy relationship between Katzenberg, Eisner, and Roy Disney, which was still good, but not what I was hoping for.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-23 17:54:47</created_at>
+		<updated_at>2015-02-23 17:54:47</updated_at>
+	</row>
+
+	<row>
+		<id>80</id>
+		<user_id>7</user_id>
+		<film_id>125</film_id>
+		<notes>This was made for the money and to show Russia. I hoped for classy swan song for McClane but no. Die Hard 4.0 tiptoed on the fine line of funny and dumb. This went over the edge to dumb.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-23 20:10:33</created_at>
+		<updated_at>2015-02-23 20:10:33</updated_at>
+	</row>
+
+	<row>
+		<id>81</id>
+		<user_id>7</user_id>
+		<film_id>126</film_id>
+		<notes>This movie deserves more credit! It's fun and thrilling! It's Mars planet is different. This should get a sequel! Go watch this!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-23 20:20:49</created_at>
+		<updated_at>2015-02-23 20:20:49</updated_at>
+	</row>
+
+	<row>
+		<id>82</id>
+		<user_id>6</user_id>
+		<film_id>127</film_id>
+		<notes>The best movie I've seen all year.  Hands down better than Birdman.  JK Simmons was better than I thought he would be.  Maybe one of the best Supporting Actors of the last ten years.  So many great themes in this film.   Can't wait to watch it again.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-25 04:08:47</created_at>
+		<updated_at>2015-02-25 04:08:47</updated_at>
+	</row>
+
+	<row>
+		<id>83</id>
+		<user_id>21</user_id>
+		<film_id>134</film_id>
+		<notes>I hated this movie! One of the few movies I walked out of the theater for. I was so disappointed in it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-25 05:22:23</created_at>
+		<updated_at>2015-02-25 05:22:23</updated_at>
+	</row>
+
+	<row>
+		<id>84</id>
+		<user_id>4</user_id>
+		<film_id>135</film_id>
+		<notes>Just watched this for the umpteenth time and still just fall in love with it every time.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-25 17:42:57</created_at>
+		<updated_at>2015-02-25 17:42:57</updated_at>
+	</row>
+
+	<row>
+		<id>85</id>
+		<user_id>4</user_id>
+		<film_id>139</film_id>
+		<notes>The film perfectly captures a visual representation of emotions, which was charming and exciting, but it felt more suited for a short film, rather than in a large dose of a feature length. Typically subtitles don't bother me (in fact, I like watching films with subtitles), but they became a nuisance with Mood Indigo as I'm trying to simultaneously read and follow the brilliant visuals of every scene.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-26 14:54:49</created_at>
+		<updated_at>2015-02-26 14:54:49</updated_at>
+	</row>
+
+	<row>
+		<id>86</id>
+		<user_id>4</user_id>
+		<film_id>149</film_id>
+		<notes>Fascinating to watch back to back the reboot first and then the old and compare differences in storytelling in the 80's vs today. Much simpler story, but an enjoyable plot overall.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-27 15:57:27</created_at>
+		<updated_at>2015-02-27 15:57:27</updated_at>
+	</row>
+
+	<row>
+		<id>87</id>
+		<user_id>4</user_id>
+		<film_id>150</film_id>
+		<notes>It was a strange realization that I hadn't really watched the original RoboCop, so I decided to watch this one first, but this review is written after subsequently watching the original. So, it's interesting to compare the two. The story was more complex with this one, and enjoyable, but I get frustrated with the dumbed down action sequences. They started to feel a bit boring to me. I'm torn whether I prefer the family being an element of the film in this one, or the original where they are a part of the humanity that robocop lost. They both work really well.  Overall, it was a fun movie.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-27 16:03:23</created_at>
+		<updated_at>2015-02-27 16:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>88</id>
+		<user_id>4</user_id>
+		<film_id>151</film_id>
+		<notes>Man, where to begin with this one...When I first saw it in theaters, I left the theater thinking, &quot;what on earth was that?&quot; It had some great moments, but then it took a weird turn into the realm of animation, where it was difficult for me to distinguish between dream and reality. Since I very much dislike dream sequences (because it undermines the real and present stake of the story), I grew tired, thinking the entire movie was a dream sequence. Leaving the theater, I was perplexed about what I thought... I never thought I would want to watch this movie again. I felt unfulfilled after watching it. Then weeks went by, and I kept thinking about this movie over and over. I started making connections between the film's vision of the future, and seeing perfect illustrations of the future of capitalism, escapism, and even a display of what I might argue as a natural progression towards a dictatorship of the proletariat (and then some). It doesn't even dive into the rights or wrongs of such systems, but presents it as just the way it is. It's strange to have a movie I was a little bored with occupy so much of my mental energy. 6 months later, it comes available on Amazon prime, and by that time I was desperate to see it again. Watching it a second time, holy crap did my entire view of the film change. I was able to easily distinguish between dream and reality, and was captivated from beginning to end, and it blew me away. Interestingly, I don't think I could recommend this movie to anyone, but I just loved watching it a second time (and I suspect many times over), it's unfortunate that I needed the first time to establish my bearings in order to appreciate this film, but I think that was intentional, as the main character couldn't distinguish between reality and dreaming too. Regardless, just brilliant. Also, Robin Wright moved up several notches on my favorite actress list for this one.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-27 21:17:49</created_at>
+		<updated_at>2015-02-27 21:17:49</updated_at>
+	</row>
+
+	<row>
+		<id>89</id>
+		<user_id>25</user_id>
+		<film_id>154</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:11:35</created_at>
+		<updated_at>2015-02-28 19:11:35</updated_at>
+	</row>
+
+	<row>
+		<id>90</id>
+		<user_id>25</user_id>
+		<film_id>155</film_id>
+		<notes>the acting from both stars were amazing, great chemistry and a great story line!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:13:28</created_at>
+		<updated_at>2015-02-28 19:13:28</updated_at>
+	</row>
+
+	<row>
+		<id>91</id>
+		<user_id>25</user_id>
+		<film_id>156</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:13:47</created_at>
+		<updated_at>2015-02-28 19:13:47</updated_at>
+	</row>
+
+	<row>
+		<id>92</id>
+		<user_id>25</user_id>
+		<film_id>157</film_id>
+		<notes>it was unexpectedly entertaining.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:14:25</created_at>
+		<updated_at>2015-02-28 19:14:25</updated_at>
+	</row>
+
+	<row>
+		<id>93</id>
+		<user_id>25</user_id>
+		<film_id>158</film_id>
+		<notes>He told me that he re watched this film over and over again, thinking of me. . i believed me and yet he is not here by my side.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:15:26</created_at>
+		<updated_at>2015-02-28 19:15:26</updated_at>
+	</row>
+
+	<row>
+		<id>94</id>
+		<user_id>25</user_id>
+		<film_id>159</film_id>
+		<notes>interesting story line</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:15:49</created_at>
+		<updated_at>2015-02-28 19:15:49</updated_at>
+	</row>
+
+	<row>
+		<id>95</id>
+		<user_id>25</user_id>
+		<film_id>160</film_id>
+		<notes>when is it time to let go of someone you love?</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:16:25</created_at>
+		<updated_at>2015-02-28 19:16:25</updated_at>
+	</row>
+
+	<row>
+		<id>96</id>
+		<user_id>25</user_id>
+		<film_id>161</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:16:50</created_at>
+		<updated_at>2015-02-28 19:16:50</updated_at>
+	</row>
+
+	<row>
+		<id>97</id>
+		<user_id>25</user_id>
+		<film_id>162</film_id>
+		<notes>oh the life of a single mother.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:17:29</created_at>
+		<updated_at>2015-02-28 19:17:29</updated_at>
+	</row>
+
+	<row>
+		<id>98</id>
+		<user_id>25</user_id>
+		<film_id>163</film_id>
+		<notes>interesting story line</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:18:23</created_at>
+		<updated_at>2015-02-28 19:18:23</updated_at>
+	</row>
+
+	<row>
+		<id>99</id>
+		<user_id>25</user_id>
+		<film_id>164</film_id>
+		<notes>kept putting this film off, but i'm glad i watched it!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:18:55</created_at>
+		<updated_at>2015-02-28 19:18:55</updated_at>
+	</row>
+
+	<row>
+		<id>100</id>
+		<user_id>25</user_id>
+		<film_id>165</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:19:34</created_at>
+		<updated_at>2015-02-28 19:19:34</updated_at>
+	</row>
+
+	<row>
+		<id>101</id>
+		<user_id>25</user_id>
+		<film_id>166</film_id>
+		<notes>had a good cry</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:20:06</created_at>
+		<updated_at>2015-02-28 19:20:06</updated_at>
+	</row>
+
+	<row>
+		<id>102</id>
+		<user_id>25</user_id>
+		<film_id>167</film_id>
+		<notes>great, great story line. hadn't cried during a movie so much in a long time.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:20:36</created_at>
+		<updated_at>2015-02-28 19:20:36</updated_at>
+	</row>
+
+	<row>
+		<id>103</id>
+		<user_id>25</user_id>
+		<film_id>168</film_id>
+		<notes>movie score-spot on</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:21:27</created_at>
+		<updated_at>2015-02-28 19:21:27</updated_at>
+	</row>
+
+	<row>
+		<id>104</id>
+		<user_id>25</user_id>
+		<film_id>35</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:22:42</created_at>
+		<updated_at>2015-02-28 19:22:42</updated_at>
+	</row>
+
+	<row>
+		<id>105</id>
+		<user_id>25</user_id>
+		<film_id>135</film_id>
+		<notes>i'm a sucker for this movie</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:23:30</created_at>
+		<updated_at>2015-02-28 19:23:30</updated_at>
+	</row>
+
+	<row>
+		<id>106</id>
+		<user_id>25</user_id>
+		<film_id>169</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:24:35</created_at>
+		<updated_at>2015-02-28 19:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>107</id>
+		<user_id>25</user_id>
+		<film_id>170</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:24:54</created_at>
+		<updated_at>2015-02-28 19:24:54</updated_at>
+	</row>
+
+	<row>
+		<id>108</id>
+		<user_id>25</user_id>
+		<film_id>171</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:25:20</created_at>
+		<updated_at>2015-02-28 19:25:20</updated_at>
+	</row>
+
+	<row>
+		<id>109</id>
+		<user_id>25</user_id>
+		<film_id>172</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-02-28 19:26:03</created_at>
+		<updated_at>2015-02-28 19:26:03</updated_at>
+	</row>
+
+	<row>
+		<id>110</id>
+		<user_id>13</user_id>
+		<film_id>136</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-01 13:15:19</created_at>
+		<updated_at>2015-03-01 13:15:19</updated_at>
+	</row>
+
+	<row>
+		<id>111</id>
+		<user_id>13</user_id>
+		<film_id>26</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-01 13:15:35</created_at>
+		<updated_at>2015-03-01 13:15:35</updated_at>
+	</row>
+
+	<row>
+		<id>112</id>
+		<user_id>8</user_id>
+		<film_id>6</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-01 17:56:24</created_at>
+		<updated_at>2015-03-01 17:56:24</updated_at>
+	</row>
+
+	<row>
+		<id>113</id>
+		<user_id>23</user_id>
+		<film_id>174</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 05:13:11</created_at>
+		<updated_at>2015-03-02 05:13:11</updated_at>
+	</row>
+
+	<row>
+		<id>114</id>
+		<user_id>1</user_id>
+		<film_id>14</film_id>
+		<notes>An entertaining evening movie.  An interesting look at greed, even when your life hangs in the balance.  I probably wouldn't see this one again, but if you're channel surfing and it's on TNT, you might stop to watch.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 06:45:56</created_at>
+		<updated_at>2015-03-02 06:45:56</updated_at>
+	</row>
+
+	<row>
+		<id>115</id>
+		<user_id>4</user_id>
+		<film_id>57</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 18:36:19</created_at>
+		<updated_at>2015-03-02 18:36:19</updated_at>
+	</row>
+
+	<row>
+		<id>116</id>
+		<user_id>26</user_id>
+		<film_id>175</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:32:21</created_at>
+		<updated_at>2015-03-02 21:32:21</updated_at>
+	</row>
+
+	<row>
+		<id>117</id>
+		<user_id>26</user_id>
+		<film_id>58</film_id>
+		<notes>I can appreciate that it's well made, for it's genre, but I hate this genre.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:35:36</created_at>
+		<updated_at>2015-03-02 21:35:36</updated_at>
+	</row>
+
+	<row>
+		<id>118</id>
+		<user_id>26</user_id>
+		<film_id>84</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:37:19</created_at>
+		<updated_at>2015-03-02 21:37:19</updated_at>
+	</row>
+
+	<row>
+		<id>119</id>
+		<user_id>26</user_id>
+		<film_id>35</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:40:05</created_at>
+		<updated_at>2015-03-02 21:40:05</updated_at>
+	</row>
+
+	<row>
+		<id>120</id>
+		<user_id>26</user_id>
+		<film_id>80</film_id>
+		<notes>I enjoyed Steve Carrell's performance but thought the movie was BORING. I can dig 'slow' movies, but this was beyond slow. THEN, the disturbing end, is well, disturbing, which is an insult to the senses after being bored for so long. Interesting story, but just not well done (realize the world seems to disagree with me)</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:44:23</created_at>
+		<updated_at>2015-03-02 21:44:23</updated_at>
+	</row>
+
+	<row>
+		<id>121</id>
+		<user_id>26</user_id>
+		<film_id>176</film_id>
+		<notes>Brilliant</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:49:15</created_at>
+		<updated_at>2015-03-02 21:49:15</updated_at>
+	</row>
+
+	<row>
+		<id>122</id>
+		<user_id>26</user_id>
+		<film_id>101</film_id>
+		<notes>Movie magic.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-02 21:51:43</created_at>
+		<updated_at>2015-03-02 21:51:43</updated_at>
+	</row>
+
+	<row>
+		<id>123</id>
+		<user_id>4</user_id>
+		<film_id>177</film_id>
+		<notes>Absolutely loved this. One of those movies that reminds me what is so great of film. I could not predict where the story was going, and was super pleased with how it ended. It captured a full range of emotions for me with what I consider to be a perfect script.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-03 16:00:25</created_at>
+		<updated_at>2015-03-03 16:00:25</updated_at>
+	</row>
+
+	<row>
+		<id>124</id>
+		<user_id>1</user_id>
+		<film_id>140</film_id>
+		<notes>I love a good time travel movie.  This one addresses time travel in a pretty fascinating way.  Really surprised we didn't hear more about it when it came out.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-04 00:23:26</created_at>
+		<updated_at>2015-03-04 00:23:26</updated_at>
+	</row>
+
+	<row>
+		<id>125</id>
+		<user_id>1</user_id>
+		<film_id>142</film_id>
+		<notes>As far as a kids movie about a talking bear in London goes, Paddington was much better than expected.  I laughed out loud several times though that may have been more an effort to show my kids that it was funny even though it wasn't an animation.  The only thing that didn't work for me was Nicole Kidman as the antagonist, maybe not Kidman's fault, the part was pretty weak all around.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-04 00:33:20</created_at>
+		<updated_at>2015-03-04 03:40:21</updated_at>
+	</row>
+
+	<row>
+		<id>126</id>
+		<user_id>1</user_id>
+		<film_id>185</film_id>
+		<notes>A fascinating documentary about deception.  In the end my biggest question is, &quot;so how do they do the bending spoon tricks...&quot;</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-06 05:37:22</created_at>
+		<updated_at>2015-03-06 05:41:03</updated_at>
+	</row>
+
+	<row>
+		<id>127</id>
+		<user_id>4</user_id>
+		<film_id>185</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-06 06:50:20</created_at>
+		<updated_at>2015-03-06 06:50:20</updated_at>
+	</row>
+
+	<row>
+		<id>128</id>
+		<user_id>4</user_id>
+		<film_id>186</film_id>
+		<notes>This was a fun one to watch with the kids. I can't decide if the story felt more like a tv show because I'm more used to grandiose plots, but simplicity can be refreshing too.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-06 06:55:06</created_at>
+		<updated_at>2015-03-06 06:55:06</updated_at>
+	</row>
+
+	<row>
+		<id>129</id>
+		<user_id>21</user_id>
+		<film_id>191</film_id>
+		<notes>Very classy movie. I enjoy the scenery, the plot, the actors, the setting. Worth watching over and over again.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-08 21:34:02</created_at>
+		<updated_at>2015-03-08 21:34:02</updated_at>
+	</row>
+
+	<row>
+		<id>130</id>
+		<user_id>4</user_id>
+		<film_id>59</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-09 16:08:14</created_at>
+		<updated_at>2015-03-09 16:08:14</updated_at>
+	</row>
+
+	<row>
+		<id>131</id>
+		<user_id>1</user_id>
+		<film_id>177</film_id>
+		<notes>It took me two tries to get through this.  It's a slow build and I needed to be in the right mood for it.  But the payoff was as rewarding as the prize Woody thinks he won.  There is a lot said here about growing old, father son relationships, old friends, old debts, what might have beens, and just life.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-10 05:38:12</created_at>
+		<updated_at>2015-03-10 05:38:12</updated_at>
+	</row>
+
+	<row>
+		<id>132</id>
+		<user_id>4</user_id>
+		<film_id>193</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-10 19:55:36</created_at>
+		<updated_at>2015-03-10 19:55:36</updated_at>
+	</row>
+
+	<row>
+		<id>133</id>
+		<user_id>14</user_id>
+		<film_id>15</film_id>
+		<notes>Dark cyber punk movie. I like this director even if his films are a bit dark.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-10 20:33:37</created_at>
+		<updated_at>2015-03-10 20:33:37</updated_at>
+	</row>
+
+	<row>
+		<id>134</id>
+		<user_id>14</user_id>
+		<film_id>2</film_id>
+		<notes>It had a few sci-fi scenes that were fantastic and felt new. It's too bad Jupiter was kind of an idiot. The dialog and plot could have been much better.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-10 20:35:45</created_at>
+		<updated_at>2015-03-10 20:35:45</updated_at>
+	</row>
+
+	<row>
+		<id>135</id>
+		<user_id>7</user_id>
+		<film_id>68</film_id>
+		<notes>Better than Pacific Rim. Great actors, but they are not the reason why to watch this movie. Why the monsters have to fight in the darkness? Easier to make? Sequel should happen on daylight.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-11 19:15:12</created_at>
+		<updated_at>2015-03-11 19:15:12</updated_at>
+	</row>
+
+	<row>
+		<id>136</id>
+		<user_id>13</user_id>
+		<film_id>15</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-13 00:05:23</created_at>
+		<updated_at>2015-03-13 00:05:23</updated_at>
+	</row>
+
+	<row>
+		<id>137</id>
+		<user_id>28</user_id>
+		<film_id>207</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-14 00:44:09</created_at>
+		<updated_at>2015-03-14 00:44:09</updated_at>
+	</row>
+
+	<row>
+		<id>138</id>
+		<user_id>28</user_id>
+		<film_id>89</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-14 00:48:41</created_at>
+		<updated_at>2015-03-14 00:48:41</updated_at>
+	</row>
+
+	<row>
+		<id>139</id>
+		<user_id>13</user_id>
+		<film_id>103</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-14 13:13:33</created_at>
+		<updated_at>2015-03-14 13:13:33</updated_at>
+	</row>
+
+	<row>
+		<id>140</id>
+		<user_id>1</user_id>
+		<film_id>136</film_id>
+		<notes>I feel like it was trying hard to be like the ocean movies with their cool style and elaborate cons.  But it just didn't work for me and I found myself wanting to turn it off midway.  It wasn't fun, it wasn't cool, and it wasn't clever.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-15 21:29:55</created_at>
+		<updated_at>2015-03-15 21:29:55</updated_at>
+	</row>
+
+	<row>
+		<id>141</id>
+		<user_id>1</user_id>
+		<film_id>182</film_id>
+		<notes>&quot;What did I just watch?&quot; was probably my first reaction.  This movie won't be for everyone, but in the end I found it surprisingly moving.  It explores the minor difference between genius and madness, and doing things as a matter of expression or in order to be liked.  The performances were great, as was the writing and I loved seeing a bit of Austin/SXSW in there.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-16 05:01:09</created_at>
+		<updated_at>2015-03-16 05:01:09</updated_at>
+	</row>
+
+	<row>
+		<id>142</id>
+		<user_id>4</user_id>
+		<film_id>212</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-17 17:57:25</created_at>
+		<updated_at>2015-03-17 17:57:25</updated_at>
+	</row>
+
+	<row>
+		<id>143</id>
+		<user_id>9</user_id>
+		<film_id>212</film_id>
+		<notes>I'm happy that Tom Cruise is trying to keep Sci Fi alive, but this was fairly boring. Not as bad as a lot of shows, and the design was interesting, but not too exciting.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-19 08:32:59</created_at>
+		<updated_at>2015-03-19 08:32:59</updated_at>
+	</row>
+
+	<row>
+		<id>144</id>
+		<user_id>21</user_id>
+		<film_id>221</film_id>
+		<notes>Fun movie...I enjoy the music</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-22 05:09:21</created_at>
+		<updated_at>2015-03-22 05:09:21</updated_at>
+	</row>
+
+	<row>
+		<id>145</id>
+		<user_id>1</user_id>
+		<film_id>222</film_id>
+		<notes>This is Russell Crowe's directorial debut, and it's not bad, but it's not particularly good either.  The only character you get to know very well is Crowe's, but it would have been so much more moving if we knew the sons better and cared about the love interest.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-22 07:14:14</created_at>
+		<updated_at>2015-03-22 07:14:14</updated_at>
+	</row>
+
+	<row>
+		<id>146</id>
+		<user_id>9</user_id>
+		<film_id>226</film_id>
+		<notes>I really had zero expectations for this movie, which seemed like a stupid Hollywood gimmick. I should have had more faith in Soderbergh, who I don't always like, but who at least I always respect. This movie is my definition of a movie-movie -- a fun, flashy, well-made time waster. I love it. I've probably rewatched Ocean's Eleven more than any other movie in the last 15 years. I love that Brad Pitt's character is always eating. I love how George Clooney's character is introduced at his parole hearing, with a static shot on him the entire time. I love that when he gets released from prison, the clothes he gets back are a tuxedo.  I love that Brad Pitt's character is introduced teaching poker to a bunch of B-list celebrities, who are mobbed for autographs as they leave the club while he just walks by. I love the music. I love Ruben's character. I love the friendship between the thieves.  I love the brothers from Provo, and their stupid arguments. Any recommendations of other fun heist movies with careful attention to details would be appreciated.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-23 08:24:40</created_at>
+		<updated_at>2015-03-23 08:24:40</updated_at>
+	</row>
+
+	<row>
+		<id>147</id>
+		<user_id>9</user_id>
+		<film_id>227</film_id>
+		<notes>Kim and I decided to randomly drop by an arthouse cinema when we first lived in Washington DC, and see the first film released from Afghanistan after the fall of the Taliban. I don't know what I expected, but this film left the entire audience silent as the credits rolled. Nobody moved, nobody spoke. We just sat there, drained by the experience. Incredibly eye opening as to what it would be like as a woman in such a repressive culture. I'm not sure I could watch it again, but I highly recommend it to anyone who wants to better understand Afghanistan.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-23 08:28:57</created_at>
+		<updated_at>2015-03-23 08:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>148</id>
+		<user_id>9</user_id>
+		<film_id>228</film_id>
+		<notes>Saw this with a friend at a film festival in Chile. It was really interesting to learn about the small-town bullfighting culture in rural Mexico. Lots of alcoholism, desperation and poverty. Probably not that different from the rodeo circuit in the US. I wouldn't say this was well made, but the content was interesting enough to make it worth a view.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-23 08:35:21</created_at>
+		<updated_at>2015-03-23 08:35:21</updated_at>
+	</row>
+
+	<row>
+		<id>149</id>
+		<user_id>9</user_id>
+		<film_id>229</film_id>
+		<notes>This film has led to a firm policy (12 years and counting) of not attending this kind of movie in the theater. What do I mean by 'this kind of movie'? Any film which features a recently divorced female protagonist who must go on a some kind of journey to discover who she is. &quot;But wait!&quot;, I can hear you saying, &quot;what about Wild?&quot; I have heard good things about it, and I will eventually get around to watching it, but I just haven't trusted Hollywood to do this kind of story in a meaningful way. We need more female protagonists who already know who they are, and who are not defined by their break-up. We don't need more movies about women who must be shown how to live, now that they don't have a man. Especially since they are usually shown how to live by the next man, whose wisdom is established by his foreign accent.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-23 08:47:29</created_at>
+		<updated_at>2015-03-23 08:47:29</updated_at>
+	</row>
+
+	<row>
+		<id>150</id>
+		<user_id>9</user_id>
+		<film_id>230</film_id>
+		<notes>I LOVE this movie. The first 45 minutes are a masterpiece of animation, characterization, pacing and detail. The music is perfect, the sound design is amazing (what else would you expect from the guy that created the sound for the light saber), and who wasn't wowed by the fire-extinguisher in space dancing sequence? This is the height of Pixar's talent, which has had the most consistent film output of any studio in modern history.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-23 08:52:58</created_at>
+		<updated_at>2015-03-23 08:52:58</updated_at>
+	</row>
+
+	<row>
+		<id>151</id>
+		<user_id>9</user_id>
+		<film_id>85</film_id>
+		<notes>One of these bizarre cases where Hollywood makes two identical movies in the same year. If John Wick is  A Bugs Life, then The Equalizer is Antz. Or maybe if John Wick is Full Metal Jacket, The Equalizer is Platoon.  Or Tombstone and Wyatt Earp? Capote and Infamous? Anyway, this is also about a widowed bad ass who promised his dead wife he would not be &quot;that man&quot; anymore, but who is called out of retirement to kill everyone in the Russian mob, using a particular set of skills. I enjoyed it because it was Denzel Washington creatively killing people using tools at Home Depot, and because it looked so much like a Tony Scott film (RIP).  Still, John Wick is the superior film, with regards to pacing, action and overall badassery.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-24 10:23:03</created_at>
+		<updated_at>2015-03-24 10:23:03</updated_at>
+	</row>
+
+	<row>
+		<id>152</id>
+		<user_id>3</user_id>
+		<film_id>235</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-24 15:31:32</created_at>
+		<updated_at>2015-03-24 15:31:32</updated_at>
+	</row>
+
+	<row>
+		<id>153</id>
+		<user_id>3</user_id>
+		<film_id>223</film_id>
+		<notes>One of my top Daniel Day Lewis movies. Incredible story, script and acting. Really liked Pete Postlewaite as well.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-24 15:39:24</created_at>
+		<updated_at>2015-03-24 15:39:24</updated_at>
+	</row>
+
+	<row>
+		<id>154</id>
+		<user_id>4</user_id>
+		<film_id>236</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-24 15:57:12</created_at>
+		<updated_at>2015-03-24 15:57:12</updated_at>
+	</row>
+
+	<row>
+		<id>155</id>
+		<user_id>21</user_id>
+		<film_id>239</film_id>
+		<notes>This review is for all the Harry Potter movies.  The story is a little lame and doesn't always make sense but it is magical and a charming series.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-25 04:29:31</created_at>
+		<updated_at>2015-03-25 04:29:31</updated_at>
+	</row>
+
+	<row>
+		<id>156</id>
+		<user_id>4</user_id>
+		<film_id>16</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-25 13:47:48</created_at>
+		<updated_at>2015-03-25 13:47:48</updated_at>
+	</row>
+
+	<row>
+		<id>157</id>
+		<user_id>20</user_id>
+		<film_id>205</film_id>
+		<notes>Fun story with Kevin Kline and Maggie Smith.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 02:19:24</created_at>
+		<updated_at>2015-03-26 02:19:24</updated_at>
+	</row>
+
+	<row>
+		<id>158</id>
+		<user_id>20</user_id>
+		<film_id>239</film_id>
+		<notes>A favorite that I rewatch regularly</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 02:20:36</created_at>
+		<updated_at>2015-03-26 02:20:36</updated_at>
+	</row>
+
+	<row>
+		<id>159</id>
+		<user_id>20</user_id>
+		<film_id>245</film_id>
+		<notes>Better memories of the movie than reality.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 02:22:00</created_at>
+		<updated_at>2015-03-26 02:22:00</updated_at>
+	</row>
+
+	<row>
+		<id>160</id>
+		<user_id>20</user_id>
+		<film_id>221</film_id>
+		<notes>We enjoyed watching this one again</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 02:24:33</created_at>
+		<updated_at>2015-03-26 02:24:33</updated_at>
+	</row>
+
+	<row>
+		<id>161</id>
+		<user_id>4</user_id>
+		<film_id>13</film_id>
+		<notes>A nice addition to Matthew Vaughn's collection. There were some out of place moments, and a little over the top violence, but it was very entertaining.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 16:57:25</created_at>
+		<updated_at>2015-03-26 16:57:25</updated_at>
+	</row>
+
+	<row>
+		<id>162</id>
+		<user_id>29</user_id>
+		<film_id>136</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-26 21:24:53</created_at>
+		<updated_at>2015-03-26 21:24:53</updated_at>
+	</row>
+
+	<row>
+		<id>163</id>
+		<user_id>30</user_id>
+		<film_id>59</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-27 17:26:32</created_at>
+		<updated_at>2015-03-27 17:26:32</updated_at>
+	</row>
+
+	<row>
+		<id>164</id>
+		<user_id>30</user_id>
+		<film_id>16</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-27 17:27:43</created_at>
+		<updated_at>2015-03-27 17:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>165</id>
+		<user_id>30</user_id>
+		<film_id>251</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-27 17:34:40</created_at>
+		<updated_at>2015-03-27 17:34:40</updated_at>
+	</row>
+
+	<row>
+		<id>166</id>
+		<user_id>7</user_id>
+		<film_id>253</film_id>
+		<notes>Looking for suprisingly good horror pic? This isn't one of those. I didn't care any of the people in this movie. Crap music. Feeling of the movie was weird not scary. Nice animal masks though...</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-28 20:59:47</created_at>
+		<updated_at>2015-03-28 20:59:47</updated_at>
+	</row>
+
+	<row>
+		<id>167</id>
+		<user_id>23</user_id>
+		<film_id>43</film_id>
+		<notes>Surpasses expectations - low ones, at that. It is no Pineapple Express.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-29 17:33:34</created_at>
+		<updated_at>2015-03-29 17:33:34</updated_at>
+	</row>
+
+	<row>
+		<id>168</id>
+		<user_id>23</user_id>
+		<film_id>255</film_id>
+		<notes>Perfect compliment to Miracle.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-29 17:35:43</created_at>
+		<updated_at>2015-03-29 17:35:43</updated_at>
+	</row>
+
+	<row>
+		<id>169</id>
+		<user_id>23</user_id>
+		<film_id>256</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-29 17:37:14</created_at>
+		<updated_at>2015-03-29 17:37:14</updated_at>
+	</row>
+
+	<row>
+		<id>170</id>
+		<user_id>21</user_id>
+		<film_id>260</film_id>
+		<notes>Marlon Brando's only musical. I enjoy the music and I love Frank Sinatra's singing.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-30 04:06:17</created_at>
+		<updated_at>2015-03-30 04:06:17</updated_at>
+	</row>
+
+	<row>
+		<id>171</id>
+		<user_id>1</user_id>
+		<film_id>261</film_id>
+		<notes>Every once in a while there is a movie that has all the pieces that make up cinematic magic.  They are in a separate category, hard to compare to other movies.  They have great acting, a compelling story, moving music, and to tie everything together they have spectacle.  They push our imaginations, make us cry, tense, happy, excited, frustrated, and everything in-between.  Interstellar is this kind of movie for me.  The kind of movie that reminds me why I love watching movies so much.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-30 05:49:49</created_at>
+		<updated_at>2015-03-30 05:49:49</updated_at>
+	</row>
+
+	<row>
+		<id>172</id>
+		<user_id>23</user_id>
+		<film_id>262</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-03-31 00:44:09</created_at>
+		<updated_at>2015-03-31 00:44:09</updated_at>
+	</row>
+
+	<row>
+		<id>173</id>
+		<user_id>4</user_id>
+		<film_id>264</film_id>
+		<notes>I really enjoyed this movie until the very end. It went from a cool/interesting take on vampires to your everyday vampire movie (which I'm just not interested in).</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-01 15:00:32</created_at>
+		<updated_at>2015-04-01 15:00:32</updated_at>
+	</row>
+
+	<row>
+		<id>174</id>
+		<user_id>23</user_id>
+		<film_id>265</film_id>
+		<notes>Found it on Comcast On-Demand...needless to say, it blew away expectations. Another Spacey gem. DeVito kills it as well.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-01 21:35:53</created_at>
+		<updated_at>2015-04-01 21:35:53</updated_at>
+	</row>
+
+	<row>
+		<id>175</id>
+		<user_id>1</user_id>
+		<film_id>15</film_id>
+		<notes>This is one of those movies I could nitpick to death and conclude it's the worst movie ever made.  The acting wasn't great, there are a few characters that are extremely cartoonish.  Some things happen that are beyond believable.  BUT, despite all of it's flaws, it made me care about Chappie, and root for him, and in the end, I kinda liked it.  Hard to explain, maybe it's the nostalgia for Short Circuit.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-02 04:38:20</created_at>
+		<updated_at>2015-04-02 04:38:20</updated_at>
+	</row>
+
+	<row>
+		<id>176</id>
+		<user_id>7</user_id>
+		<film_id>272</film_id>
+		<notes>I haven't read any of the Reacher books, but I liked the movie. More down to earth than usual Cruise movies. Good thrills with great execution.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-03 18:42:59</created_at>
+		<updated_at>2015-04-03 18:42:59</updated_at>
+	</row>
+
+	<row>
+		<id>177</id>
+		<user_id>9</user_id>
+		<film_id>142</film_id>
+		<notes>I didn't expect to like this so much, but our whole family laughed all the way through. The orphanage joke was the best. Nice work, UK.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-03 20:26:16</created_at>
+		<updated_at>2015-04-03 20:26:16</updated_at>
+	</row>
+
+	<row>
+		<id>178</id>
+		<user_id>1</user_id>
+		<film_id>269</film_id>
+		<notes>Damn these movies are fun.  RIP Paul Walker.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-04 03:48:36</created_at>
+		<updated_at>2015-04-04 03:48:36</updated_at>
+	</row>
+
+	<row>
+		<id>179</id>
+		<user_id>28</user_id>
+		<film_id>56</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-04 04:05:03</created_at>
+		<updated_at>2015-04-04 04:05:03</updated_at>
+	</row>
+
+	<row>
+		<id>180</id>
+		<user_id>4</user_id>
+		<film_id>41</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-04 14:45:01</created_at>
+		<updated_at>2015-04-04 14:45:01</updated_at>
+	</row>
+
+	<row>
+		<id>181</id>
+		<user_id>6</user_id>
+		<film_id>273</film_id>
+		<notes>Ten years ago this movie was slow, boring and bizarre.  But now I get it. We're all just animals - naive, sexually frustrated animals.  Some of us just have more money than others.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-04 16:29:50</created_at>
+		<updated_at>2015-04-04 16:30:38</updated_at>
+	</row>
+
+	<row>
+		<id>182</id>
+		<user_id>6</user_id>
+		<film_id>261</film_id>
+		<notes>About as great as I expected. Not perfect but pretty close. After a few months I've realized how rewatchable this film is.  
+
+I've noticed, like many films, it borrows from 2001: Space Odyssey on the cinematography side which make for beautiful shots in space.  The story line the second time around is just good especially knowing where the dust comes from. 
+
+The Matt Damon action scene still bothers me.  Almost like the writer died and  was replaced  with a film school intern. I just thought it cheapened the film.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-05 15:36:31</created_at>
+		<updated_at>2015-04-05 15:36:31</updated_at>
+	</row>
+
+	<row>
+		<id>183</id>
+		<user_id>33</user_id>
+		<film_id>251</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-05 21:07:27</created_at>
+		<updated_at>2015-04-05 21:07:27</updated_at>
+	</row>
+
+	<row>
+		<id>184</id>
+		<user_id>33</user_id>
+		<film_id>278</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-05 21:12:07</created_at>
+		<updated_at>2015-04-05 21:12:07</updated_at>
+	</row>
+
+	<row>
+		<id>185</id>
+		<user_id>3</user_id>
+		<film_id>269</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-07 00:27:41</created_at>
+		<updated_at>2015-04-07 00:27:41</updated_at>
+	</row>
+
+	<row>
+		<id>186</id>
+		<user_id>4</user_id>
+		<film_id>56</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-07 20:49:16</created_at>
+		<updated_at>2015-04-07 20:49:16</updated_at>
+	</row>
+
+	<row>
+		<id>187</id>
+		<user_id>13</user_id>
+		<film_id>269</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-08 10:25:23</created_at>
+		<updated_at>2015-04-08 10:25:23</updated_at>
+	</row>
+
+	<row>
+		<id>188</id>
+		<user_id>13</user_id>
+		<film_id>8</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-08 10:25:45</created_at>
+		<updated_at>2015-04-08 10:25:45</updated_at>
+	</row>
+
+	<row>
+		<id>189</id>
+		<user_id>13</user_id>
+		<film_id>1</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-08 10:26:02</created_at>
+		<updated_at>2015-04-08 10:26:02</updated_at>
+	</row>
+
+	<row>
+		<id>190</id>
+		<user_id>4</user_id>
+		<film_id>281</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-08 19:27:20</created_at>
+		<updated_at>2015-04-08 19:27:20</updated_at>
+	</row>
+
+	<row>
+		<id>191</id>
+		<user_id>3</user_id>
+		<film_id>289</film_id>
+		<notes>Amazing</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-10 02:20:51</created_at>
+		<updated_at>2015-04-10 02:20:51</updated_at>
+	</row>
+
+	<row>
+		<id>192</id>
+		<user_id>28</user_id>
+		<film_id>16</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-12 12:34:52</created_at>
+		<updated_at>2015-04-12 12:34:52</updated_at>
+	</row>
+
+	<row>
+		<id>193</id>
+		<user_id>4</user_id>
+		<film_id>103</film_id>
+		<notes>This one is interesting. I haven't seen the play, so my experience with the story is rooted solely on the film. I really like the theme of &quot;happily ever after&quot; isn't getting your wildest dreams, but should be more of getting what you need. A wants vs needs. The execution of that theme in this film  felt a little flat to me. There were really funny parts/situations that I found myself laughing out loud, but overall, I found myself constantly checking the clock, anxious for it to just end.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-13 16:39:16</created_at>
+		<updated_at>2015-04-13 16:39:16</updated_at>
+	</row>
+
+	<row>
+		<id>194</id>
+		<user_id>34</user_id>
+		<film_id>292</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-14 19:28:31</created_at>
+		<updated_at>2015-04-14 19:28:31</updated_at>
+	</row>
+
+	<row>
+		<id>195</id>
+		<user_id>34</user_id>
+		<film_id>293</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-14 19:31:41</created_at>
+		<updated_at>2015-04-14 19:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>196</id>
+		<user_id>34</user_id>
+		<film_id>294</film_id>
+		<notes>Just watched this again with my kids (their first time).  It was so fun experiencing it through their eyes.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-14 19:34:49</created_at>
+		<updated_at>2015-04-14 19:34:49</updated_at>
+	</row>
+
+	<row>
+		<id>197</id>
+		<user_id>21</user_id>
+		<film_id>296</film_id>
+		<notes>I really enjoy this movie. The action is so well done, especially for 1978. Christopher Reeve is one the handsomest men I have ever seen.  They just don't make them like that anymore.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-15 04:27:33</created_at>
+		<updated_at>2015-04-15 04:27:33</updated_at>
+	</row>
+
+	<row>
+		<id>198</id>
+		<user_id>32</user_id>
+		<film_id>269</film_id>
+		<notes>No surprises with the franchise on this latest episode, unless you are into cars like i am you should probably stay away from this movie. Vin Diesel is as cheesy as it gets.. I guess #8 is in the works.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-16 19:44:22</created_at>
+		<updated_at>2015-04-16 19:44:22</updated_at>
+	</row>
+
+	<row>
+		<id>199</id>
+		<user_id>13</user_id>
+		<film_id>305</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-18 02:39:56</created_at>
+		<updated_at>2015-04-18 02:39:56</updated_at>
+	</row>
+
+	<row>
+		<id>200</id>
+		<user_id>4</user_id>
+		<film_id>308</film_id>
+		<notes>It's nice when a movie from my childhood lives up to my memory. I've had so many disappointments lately, I undersold my expectations. Perfect film to watch as a family.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-21 18:45:16</created_at>
+		<updated_at>2015-04-21 18:45:16</updated_at>
+	</row>
+
+	<row>
+		<id>201</id>
+		<user_id>5</user_id>
+		<film_id>272</film_id>
+		<notes>Enh...not bad for a standard Tom Cruise action movie.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-25 15:20:45</created_at>
+		<updated_at>2015-04-25 15:20:45</updated_at>
+	</row>
+
+	<row>
+		<id>202</id>
+		<user_id>5</user_id>
+		<film_id>216</film_id>
+		<notes>It was a big budget movie, well made, but lame and cheesy.  It's kind of a cliché to say that the book was better, but it was (which isn't saying too much, because the book was only so-so).</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-25 15:22:31</created_at>
+		<updated_at>2015-04-25 15:22:31</updated_at>
+	</row>
+
+	<row>
+		<id>203</id>
+		<user_id>5</user_id>
+		<film_id>59</film_id>
+		<notes>Good CGI.  Decent installment in the new &quot;post-apocalyptic&quot; movies that seem to be the new trend.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-25 15:36:03</created_at>
+		<updated_at>2015-04-25 15:36:03</updated_at>
+	</row>
+
+	<row>
+		<id>204</id>
+		<user_id>3</user_id>
+		<film_id>56</film_id>
+		<notes>Amazing story</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-26 00:45:45</created_at>
+		<updated_at>2015-04-26 00:45:45</updated_at>
+	</row>
+
+	<row>
+		<id>205</id>
+		<user_id>1</user_id>
+		<film_id>314</film_id>
+		<notes>I'm trying to give the Mad Max movies a chance before the new one comes out, but so far it's not working out too well.  I already have a hard time with movies that are mostly about cars, or that have significant car chases in them, add to that some pretty annoying acting and not much of a story and you have The Road Warrior.  I'll give it points for the feral child and Mel Gibson in his prime.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-27 03:18:44</created_at>
+		<updated_at>2015-04-27 03:18:44</updated_at>
+	</row>
+
+	<row>
+		<id>206</id>
+		<user_id>4</user_id>
+		<film_id>315</film_id>
+		<notes>Man, I love this movie. Would make the perfect Rocky 7.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-27 17:43:38</created_at>
+		<updated_at>2015-04-27 17:43:38</updated_at>
+	</row>
+
+	<row>
+		<id>207</id>
+		<user_id>1</user_id>
+		<film_id>74</film_id>
+		<notes>A really clever take on A.I. , This deserves a spot in my top sci-fi films list.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-28 02:55:47</created_at>
+		<updated_at>2015-04-28 02:55:47</updated_at>
+	</row>
+
+	<row>
+		<id>208</id>
+		<user_id>4</user_id>
+		<film_id>74</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-04-28 14:35:50</created_at>
+		<updated_at>2015-04-28 14:35:50</updated_at>
+	</row>
+
+	<row>
+		<id>209</id>
+		<user_id>9</user_id>
+		<film_id>13</film_id>
+		<notes>Kingsman does a pretty good job of announcing its intentions when Colin Firth first meets Samuel L. Jackson, but perhaps that should have been in the marketing. I was expecting more of a slick, spy thriller with a few jokes, and instead I got a weirdly campy, yet ultraviolent, throwback to the worst Bond era. It's not that it was without its pleasures (the church scene was wild), but overall the tone was weird. Jackson's lisp, the amputee henchwoman, the maligned Swedish princess -- there were a lot of gags that they went for that fell flat for me. Still, it wasn't just another Hollywood formulaic film, and you've got to give Matthew Vaughn credit for making big films with big names that somehow don't conform.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-01 23:00:49</created_at>
+		<updated_at>2015-05-01 23:00:49</updated_at>
+	</row>
+
+	<row>
+		<id>210</id>
+		<user_id>9</user_id>
+		<film_id>56</film_id>
+		<notes>I've waited for a while to finally see this, because I worried that it might be a bit too dull. Not at all. I already knew a fair amount about Turing's story, but I thought they did a wonderful job of making it cinematic, accessible and very affecting. What an amazing and sad story.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-01 23:03:26</created_at>
+		<updated_at>2015-05-01 23:03:26</updated_at>
+	</row>
+
+	<row>
+		<id>211</id>
+		<user_id>9</user_id>
+		<film_id>86</film_id>
+		<notes>I really had no idea what this was going to be about, but I quite enjoyed it. I want a viking funeral now.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-01 23:05:11</created_at>
+		<updated_at>2015-05-01 23:05:11</updated_at>
+	</row>
+
+	<row>
+		<id>212</id>
+		<user_id>4</user_id>
+		<film_id>326</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-02 02:35:25</created_at>
+		<updated_at>2015-05-02 02:35:25</updated_at>
+	</row>
+
+	<row>
+		<id>213</id>
+		<user_id>13</user_id>
+		<film_id>317</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-02 23:23:03</created_at>
+		<updated_at>2015-05-02 23:23:03</updated_at>
+	</row>
+
+	<row>
+		<id>214</id>
+		<user_id>13</user_id>
+		<film_id>202</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-02 23:23:36</created_at>
+		<updated_at>2015-05-02 23:23:36</updated_at>
+	</row>
+
+	<row>
+		<id>215</id>
+		<user_id>13</user_id>
+		<film_id>74</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-02 23:24:03</created_at>
+		<updated_at>2015-05-02 23:24:03</updated_at>
+	</row>
+
+	<row>
+		<id>216</id>
+		<user_id>13</user_id>
+		<film_id>220</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-02 23:24:31</created_at>
+		<updated_at>2015-05-02 23:24:31</updated_at>
+	</row>
+
+	<row>
+		<id>217</id>
+		<user_id>4</user_id>
+		<film_id>337</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-04 02:31:34</created_at>
+		<updated_at>2015-05-04 02:31:34</updated_at>
+	</row>
+
+	<row>
+		<id>218</id>
+		<user_id>1</user_id>
+		<film_id>13</film_id>
+		<notes>There was a self aware absurdity that was kind of likable, but for the most part it felt too much like a McG movie.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-04 05:18:00</created_at>
+		<updated_at>2015-05-04 05:18:00</updated_at>
+	</row>
+
+	<row>
+		<id>219</id>
+		<user_id>4</user_id>
+		<film_id>289</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-05 05:13:02</created_at>
+		<updated_at>2015-05-05 05:13:02</updated_at>
+	</row>
+
+	<row>
+		<id>220</id>
+		<user_id>4</user_id>
+		<film_id>142</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-06 01:51:32</created_at>
+		<updated_at>2015-05-06 01:51:32</updated_at>
+	</row>
+
+	<row>
+		<id>221</id>
+		<user_id>4</user_id>
+		<film_id>143</film_id>
+		<notes>I'm not typically a fan of the Horror genre and try to avoid it, but this was a most excellent one to make an exception for.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-06 05:29:47</created_at>
+		<updated_at>2015-05-06 05:29:47</updated_at>
+	</row>
+
+	<row>
+		<id>222</id>
+		<user_id>9</user_id>
+		<film_id>344</film_id>
+		<notes>It was interesting to see Jon Favreau make a small film again, but with huge names involved. I quite liked this. The depiction of cooking was appetizing, and the film used social media in a smart way. Favreau avoided some of the typical stock character decisions (for example making his ex-wife very sympathetic, despite being gorgeous). It hurt my heart to see Austin, Texas and know that I am not going to be there again any time soon. I really liked how the main character improved his relationship with his son. Good show.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-06 08:02:39</created_at>
+		<updated_at>2015-05-06 08:02:39</updated_at>
+	</row>
+
+	<row>
+		<id>223</id>
+		<user_id>4</user_id>
+		<film_id>345</film_id>
+		<notes>A fun dark comedy, definitely interesting to see what inspired Clueless/Mean Girls. Many WTF moments.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-06 22:26:26</created_at>
+		<updated_at>2015-05-06 22:26:26</updated_at>
+	</row>
+
+	<row>
+		<id>224</id>
+		<user_id>4</user_id>
+		<film_id>101</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-06 22:27:47</created_at>
+		<updated_at>2015-05-06 22:27:47</updated_at>
+	</row>
+
+	<row>
+		<id>225</id>
+		<user_id>1</user_id>
+		<film_id>317</film_id>
+		<notes>I have to admit, I went into this one looking to dislike it, but it won me over and overall I have to say it was pretty good.  Compared to the first one, Age of Ultron has much more emotional weight, something that was glaringly missing from the first one.  It was a little more intense, a little funnier, a little more moving.  It has a few surprises that they amazingly kept out of the trailers and are the highlights I think.   On the bad side, it still suffers from the main thing the first one suffered from which is that many of the fights/battles had little to no weight or nothing at stake.  The foes were faceless droids, we didn't care that they got punched and rarely felt like the avengers were in real danger.  But the small dramatic moments between characters peppered throughout the movie made it work, I enjoyed the film the most when they weren't being super and instead just interacting with each other.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-07 03:45:12</created_at>
+		<updated_at>2015-05-07 03:45:12</updated_at>
+	</row>
+
+	<row>
+		<id>226</id>
+		<user_id>4</user_id>
+		<film_id>363</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-11 17:44:07</created_at>
+		<updated_at>2015-05-11 17:44:07</updated_at>
+	</row>
+
+	<row>
+		<id>227</id>
+		<user_id>12</user_id>
+		<film_id>317</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 13:36:25</created_at>
+		<updated_at>2015-05-12 13:36:25</updated_at>
+	</row>
+
+	<row>
+		<id>228</id>
+		<user_id>37</user_id>
+		<film_id>364</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 13:52:51</created_at>
+		<updated_at>2015-05-12 13:52:51</updated_at>
+	</row>
+
+	<row>
+		<id>229</id>
+		<user_id>37</user_id>
+		<film_id>365</film_id>
+		<notes>I remember this being so much better but the acting keeps getting worse and so do the digitally created characters. But its star wars so I will always want to re-watch it because feel of the film is great.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 13:56:28</created_at>
+		<updated_at>2015-05-12 13:56:28</updated_at>
+	</row>
+
+	<row>
+		<id>230</id>
+		<user_id>38</user_id>
+		<film_id>366</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 15:29:00</created_at>
+		<updated_at>2015-05-12 15:29:00</updated_at>
+	</row>
+
+	<row>
+		<id>231</id>
+		<user_id>37</user_id>
+		<film_id>366</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 15:34:06</created_at>
+		<updated_at>2015-05-12 15:34:06</updated_at>
+	</row>
+
+	<row>
+		<id>232</id>
+		<user_id>38</user_id>
+		<film_id>317</film_id>
+		<notes>i liked this movie more than i disliked it, but it wasn't great. there is too much going on and the story line follows characters that i didn't care about.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-12 15:52:08</created_at>
+		<updated_at>2015-05-12 15:52:08</updated_at>
+	</row>
+
+	<row>
+		<id>233</id>
+		<user_id>21</user_id>
+		<film_id>367</film_id>
+		<notes>Really enjoyed this movie. I recommend it to moms everywhere.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-13 03:48:21</created_at>
+		<updated_at>2015-05-13 03:48:21</updated_at>
+	</row>
+
+	<row>
+		<id>234</id>
+		<user_id>4</user_id>
+		<film_id>317</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-13 16:17:24</created_at>
+		<updated_at>2015-05-13 16:17:24</updated_at>
+	</row>
+
+	<row>
+		<id>235</id>
+		<user_id>1</user_id>
+		<film_id>356</film_id>
+		<notes>Ethan Hunt as a Samurai, what's not to like?</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-13 22:03:05</created_at>
+		<updated_at>2015-05-13 22:03:05</updated_at>
+	</row>
+
+	<row>
+		<id>236</id>
+		<user_id>4</user_id>
+		<film_id>376</film_id>
+		<notes>I didn't feel like it had much of a story to carry it. Just more about seeing someone who apparently had a perfect life deteriorate.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-15 04:15:35</created_at>
+		<updated_at>2015-05-15 04:15:35</updated_at>
+	</row>
+
+	<row>
+		<id>237</id>
+		<user_id>1</user_id>
+		<film_id>183</film_id>
+		<notes>I almost walked out after the first 15 minutes I was so put off by the editing.  But then it got kind of crazy, and then kind of awesome.  The music is phenomenal, and the action/stunts are some the best, most exciting I've seen in a while, maybe ever.  The Mad Max character still kind of baffles me, but once I accepted that everyone in the movie is insane, I was able to sit back and enjoy it.  Go see this one, it is a fun, tense, exciting experience in the theater.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-16 06:50:10</created_at>
+		<updated_at>2015-05-16 06:50:10</updated_at>
+	</row>
+
+	<row>
+		<id>238</id>
+		<user_id>7</user_id>
+		<film_id>48</film_id>
+		<notes>Fast zombies. Again. Quite fast and they really can build up! Movie takes the audience to some new places and keeps the suspense on. Fine zombie movie with some fresh ideas.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-16 14:30:34</created_at>
+		<updated_at>2015-05-16 14:30:34</updated_at>
+	</row>
+
+	<row>
+		<id>239</id>
+		<user_id>7</user_id>
+		<film_id>379</film_id>
+		<notes>My wife chose this. Paul Walker and a baby was on the cover. That's why. Quite minimalistic one man show. Boring to watch man pumping generator every 3 minutes and going through flashbacks. Watch Castaway again instead.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-16 14:39:54</created_at>
+		<updated_at>2015-05-16 14:39:54</updated_at>
+	</row>
+
+	<row>
+		<id>240</id>
+		<user_id>1</user_id>
+		<film_id>96</film_id>
+		<notes>Your typical Disney feel good movie with black and white one dimensional good guys / bad guys, the exaggerated unrealistic persecution by snobby competitors, and run of the mill come from behind underdog &quot;true&quot; story.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-17 19:41:50</created_at>
+		<updated_at>2015-05-17 19:42:03</updated_at>
+	</row>
+
+	<row>
+		<id>241</id>
+		<user_id>9</user_id>
+		<film_id>74</film_id>
+		<notes>When all aspects of a film come together in the right why, there is something harmonious that just makes me smile. With Ex Machina, writer/director Alex Garland had a specific vision, and was able to pull it off gorgeously. There are plenty of knowing references to classic sci fi questions, and just the right amount of future gazing. Garland brilliantly made use of an existing location in Norway to keep costs down while making it seem like a top tier movie in terms of budget. The three (only three!!) lead actors in this film nailed the tone, exactly conveying what Garland wanted, when he wanted it, which kept me constantly guessing at the next reveal in the story.  No matter how far ahead I thought I had the story figured out, Garland was smart enough to take it just a bit further. My only quibble with the film is the ending, which went 5 minutes past what was needed.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-18 07:30:49</created_at>
+		<updated_at>2015-05-18 08:07:38</updated_at>
+	</row>
+
+	<row>
+		<id>242</id>
+		<user_id>4</user_id>
+		<film_id>76</film_id>
+		<notes>I have a hard time getting in the mood for a biopic, but am usually grateful when I do. This would have been one of my bigger regrets had I passed on seeing it. Loved it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-18 16:38:15</created_at>
+		<updated_at>2015-05-18 16:38:15</updated_at>
+	</row>
+
+	<row>
+		<id>243</id>
+		<user_id>5</user_id>
+		<film_id>261</film_id>
+		<notes>Wow!  Mind blowingly good.  I thought it looked like some lame outer space movie from the previews, but based on Ryan Barlow's recommendation, I watched it.  Best movie I've seen in a long time!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-18 21:30:40</created_at>
+		<updated_at>2015-05-18 21:30:40</updated_at>
+	</row>
+
+	<row>
+		<id>244</id>
+		<user_id>5</user_id>
+		<film_id>207</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-18 21:31:30</created_at>
+		<updated_at>2015-05-18 21:31:30</updated_at>
+	</row>
+
+	<row>
+		<id>245</id>
+		<user_id>42</user_id>
+		<film_id>389</film_id>
+		<notes>just getting into sci fi but I love horror. this was a fun mix.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 08:54:34</created_at>
+		<updated_at>2015-05-19 08:54:34</updated_at>
+	</row>
+
+	<row>
+		<id>246</id>
+		<user_id>42</user_id>
+		<film_id>390</film_id>
+		<notes>all around a great and powerful story.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 09:00:33</created_at>
+		<updated_at>2015-05-19 09:00:33</updated_at>
+	</row>
+
+	<row>
+		<id>247</id>
+		<user_id>42</user_id>
+		<film_id>391</film_id>
+		<notes>a really interesting look into the cult lifecycle. solid documentary</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 09:04:41</created_at>
+		<updated_at>2015-05-19 09:04:41</updated_at>
+	</row>
+
+	<row>
+		<id>248</id>
+		<user_id>43</user_id>
+		<film_id>183</film_id>
+		<notes>Saw it in 2D based on comments I'd read by George Miller.  I would be interested to see how insane it was in 3D.  Guess I'll wait until the Blu-ray comes out.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:08:54</created_at>
+		<updated_at>2015-05-19 11:08:54</updated_at>
+	</row>
+
+	<row>
+		<id>249</id>
+		<user_id>43</user_id>
+		<film_id>202</film_id>
+		<notes>Loved it. Like a long lost John Carpenter film.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:09:44</created_at>
+		<updated_at>2015-05-19 11:09:44</updated_at>
+	</row>
+
+	<row>
+		<id>250</id>
+		<user_id>6</user_id>
+		<film_id>74</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:20:53</created_at>
+		<updated_at>2015-05-19 11:20:53</updated_at>
+	</row>
+
+	<row>
+		<id>251</id>
+		<user_id>44</user_id>
+		<film_id>356</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:32:26</created_at>
+		<updated_at>2015-05-19 11:32:26</updated_at>
+	</row>
+
+	<row>
+		<id>252</id>
+		<user_id>44</user_id>
+		<film_id>317</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:33:02</created_at>
+		<updated_at>2015-05-19 11:33:02</updated_at>
+	</row>
+
+	<row>
+		<id>253</id>
+		<user_id>44</user_id>
+		<film_id>289</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:34:30</created_at>
+		<updated_at>2015-05-19 11:34:30</updated_at>
+	</row>
+
+	<row>
+		<id>254</id>
+		<user_id>46</user_id>
+		<film_id>317</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:54:15</created_at>
+		<updated_at>2015-05-19 11:54:15</updated_at>
+	</row>
+
+	<row>
+		<id>255</id>
+		<user_id>46</user_id>
+		<film_id>294</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 11:55:02</created_at>
+		<updated_at>2015-05-19 11:55:02</updated_at>
+	</row>
+
+	<row>
+		<id>256</id>
+		<user_id>47</user_id>
+		<film_id>74</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 13:36:05</created_at>
+		<updated_at>2015-05-19 13:36:05</updated_at>
+	</row>
+
+	<row>
+		<id>257</id>
+		<user_id>48</user_id>
+		<film_id>314</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 13:57:48</created_at>
+		<updated_at>2015-05-19 13:57:48</updated_at>
+	</row>
+
+	<row>
+		<id>258</id>
+		<user_id>48</user_id>
+		<film_id>183</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 13:58:15</created_at>
+		<updated_at>2015-05-19 13:58:15</updated_at>
+	</row>
+
+	<row>
+		<id>259</id>
+		<user_id>49</user_id>
+		<film_id>392</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 14:08:10</created_at>
+		<updated_at>2015-05-19 14:08:10</updated_at>
+	</row>
+
+	<row>
+		<id>260</id>
+		<user_id>49</user_id>
+		<film_id>393</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 14:09:22</created_at>
+		<updated_at>2015-05-19 14:09:22</updated_at>
+	</row>
+
+	<row>
+		<id>261</id>
+		<user_id>50</user_id>
+		<film_id>121</film_id>
+		<notes>Really enjoyed the movie, smart plot, i enjoyed figuring ploy twists out less than a minute before they were revealed!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 16:49:37</created_at>
+		<updated_at>2015-05-19 16:49:37</updated_at>
+	</row>
+
+	<row>
+		<id>262</id>
+		<user_id>50</user_id>
+		<film_id>54</film_id>
+		<notes>Mads does a great job in an intresting, well composed movie</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 16:51:19</created_at>
+		<updated_at>2015-05-19 16:51:19</updated_at>
+	</row>
+
+	<row>
+		<id>263</id>
+		<user_id>42</user_id>
+		<film_id>395</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-19 18:13:47</created_at>
+		<updated_at>2015-05-19 18:13:47</updated_at>
+	</row>
+
+	<row>
+		<id>264</id>
+		<user_id>42</user_id>
+		<film_id>404</film_id>
+		<notes>dark and thrilling tale. great acting. great plot</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-20 07:11:22</created_at>
+		<updated_at>2015-05-20 07:11:22</updated_at>
+	</row>
+
+	<row>
+		<id>265</id>
+		<user_id>42</user_id>
+		<film_id>406</film_id>
+		<notes>I had to turn it off. couldn't follow what the hell was going on</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-20 19:46:34</created_at>
+		<updated_at>2015-05-20 19:46:34</updated_at>
+	</row>
+
+	<row>
+		<id>266</id>
+		<user_id>4</user_id>
+		<film_id>407</film_id>
+		<notes>If I wasn't such a sucker for &quot;time travel&quot; themed movies, I'd probably had rated this lower.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-20 20:15:54</created_at>
+		<updated_at>2015-05-20 20:15:54</updated_at>
+	</row>
+
+	<row>
+		<id>267</id>
+		<user_id>3</user_id>
+		<film_id>356</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-22 18:48:11</created_at>
+		<updated_at>2015-05-22 18:48:11</updated_at>
+	</row>
+
+	<row>
+		<id>268</id>
+		<user_id>3</user_id>
+		<film_id>279</film_id>
+		<notes>Great show.. Best M. Night Shymalan movie made</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-22 20:56:55</created_at>
+		<updated_at>2015-05-22 20:56:55</updated_at>
+	</row>
+
+	<row>
+		<id>269</id>
+		<user_id>4</user_id>
+		<film_id>183</film_id>
+		<notes>Was a fun one.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-26 03:14:48</created_at>
+		<updated_at>2015-05-26 03:14:48</updated_at>
+	</row>
+
+	<row>
+		<id>270</id>
+		<user_id>7</user_id>
+		<film_id>415</film_id>
+		<notes>Solid work. Apes are the stars of the show but the relationship with humans really interesting. If you liked Rise, you like this.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-26 17:13:15</created_at>
+		<updated_at>2015-05-26 17:13:15</updated_at>
+	</row>
+
+	<row>
+		<id>271</id>
+		<user_id>9</user_id>
+		<film_id>32</film_id>
+		<notes>A lot of Fury was great. Opening shot as a western, with a horse eventually wandering between destroyed tanks; unflinching glimpses at what war requires young men to become; a (single) realistic portrayal of a tank battle; etc. It loses a lot of the goodwill it has built up in its third act where our heroes make their cliched last stand against the cartoonish SS squadron, but I did enjoy the last moment of humanity that Ayers allowed from a young German soldier. Solid film, almost great.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-27 03:49:05</created_at>
+		<updated_at>2015-05-27 10:38:26</updated_at>
+	</row>
+
+	<row>
+		<id>272</id>
+		<user_id>4</user_id>
+		<film_id>368</film_id>
+		<notes>It felt like more like a parody of the first than a sequel. Still, was good for some laughs.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-27 14:23:13</created_at>
+		<updated_at>2015-05-27 14:23:13</updated_at>
+	</row>
+
+	<row>
+		<id>273</id>
+		<user_id>9</user_id>
+		<film_id>201</film_id>
+		<notes>What a ham fisted metaphor, and what a bore. How in the hell did this get 95% on Rotten Tomatoes? I am predisposed to like dystopian films and science fiction in general, and this thing lost me in the first few minutes of its ridiculous premise, propelled by bizarre, incomprehensible characters.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-27 19:31:01</created_at>
+		<updated_at>2015-05-27 19:31:01</updated_at>
+	</row>
+
+	<row>
+		<id>274</id>
+		<user_id>4</user_id>
+		<film_id>408</film_id>
+		<notes>First Ghost Protocol and now this. Brad Bird needs to stick with animation. Was very let down by this.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-28 20:41:06</created_at>
+		<updated_at>2015-05-28 20:41:06</updated_at>
+	</row>
+
+	<row>
+		<id>275</id>
+		<user_id>4</user_id>
+		<film_id>427</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-29 15:18:00</created_at>
+		<updated_at>2015-05-29 15:18:00</updated_at>
+	</row>
+
+	<row>
+		<id>276</id>
+		<user_id>42</user_id>
+		<film_id>143</film_id>
+		<notes>I will need to re-watch this one.  Good non-traditional horror film.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-05-31 19:15:44</created_at>
+		<updated_at>2015-05-31 19:15:44</updated_at>
+	</row>
+
+	<row>
+		<id>277</id>
+		<user_id>28</user_id>
+		<film_id>432</film_id>
+		<notes>You definitely get to feel what torture is like.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-01 01:40:04</created_at>
+		<updated_at>2015-06-01 01:42:18</updated_at>
+	</row>
+
+	<row>
+		<id>278</id>
+		<user_id>4</user_id>
+		<film_id>433</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-02 03:25:17</created_at>
+		<updated_at>2015-06-02 03:25:43</updated_at>
+	</row>
+
+	<row>
+		<id>279</id>
+		<user_id>4</user_id>
+		<film_id>435</film_id>
+		<notes>Not one to watch with kids. Surprised it didn't earn an &quot;r&quot; rating. But man, what a good movie. Once again, blown away by Miyazaki's execution, and the way he builds his antagonists, if you could even call them that. Best execution of a film with an &quot;environmentalist&quot; plot.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-02 03:29:31</created_at>
+		<updated_at>2015-06-02 03:29:31</updated_at>
+	</row>
+
+	<row>
+		<id>280</id>
+		<user_id>21</user_id>
+		<film_id>2</film_id>
+		<notes>Really enjoyed this movie! I got to get me a pair of those boots! (Note to sons, great birthday present! Hint, hint)</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-03 04:11:06</created_at>
+		<updated_at>2015-06-03 04:11:06</updated_at>
+	</row>
+
+	<row>
+		<id>281</id>
+		<user_id>4</user_id>
+		<film_id>262</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-03 13:53:11</created_at>
+		<updated_at>2015-06-03 13:53:11</updated_at>
+	</row>
+
+	<row>
+		<id>282</id>
+		<user_id>9</user_id>
+		<film_id>219</film_id>
+		<notes>Nirvana fans, or any child of the 90s,  watch this documentary.  It was beautifully made, with the animation, music and lack of narrator commentary. A very intimate and fascinating insight into Cobain, showing what made him who he was. I'll never listen to the music in the same way.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-03 14:37:29</created_at>
+		<updated_at>2015-06-03 14:37:29</updated_at>
+	</row>
+
+	<row>
+		<id>283</id>
+		<user_id>9</user_id>
+		<film_id>76</film_id>
+		<notes>Loved it. Oyelowo was very impressive as King. I was surprised at how natural the speeches seemed, given that the screenwriter had to invent them, due to not having the rights to the actual speeches. I do wish that the ending credits would have had actual historical photos, but overall I thought this was really well made, informative and important.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-03 15:13:54</created_at>
+		<updated_at>2015-06-03 15:13:54</updated_at>
+	</row>
+
+	<row>
+		<id>284</id>
+		<user_id>4</user_id>
+		<film_id>454</film_id>
+		<notes>Tired of the found footage genre, but I really enjoyed this ET ripoff. Kids loved it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-09 15:52:15</created_at>
+		<updated_at>2015-06-09 15:52:15</updated_at>
+	</row>
+
+	<row>
+		<id>285</id>
+		<user_id>3</user_id>
+		<film_id>456</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-09 22:10:36</created_at>
+		<updated_at>2015-06-09 22:10:36</updated_at>
+	</row>
+
+	<row>
+		<id>286</id>
+		<user_id>56</user_id>
+		<film_id>74</film_id>
+		<notes>great movie</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-10 18:38:04</created_at>
+		<updated_at>2015-06-10 18:38:04</updated_at>
+	</row>
+
+	<row>
+		<id>287</id>
+		<user_id>56</user_id>
+		<film_id>475</film_id>
+		<notes>A guilty pleasure for me.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-10 18:38:51</created_at>
+		<updated_at>2015-06-10 18:38:51</updated_at>
+	</row>
+
+	<row>
+		<id>288</id>
+		<user_id>23</user_id>
+		<film_id>344</film_id>
+		<notes>Went in blind and loved it. Slow to start, unless you like a deep dive into the food industry life. Nice, warm, fuzzy, father-son story, but the food and snark made it for me.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-10 18:39:15</created_at>
+		<updated_at>2015-06-10 18:39:15</updated_at>
+	</row>
+
+	<row>
+		<id>289</id>
+		<user_id>1</user_id>
+		<film_id>476</film_id>
+		<notes>Jurassic World brought back some of the magic from the original.  It's certainly better than the second and third installments. It surpasses the first even in some areas like how I didn't want the kids to die in this one.  Chris Pratt is a great leading man, and Bryce Dallas Howard wasn't nearly as unbearable as I thought she would be from the trailers.  I thought it all worked, and I really wasn't expecting it to.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-13 15:22:19</created_at>
+		<updated_at>2015-06-13 15:22:19</updated_at>
+	</row>
+
+	<row>
+		<id>290</id>
+		<user_id>7</user_id>
+		<film_id>183</film_id>
+		<notes>Original Mad Max movies are not my thing, but when I heard great reviews of this one I hoped for the best. Dry as the originals. They chases looks good, but I couldn't care less about the characters. I would have liked to see more of the world they are living, but maybe there isn't much left. In the film where everyone is little crazy I would have liked Mad Max much crazier!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-14 04:29:57</created_at>
+		<updated_at>2015-06-14 04:29:57</updated_at>
+	</row>
+
+	<row>
+		<id>291</id>
+		<user_id>7</user_id>
+		<film_id>477</film_id>
+		<notes>Couldn't love movie characters more! Tough subject and great supporting characters makes this even better. Tear alert!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-14 04:33:02</created_at>
+		<updated_at>2015-06-14 04:33:02</updated_at>
+	</row>
+
+	<row>
+		<id>292</id>
+		<user_id>9</user_id>
+		<film_id>478</film_id>
+		<notes>A modern masterpiece. One hour and 46 minutes of concise storytelling. Funny, violent, through provoking, global, terse, exciting. I love this film. If you don't like this, then you and I have a completely different idea of what makes good cinema.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-16 19:38:10</created_at>
+		<updated_at>2015-06-16 19:38:10</updated_at>
+	</row>
+
+	<row>
+		<id>293</id>
+		<user_id>21</user_id>
+		<film_id>236</film_id>
+		<notes>I really enjoyed this! Such a clever story. Emma Thompson continues to amaze me as an actress.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-17 02:11:56</created_at>
+		<updated_at>2015-06-17 02:11:56</updated_at>
+	</row>
+
+	<row>
+		<id>294</id>
+		<user_id>42</user_id>
+		<film_id>480</film_id>
+		<notes>loved it. need to watch it again to pick up on more clues!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-18 23:02:33</created_at>
+		<updated_at>2015-06-18 23:02:33</updated_at>
+	</row>
+
+	<row>
+		<id>295</id>
+		<user_id>42</user_id>
+		<film_id>183</film_id>
+		<notes>just badass all around</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-18 23:03:07</created_at>
+		<updated_at>2015-06-18 23:03:07</updated_at>
+	</row>
+
+	<row>
+		<id>296</id>
+		<user_id>42</user_id>
+		<film_id>476</film_id>
+		<notes>really had fun with this!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-18 23:03:39</created_at>
+		<updated_at>2015-06-18 23:03:39</updated_at>
+	</row>
+
+	<row>
+		<id>297</id>
+		<user_id>42</user_id>
+		<film_id>481</film_id>
+		<notes>not the best but didn't hate it. good gore. very saw-esque</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-18 23:06:13</created_at>
+		<updated_at>2015-06-18 23:06:13</updated_at>
+	</row>
+
+	<row>
+		<id>298</id>
+		<user_id>21</user_id>
+		<film_id>476</film_id>
+		<notes>Fun movie! Just the right blend of scary and humorous.  The more I see Chris Pratt the more I like his acting.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-20 01:15:53</created_at>
+		<updated_at>2015-06-20 01:15:53</updated_at>
+	</row>
+
+	<row>
+		<id>299</id>
+		<user_id>1</user_id>
+		<film_id>483</film_id>
+		<notes>I wish Jim Carrey would do more roles like this.  There are so many ideas being addressed in this movie: commercialism, power of media, authenticity, reality tv, product placement, etc.   I think it's brilliant, and an endearing watch to boot.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-22 03:56:21</created_at>
+		<updated_at>2015-06-24 15:50:49</updated_at>
+	</row>
+
+	<row>
+		<id>300</id>
+		<user_id>57</user_id>
+		<film_id>289</film_id>
+		<notes>Just re-watched this last night with my kids and I still love it.  The animation is beautiful and the story is mesmerizing.   The pacing of Studio Ghibli movies is much slower than what we are used to, but somehow Miyazaki keeps you glued to the screen.   Sprited Away was the first one of the bunch that I saw several years back and I rented it from Netflix out of mild curiosity back when I had movies delivered by mail.   I couldn't stop thinking about it for days and it sent me searching for more like it.  Of course, only Studio Ghibli is like Sudio Ghibli!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-22 14:04:34</created_at>
+		<updated_at>2015-06-22 14:04:34</updated_at>
+	</row>
+
+	<row>
+		<id>301</id>
+		<user_id>4</user_id>
+		<film_id>479</film_id>
+		<notes>Wow. An actually contender against The Incredibles for favorite Pixar film. A movie about emotions playing with my emotions. Brilliant.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-23 03:15:29</created_at>
+		<updated_at>2015-06-23 03:15:29</updated_at>
+	</row>
+
+	<row>
+		<id>302</id>
+		<user_id>58</user_id>
+		<film_id>487</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-25 21:39:54</created_at>
+		<updated_at>2015-06-25 21:39:54</updated_at>
+	</row>
+
+	<row>
+		<id>303</id>
+		<user_id>58</user_id>
+		<film_id>206</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-25 21:40:49</created_at>
+		<updated_at>2015-06-25 21:40:49</updated_at>
+	</row>
+
+	<row>
+		<id>304</id>
+		<user_id>58</user_id>
+		<film_id>488</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-25 21:42:05</created_at>
+		<updated_at>2015-06-25 21:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>305</id>
+		<user_id>32</user_id>
+		<film_id>476</film_id>
+		<notes>While it starts off rather awkwardly with some cheesy dialogue, Jurassic World is crowd-pleasing, thrilling, scary (maybe not) and suspenseful that is loaded with dinosaur nostalgia. Pratt is decent though I liked him better in the guardian movie. Howard is a cold bitch that is very difficult to warm up to, but redeem herself by the end of the movie. This is enjoyable if you come in without any expectations and don't try to make sense of anything... Just enjoy the darn thing.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-26 01:57:11</created_at>
+		<updated_at>2015-06-26 01:57:11</updated_at>
+	</row>
+
+	<row>
+		<id>306</id>
+		<user_id>32</user_id>
+		<film_id>417</film_id>
+		<notes>San Andreas is as predictable and cliche as any disaster movie. The Rock is actually getting better at acting, still cheesy but better for sure... I am still not over the opening scene but if you want to enjoy this one you will have to get over the cheese factor :)</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-26 02:05:26</created_at>
+		<updated_at>2015-06-26 02:05:26</updated_at>
+	</row>
+
+	<row>
+		<id>307</id>
+		<user_id>4</user_id>
+		<film_id>476</film_id>
+		<notes>Pleasantly surprised. Super fun.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-06-28 17:24:53</created_at>
+		<updated_at>2015-06-28 17:24:53</updated_at>
+	</row>
+
+	<row>
+		<id>308</id>
+		<user_id>1</user_id>
+		<film_id>485</film_id>
+		<notes>I really wanted to like this more than I did, but it was winking to the past terminators a little too much and Emilia Clarke was terribly miscast.  I'm blown away that James Cameron had anything to do with the screen play.  A fun watch, but I'd probably rank the terminators like so:  Terminator 2, Terminator 1, Terminator 3, Genisys, Salvation</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-03 05:55:58</created_at>
+		<updated_at>2015-07-03 05:58:03</updated_at>
+	</row>
+
+	<row>
+		<id>309</id>
+		<user_id>61</user_id>
+		<film_id>183</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 14:55:24</created_at>
+		<updated_at>2015-07-04 14:55:24</updated_at>
+	</row>
+
+	<row>
+		<id>310</id>
+		<user_id>61</user_id>
+		<film_id>476</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 14:57:49</created_at>
+		<updated_at>2015-07-04 14:57:49</updated_at>
+	</row>
+
+	<row>
+		<id>311</id>
+		<user_id>61</user_id>
+		<film_id>483</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 14:58:53</created_at>
+		<updated_at>2015-07-04 14:58:53</updated_at>
+	</row>
+
+	<row>
+		<id>312</id>
+		<user_id>61</user_id>
+		<film_id>35</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 15:00:22</created_at>
+		<updated_at>2015-07-04 15:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>313</id>
+		<user_id>61</user_id>
+		<film_id>57</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 15:01:49</created_at>
+		<updated_at>2015-07-04 15:01:49</updated_at>
+	</row>
+
+	<row>
+		<id>314</id>
+		<user_id>61</user_id>
+		<film_id>59</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 15:02:17</created_at>
+		<updated_at>2015-07-04 15:02:17</updated_at>
+	</row>
+
+	<row>
+		<id>315</id>
+		<user_id>61</user_id>
+		<film_id>16</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 15:03:17</created_at>
+		<updated_at>2015-07-04 15:03:17</updated_at>
+	</row>
+
+	<row>
+		<id>316</id>
+		<user_id>61</user_id>
+		<film_id>494</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-04 15:58:52</created_at>
+		<updated_at>2015-07-04 15:58:52</updated_at>
+	</row>
+
+	<row>
+		<id>317</id>
+		<user_id>62</user_id>
+		<film_id>485</film_id>
+		<notes>I sat down to an almost empty theater and as it was starting, I thought to my self, &quot;what am i doing here.&quot;  It was ridiculous but I didn't hate it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-06 18:31:34</created_at>
+		<updated_at>2015-07-06 18:31:34</updated_at>
+	</row>
+
+	<row>
+		<id>318</id>
+		<user_id>66</user_id>
+		<film_id>254</film_id>
+		<notes>Great movie</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 02:10:18</created_at>
+		<updated_at>2015-07-07 02:10:18</updated_at>
+	</row>
+
+	<row>
+		<id>319</id>
+		<user_id>66</user_id>
+		<film_id>495</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 02:12:47</created_at>
+		<updated_at>2015-07-07 02:12:47</updated_at>
+	</row>
+
+	<row>
+		<id>320</id>
+		<user_id>66</user_id>
+		<film_id>431</film_id>
+		<notes>My least favorite movie all time, if I had to pick a movie about blue people in the forest smurfs looked better.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 02:14:56</created_at>
+		<updated_at>2015-07-07 02:14:56</updated_at>
+	</row>
+
+	<row>
+		<id>321</id>
+		<user_id>66</user_id>
+		<film_id>32</film_id>
+		<notes>My wife and I have the same crush, cause I like almost everything Pitt is in, captured the darkness of WW2 I believe.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 02:19:13</created_at>
+		<updated_at>2015-07-07 02:19:13</updated_at>
+	</row>
+
+	<row>
+		<id>322</id>
+		<user_id>66</user_id>
+		<film_id>496</film_id>
+		<notes>Clever humor around every corner, still trying to figure out if I missed something, or if the entire film was supposed to be just about a goofy stoner.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 02:22:38</created_at>
+		<updated_at>2015-07-07 02:22:38</updated_at>
+	</row>
+
+	<row>
+		<id>323</id>
+		<user_id>4</user_id>
+		<film_id>96</film_id>
+		<notes>Fun and uplifting, but there sure were some weird hollywood'esque insertions that just really take you out of reality.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 03:59:00</created_at>
+		<updated_at>2015-07-07 03:59:00</updated_at>
+	</row>
+
+	<row>
+		<id>324</id>
+		<user_id>67</user_id>
+		<film_id>498</film_id>
+		<notes>a million times better than the remake. PLEASE recognize the genius that is Dudley Moore and Sir John Gielgud.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 04:47:25</created_at>
+		<updated_at>2015-07-07 04:47:25</updated_at>
+	</row>
+
+	<row>
+		<id>325</id>
+		<user_id>67</user_id>
+		<film_id>104</film_id>
+		<notes>i know I'm in the minority on this but here's what I didn't like about it: the characters tell you what's going to happen, then it happens then another character recaps what just happened. Oh my stop it!! I couldn't enjoy the story. Dead horse....here's your beating.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 04:50:57</created_at>
+		<updated_at>2015-07-07 04:50:57</updated_at>
+	</row>
+
+	<row>
+		<id>326</id>
+		<user_id>67</user_id>
+		<film_id>499</film_id>
+		<notes>feel good rom com. Don Lake and Bonnie Hunt are a dynamic writing team. I love their style. I also love Chicago movies for so many reasons. The familiar locations, the hometown casts and the feeling of being in on an inside joke.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 04:59:50</created_at>
+		<updated_at>2015-07-07 04:59:50</updated_at>
+	</row>
+
+	<row>
+		<id>327</id>
+		<user_id>73</user_id>
+		<film_id>476</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-07 15:56:05</created_at>
+		<updated_at>2015-07-07 15:56:05</updated_at>
+	</row>
+
+	<row>
+		<id>328</id>
+		<user_id>83</user_id>
+		<film_id>476</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 04:22:40</created_at>
+		<updated_at>2015-07-08 04:22:40</updated_at>
+	</row>
+
+	<row>
+		<id>329</id>
+		<user_id>83</user_id>
+		<film_id>413</film_id>
+		<notes>The sound mixing was really the only thing I liked about this movie.  The scares were descent but not at all original.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 04:24:23</created_at>
+		<updated_at>2015-07-08 04:24:23</updated_at>
+	</row>
+
+	<row>
+		<id>330</id>
+		<user_id>84</user_id>
+		<film_id>105</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 04:27:28</created_at>
+		<updated_at>2015-07-08 04:27:28</updated_at>
+	</row>
+
+	<row>
+		<id>331</id>
+		<user_id>84</user_id>
+		<film_id>560</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 04:28:41</created_at>
+		<updated_at>2015-07-08 04:28:41</updated_at>
+	</row>
+
+	<row>
+		<id>332</id>
+		<user_id>84</user_id>
+		<film_id>561</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 04:29:13</created_at>
+		<updated_at>2015-07-08 04:29:13</updated_at>
+	</row>
+
+	<row>
+		<id>333</id>
+		<user_id>87</user_id>
+		<film_id>442</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 21:31:35</created_at>
+		<updated_at>2015-07-08 21:31:35</updated_at>
+	</row>
+
+	<row>
+		<id>334</id>
+		<user_id>87</user_id>
+		<film_id>13</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 21:32:42</created_at>
+		<updated_at>2015-07-08 21:32:42</updated_at>
+	</row>
+
+	<row>
+		<id>335</id>
+		<user_id>87</user_id>
+		<film_id>563</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-08 21:33:17</created_at>
+		<updated_at>2015-07-08 21:33:17</updated_at>
+	</row>
+
+	<row>
+		<id>336</id>
+		<user_id>1</user_id>
+		<film_id>439</film_id>
+		<notes>I laughed pretty hard throughout this one, but I'm also a sucker for Melissa McCarthy</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-11 19:14:49</created_at>
+		<updated_at>2015-07-11 19:14:49</updated_at>
+	</row>
+
+	<row>
+		<id>337</id>
+		<user_id>21</user_id>
+		<film_id>562</film_id>
+		<notes>This as exactly what I expected...a funny, silly, clean movie</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-13 03:31:47</created_at>
+		<updated_at>2015-07-13 03:31:47</updated_at>
+	</row>
+
+	<row>
+		<id>338</id>
+		<user_id>4</user_id>
+		<film_id>565</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 14:58:57</created_at>
+		<updated_at>2015-07-14 14:58:57</updated_at>
+	</row>
+
+	<row>
+		<id>339</id>
+		<user_id>35</user_id>
+		<film_id>566</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 17:17:48</created_at>
+		<updated_at>2015-07-14 17:17:48</updated_at>
+	</row>
+
+	<row>
+		<id>340</id>
+		<user_id>35</user_id>
+		<film_id>567</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 17:18:33</created_at>
+		<updated_at>2015-07-14 17:18:33</updated_at>
+	</row>
+
+	<row>
+		<id>341</id>
+		<user_id>35</user_id>
+		<film_id>568</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 17:19:24</created_at>
+		<updated_at>2015-07-14 17:19:24</updated_at>
+	</row>
+
+	<row>
+		<id>342</id>
+		<user_id>35</user_id>
+		<film_id>71</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 17:20:34</created_at>
+		<updated_at>2015-07-14 17:20:34</updated_at>
+	</row>
+
+	<row>
+		<id>343</id>
+		<user_id>35</user_id>
+		<film_id>569</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-14 17:21:10</created_at>
+		<updated_at>2015-07-14 17:21:10</updated_at>
+	</row>
+
+	<row>
+		<id>344</id>
+		<user_id>83</user_id>
+		<film_id>202</film_id>
+		<notes>This was a day one purchase for me! I saw it once and it stuck with me for weeks. It's got so many good things going for it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-15 04:36:15</created_at>
+		<updated_at>2015-07-15 04:36:15</updated_at>
+	</row>
+
+	<row>
+		<id>345</id>
+		<user_id>83</user_id>
+		<film_id>572</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-15 04:36:52</created_at>
+		<updated_at>2015-07-15 04:36:52</updated_at>
+	</row>
+
+	<row>
+		<id>346</id>
+		<user_id>1</user_id>
+		<film_id>570</film_id>
+		<notes>Enjoyable, fits perfectly in the luke warm Marvel genre.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-18 05:44:58</created_at>
+		<updated_at>2015-07-18 05:44:58</updated_at>
+	</row>
+
+	<row>
+		<id>347</id>
+		<user_id>4</user_id>
+		<film_id>562</film_id>
+		<notes>This is the only time I can think of that I've fallen asleep at a movie theater (and I've seen &quot;Tinker Tailer Soldier Spy&quot; and &quot;Tree of Life&quot; in theaters). A movie dedicated to cheap jokes and a weak plot, I just couldn't pay attention.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-19 02:13:48</created_at>
+		<updated_at>2015-07-19 02:13:48</updated_at>
+	</row>
+
+	<row>
+		<id>348</id>
+		<user_id>7</user_id>
+		<film_id>544</film_id>
+		<notes>Not as great as I hoped it to be. Bad guy was boring.  Looked great but it action went many times too messy to follow. Still I have high hopes for this bunch for the future.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-22 18:42:52</created_at>
+		<updated_at>2015-07-22 18:42:52</updated_at>
+	</row>
+
+	<row>
+		<id>349</id>
+		<user_id>7</user_id>
+		<film_id>429</film_id>
+		<notes>Great action with a fine twist. I just love Cruise!</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-22 18:44:58</created_at>
+		<updated_at>2015-07-22 18:44:58</updated_at>
+	</row>
+
+	<row>
+		<id>350</id>
+		<user_id>7</user_id>
+		<film_id>581</film_id>
+		<notes>Why this was made? Read the book or watch the one with Travolta.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-22 18:46:42</created_at>
+		<updated_at>2015-07-22 18:46:42</updated_at>
+	</row>
+
+	<row>
+		<id>351</id>
+		<user_id>7</user_id>
+		<film_id>582</film_id>
+		<notes>Captain America is the most likable superhero. Action is good and characters are fine.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-22 18:50:20</created_at>
+		<updated_at>2015-07-22 18:50:20</updated_at>
+	</row>
+
+	<row>
+		<id>352</id>
+		<user_id>83</user_id>
+		<film_id>559</film_id>
+		<notes>I wasn't sure of the tone of this before I saw it and having seen it I'm still not sure. It's an unusual blend of gross reality and quirk that is just right for Wiig.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-23 20:53:02</created_at>
+		<updated_at>2015-07-23 20:53:02</updated_at>
+	</row>
+
+	<row>
+		<id>353</id>
+		<user_id>1</user_id>
+		<film_id>585</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-24 16:40:56</created_at>
+		<updated_at>2015-07-24 16:40:56</updated_at>
+	</row>
+
+	<row>
+		<id>354</id>
+		<user_id>4</user_id>
+		<film_id>306</film_id>
+		<notes>This was better watching a second time. I'm a big Mike Judge fan, but could never got on board with this one. Even though I appreciate his message, it's super frustrating to listen to every person talk in the film aside from the two actors, and even though that's the point, it doesn't make it any less frustrating.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-07-29 02:53:18</created_at>
+		<updated_at>2015-07-29 02:53:18</updated_at>
+	</row>
+
+	<row>
+		<id>355</id>
+		<user_id>4</user_id>
+		<film_id>355</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-04 13:49:23</created_at>
+		<updated_at>2015-08-04 13:49:23</updated_at>
+	</row>
+
+	<row>
+		<id>356</id>
+		<user_id>1</user_id>
+		<film_id>573</film_id>
+		<notes>I had never heard of Amy Schumer before this, and while I found her really funny, I think John Cena stole the show.  In typical Judd Apatow fashion, this was funny, crude, and a little moving.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-06 03:19:02</created_at>
+		<updated_at>2015-08-06 03:19:02</updated_at>
+	</row>
+
+	<row>
+		<id>357</id>
+		<user_id>1</user_id>
+		<film_id>241</film_id>
+		<notes>I really wanted to love this one, but instead I just enjoyed it.  I enjoyed watching some cool stunts and great action sequences, but I didn't feel any emotional weight to any of the scenes like I did in the first or the 3rd Mission:Impossible.  It was fun, but I was really hoping for it to be great.  Here's how I'd rank the MI franchise:   3, 1, 4, 5, 2.
+
+One more thing, I was so put off by the score I would have sworn that it was by Danny Elfman (it was Lalo Schifrin).  It felt so clunky, and campy, straight out of spiderman 3.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-08 03:33:59</created_at>
+		<updated_at>2015-08-08 03:34:49</updated_at>
+	</row>
+
+	<row>
+		<id>358</id>
+		<user_id>90</user_id>
+		<film_id>183</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-10 00:28:06</created_at>
+		<updated_at>2015-08-10 00:28:06</updated_at>
+	</row>
+
+	<row>
+		<id>359</id>
+		<user_id>91</user_id>
+		<film_id>183</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-10 01:43:44</created_at>
+		<updated_at>2015-08-10 01:43:44</updated_at>
+	</row>
+
+	<row>
+		<id>360</id>
+		<user_id>90</user_id>
+		<film_id>597</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-10 01:43:51</created_at>
+		<updated_at>2015-08-10 01:43:51</updated_at>
+	</row>
+
+	<row>
+		<id>361</id>
+		<user_id>40</user_id>
+		<film_id>599</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-11 03:39:00</created_at>
+		<updated_at>2015-08-11 03:39:00</updated_at>
+	</row>
+
+	<row>
+		<id>362</id>
+		<user_id>40</user_id>
+		<film_id>104</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-11 03:40:02</created_at>
+		<updated_at>2015-08-11 03:40:02</updated_at>
+	</row>
+
+	<row>
+		<id>363</id>
+		<user_id>40</user_id>
+		<film_id>60</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-11 03:40:43</created_at>
+		<updated_at>2015-08-11 03:40:43</updated_at>
+	</row>
+
+	<row>
+		<id>364</id>
+		<user_id>4</user_id>
+		<film_id>271</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-13 15:05:50</created_at>
+		<updated_at>2015-08-13 15:05:50</updated_at>
+	</row>
+
+	<row>
+		<id>365</id>
+		<user_id>66</user_id>
+		<film_id>562</film_id>
+		<notes>Some big laughs, Sandra bullock was a meh Villain, it started super strong then got a little week at times.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:31:13</created_at>
+		<updated_at>2015-08-15 14:31:13</updated_at>
+	</row>
+
+	<row>
+		<id>366</id>
+		<user_id>66</user_id>
+		<film_id>183</film_id>
+		<notes>One of the best mindless shootem ups a summer, love the primitive setting.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:34:25</created_at>
+		<updated_at>2015-08-15 14:34:25</updated_at>
+	</row>
+
+	<row>
+		<id>367</id>
+		<user_id>66</user_id>
+		<film_id>243</film_id>
+		<notes>One of Arnolds best</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:35:59</created_at>
+		<updated_at>2015-08-15 14:35:59</updated_at>
+	</row>
+
+	<row>
+		<id>368</id>
+		<user_id>66</user_id>
+		<film_id>606</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:37:01</created_at>
+		<updated_at>2015-08-15 14:37:01</updated_at>
+	</row>
+
+	<row>
+		<id>369</id>
+		<user_id>66</user_id>
+		<film_id>607</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:38:00</created_at>
+		<updated_at>2015-08-15 14:38:00</updated_at>
+	</row>
+
+	<row>
+		<id>370</id>
+		<user_id>66</user_id>
+		<film_id>96</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:38:46</created_at>
+		<updated_at>2015-08-15 14:38:46</updated_at>
+	</row>
+
+	<row>
+		<id>371</id>
+		<user_id>66</user_id>
+		<film_id>19</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:40:12</created_at>
+		<updated_at>2015-08-15 14:40:12</updated_at>
+	</row>
+
+	<row>
+		<id>372</id>
+		<user_id>66</user_id>
+		<film_id>608</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:44:44</created_at>
+		<updated_at>2015-08-15 14:44:44</updated_at>
+	</row>
+
+	<row>
+		<id>373</id>
+		<user_id>66</user_id>
+		<film_id>609</film_id>
+		<notes>Man I dig the crime, this movie did not disappoint.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:49:33</created_at>
+		<updated_at>2015-08-15 14:49:33</updated_at>
+	</row>
+
+	<row>
+		<id>374</id>
+		<user_id>66</user_id>
+		<film_id>610</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-15 14:53:56</created_at>
+		<updated_at>2015-08-15 14:53:56</updated_at>
+	</row>
+
+	<row>
+		<id>375</id>
+		<user_id>14</user_id>
+		<film_id>600</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-17 16:01:43</created_at>
+		<updated_at>2015-08-17 16:01:43</updated_at>
+	</row>
+
+	<row>
+		<id>376</id>
+		<user_id>14</user_id>
+		<film_id>612</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-17 16:02:56</created_at>
+		<updated_at>2015-08-17 16:02:56</updated_at>
+	</row>
+
+	<row>
+		<id>377</id>
+		<user_id>66</user_id>
+		<film_id>616</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-19 05:39:55</created_at>
+		<updated_at>2015-08-19 05:39:55</updated_at>
+	</row>
+
+	<row>
+		<id>378</id>
+		<user_id>66</user_id>
+		<film_id>479</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-19 05:41:32</created_at>
+		<updated_at>2015-08-19 05:41:32</updated_at>
+	</row>
+
+	<row>
+		<id>379</id>
+		<user_id>93</user_id>
+		<film_id>2</film_id>
+		<notes>Worst movie... EVER!!  Most excruciating 2hrs and 7min of my life.  I only stayed to see if it could get any worse... It did.  I'd eat a pork chop at an ISIS convention before I'd see it again.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-22 04:56:39</created_at>
+		<updated_at>2015-08-22 04:56:39</updated_at>
+	</row>
+
+	<row>
+		<id>380</id>
+		<user_id>93</user_id>
+		<film_id>570</film_id>
+		<notes>Marvel did it again.  Loved the books when I was a kid and the film didn't disappoint.  Paul Rudd played Paul Rudd playing Ant-man which was great because Paul Rudd is awesome.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-22 05:08:53</created_at>
+		<updated_at>2015-08-22 05:08:53</updated_at>
+	</row>
+
+	<row>
+		<id>381</id>
+		<user_id>9</user_id>
+		<film_id>479</film_id>
+		<notes>Pixar is back! I loved this film. We just moved our kids to a new country last year, and this was an excellent film to watch together to help them process some of the emotions they've had over the year. I still think Wall-E is my favorite from Pixar, but this one is right up there with The Incredibles, Finding Nemo and Monster's Inc.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-24 06:50:04</created_at>
+		<updated_at>2015-08-24 06:50:04</updated_at>
+	</row>
+
+	<row>
+		<id>382</id>
+		<user_id>9</user_id>
+		<film_id>621</film_id>
+		<notes>The romantic comdey genre is such a dead, sterile area that it is always refreshing to see one that at least has good intentions and a story to tell. It was a bit outlandish with the &quot;weapons in space&quot; plot, but I quite enjoyed the interactions between the characters, and the Hawaiian military setting.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-24 06:54:35</created_at>
+		<updated_at>2015-08-24 06:54:35</updated_at>
+	</row>
+
+	<row>
+		<id>383</id>
+		<user_id>4</user_id>
+		<film_id>600</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-24 19:43:07</created_at>
+		<updated_at>2015-08-24 19:43:07</updated_at>
+	</row>
+
+	<row>
+		<id>384</id>
+		<user_id>21</user_id>
+		<film_id>241</film_id>
+		<notes>This was a really fun movie! Really enjoyed this</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-25 01:37:13</created_at>
+		<updated_at>2015-08-25 01:37:13</updated_at>
+	</row>
+
+	<row>
+		<id>385</id>
+		<user_id>4</user_id>
+		<film_id>620</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-25 15:45:18</created_at>
+		<updated_at>2015-08-25 15:45:18</updated_at>
+	</row>
+
+	<row>
+		<id>386</id>
+		<user_id>7</user_id>
+		<film_id>631</film_id>
+		<notes>Nice scary athmosphere, but still I think I will not remember this movie after six months.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-30 12:49:58</created_at>
+		<updated_at>2015-08-30 12:49:58</updated_at>
+	</row>
+
+	<row>
+		<id>387</id>
+		<user_id>4</user_id>
+		<film_id>322</film_id>
+		<notes>Not nearly as bad as everyone was making it out to be. I wouldn't say it was good, but I'd put it at par with most other Marvel movies.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-08-31 17:54:24</created_at>
+		<updated_at>2015-08-31 17:54:24</updated_at>
+	</row>
+
+	<row>
+		<id>388</id>
+		<user_id>1</user_id>
+		<film_id>334</film_id>
+		<notes>It's not Rocky, but I have soft spot for boxing movies.  Jake Gyllenhaal is great as usual.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 06:10:37</created_at>
+		<updated_at>2015-09-01 06:10:37</updated_at>
+	</row>
+
+	<row>
+		<id>389</id>
+		<user_id>4</user_id>
+		<film_id>592</film_id>
+		<notes>Nice debut film for Edgarton.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 15:02:12</created_at>
+		<updated_at>2015-09-01 15:02:12</updated_at>
+	</row>
+
+	<row>
+		<id>390</id>
+		<user_id>97</user_id>
+		<film_id>579</film_id>
+		<notes>My mom and my son loved it. As a long time video game fan, I felt it didn't exactly satisfy in the same way &quot;Wreck-It Ralph&quot; did, but comparing it to other videogame movies it was tolerable (which isn't saying much). 
+
+I wouldn't recommend this, but if you happen to come across it on a Lazy Sunday, you could do worst.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 16:07:32</created_at>
+		<updated_at>2015-09-01 16:07:32</updated_at>
+	</row>
+
+	<row>
+		<id>391</id>
+		<user_id>97</user_id>
+		<film_id>643</film_id>
+		<notes>This movie is fantastic. Recommended for fans of time travel movies and sci-fi. The plot kind of sneaks up on you and by the time you realize what is going on, you are totally invested. The cinematography is well done and the entire film has a very indie feel to it.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 16:11:32</created_at>
+		<updated_at>2015-09-01 16:11:32</updated_at>
+	</row>
+
+	<row>
+		<id>392</id>
+		<user_id>14</user_id>
+		<film_id>642</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 16:17:45</created_at>
+		<updated_at>2015-09-01 16:17:45</updated_at>
+	</row>
+
+	<row>
+		<id>393</id>
+		<user_id>97</user_id>
+		<film_id>13</film_id>
+		<notes>I didn't expect to enjoy this film, but the dialogue was good and the acting was top-notch (though I don't understand what inspired Sam Jackson to do the accent). The movie attempts to point out all the &quot;flaws&quot; and &quot;tropes&quot; of spy movies for the sake of comedy, but I feel that it falls into a few of it's own cliches and tropes. These still kind of feel refreshing because of the application of a modern world, but there's still something familiar about the film that kept me from rating it higher. 
+
+Towards the end, the story drags and once you know where it's going it doesn't hold the attention.</notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 16:23:20</created_at>
+		<updated_at>2015-09-01 16:23:20</updated_at>
+	</row>
+
+	<row>
+		<id>394</id>
+		<user_id>14</user_id>
+		<film_id>646</film_id>
+		<notes></notes>
+		<seen_at>0000-00-00 00:00:00</seen_at>
+		<created_at>2015-09-01 19:11:48</created_at>
+		<updated_at>2015-09-01 19:11:48</updated_at>
+	</row>
+
+	</reviews>
+
+</filmkeep_production>

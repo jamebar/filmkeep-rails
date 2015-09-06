@@ -27,10 +27,12 @@ gem 'pg'
 gem 'omniauth',  '>= 1.0.0'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
-gem 'stream_rails'
+gem 'stream_rails' , '~> 2.3.1'
 gem "active_model_serializers", "~> 0.8.0"
 gem 'enceladus'
 gem 'rottentomatoes', '~> 1.1.3'
+gem 'smarter_csv'
+gem 'crack'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

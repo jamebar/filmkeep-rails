@@ -1,0 +1,7 @@
+defaults: &defaults
+  import_base_dir: "imports/source/"
+  import_archive_dir: "imports/completed"
+
+development:
+  <<: *defaults
+  

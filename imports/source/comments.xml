@@ -1,0 +1,1237 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4096
+-
+- http://www.sequelpro.com/
+- http://code.google.com/p/sequel-pro/
+-
+- Host: 104.236.116.82 (MySQL 5.5.44-0ubuntu0.14.04.1)
+- Database: filmkeep_production
+- Generation Time Time: 2015-09-06 19:59:28 +0000
+-
+-->
+
+<filmkeep_production>
+
+	<comments>
+	<row>
+		<id>3</id>
+		<user_id>1</user_id>
+		<comment>I'll have to give this one another shot, I definitely wasn't in the mood for this type of movie the first go around.</comment>
+		<commentable_id>123</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-04 08:16:38</created_at>
+		<updated_at>2015-03-04 08:16:38</updated_at>
+		<film_id>177</film_id>
+	</row>
+
+	<row>
+		<id>4</id>
+		<user_id>1</user_id>
+		<comment>I've only seen the first Mad Max, I probably better catchup on the sequels before I see this new one</comment>
+		<commentable_id>96</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 05:38:34</created_at>
+		<updated_at>2015-03-06 05:38:34</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>5</id>
+		<user_id>2</user_id>
+		<comment>of course you would add this</comment>
+		<commentable_id>6</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 05:47:27</created_at>
+		<updated_at>2015-03-06 05:47:27</updated_at>
+		<film_id>25</film_id>
+	</row>
+
+	<row>
+		<id>6</id>
+		<user_id>4</user_id>
+		<comment>My bet is gallium held the spoon together...but yeah, which they covered that.</comment>
+		<commentable_id>126</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 06:52:12</created_at>
+		<updated_at>2015-03-06 06:52:12</updated_at>
+		<film_id>185</film_id>
+	</row>
+
+	<row>
+		<id>7</id>
+		<user_id>4</user_id>
+		<comment>*wish</comment>
+		<commentable_id>126</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 06:52:28</created_at>
+		<updated_at>2015-03-06 06:52:28</updated_at>
+		<film_id>185</film_id>
+	</row>
+
+	<row>
+		<id>8</id>
+		<user_id>1</user_id>
+		<comment>yeah, a movie about uncovering deception should have revealed how the deceptions were done.  Anyway, the director was on a podcast I was listening to, he's a Salt Lake City native</comment>
+		<commentable_id>126</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 15:27:31</created_at>
+		<updated_at>2015-03-06 15:27:31</updated_at>
+		<film_id>185</film_id>
+	</row>
+
+	<row>
+		<id>9</id>
+		<user_id>4</user_id>
+		<comment>It surprised me when I saw you reviewed this. I found it about a month ago on some random reddit thread (they linked to it on youtube). I went in to watch a small portion, ended up watching the whole thing. Kept meaning to tell you about it.</comment>
+		<commentable_id>126</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 15:32:25</created_at>
+		<updated_at>2015-03-06 15:32:25</updated_at>
+		<film_id>185</film_id>
+	</row>
+
+	<row>
+		<id>10</id>
+		<user_id>4</user_id>
+		<comment>It's a slow start, I wasn't feeling it half-way through it, but the build is what makes the payoff so great.</comment>
+		<commentable_id>123</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-06 15:34:46</created_at>
+		<updated_at>2015-03-06 15:34:46</updated_at>
+		<film_id>177</film_id>
+	</row>
+
+	<row>
+		<id>11</id>
+		<user_id>4</user_id>
+		<comment>: )</comment>
+		<commentable_id>131</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-10 15:07:31</created_at>
+		<updated_at>2015-03-10 15:07:31</updated_at>
+		<film_id>177</film_id>
+	</row>
+
+	<row>
+		<id>12</id>
+		<user_id>9</user_id>
+		<comment>I'm a bit embarrassed to admit this as a cinephile, but I have a really hard time with black and white movies. I was bored out of my mind with The Artist, and I started Nebraska and couldn't finish. The weird thing is that I don't think I primarily watch movies for the visuals, I'm actually really big into story and dialogue. I don't know why my brain equates black and white with boring, but it just does. Any B&amp;W recommendations to change my mind? Should I go back to Nebraska?</comment>
+		<commentable_id>131</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-13 09:46:02</created_at>
+		<updated_at>2015-03-13 09:46:02</updated_at>
+		<film_id>177</film_id>
+	</row>
+
+	<row>
+		<id>13</id>
+		<user_id>9</user_id>
+		<comment>How was Jude Law's accent? It was a big topic of discussion in the UK. Was it distracting? Convincing?</comment>
+		<commentable_id>114</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-13 09:47:57</created_at>
+		<updated_at>2015-03-13 09:47:57</updated_at>
+		<film_id>14</film_id>
+	</row>
+
+	<row>
+		<id>14</id>
+		<user_id>9</user_id>
+		<comment>I've never actually watched a full Mad Max film, but the style of this one just looks so unique. I suspect I'll appreciate it the way that I did 300 -- sheer spectacle.</comment>
+		<commentable_id>96</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-13 09:49:48</created_at>
+		<updated_at>2015-03-13 09:49:48</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>15</id>
+		<user_id>9</user_id>
+		<comment>I was so disappointed by Elysium, that I really want this to live up to the promise of District 9. Early reviews are not making me feel better.</comment>
+		<commentable_id>84</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-13 09:50:43</created_at>
+		<updated_at>2015-03-13 09:50:43</updated_at>
+		<film_id>15</film_id>
+	</row>
+
+	<row>
+		<id>16</id>
+		<user_id>1</user_id>
+		<comment>do you usually like horror films?</comment>
+		<commentable_id>102</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-15 02:59:30</created_at>
+		<updated_at>2015-03-15 02:59:30</updated_at>
+		<film_id>202</film_id>
+	</row>
+
+	<row>
+		<id>17</id>
+		<user_id>1</user_id>
+		<comment>You liked the maze runner more than this?  I'm surprised you didn't like it more.   It's been a while since I saw it, but I remember it being a nice surprise and a good addition to the sci-fi genre</comment>
+		<commentable_id>142</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-18 02:53:51</created_at>
+		<updated_at>2015-03-18 02:53:51</updated_at>
+		<film_id>212</film_id>
+	</row>
+
+	<row>
+		<id>18</id>
+		<user_id>4</user_id>
+		<comment>**For those unfamiliar with filmkeep, this section is blacked out because it contains a spoiler. Do not continue reading unless you have seen the movie** My rating this higher than Maze Runner is probably a result of several things. One, I had to watch Oblivion in two sittings (at a hotel, fell asleep from exhaustion the first time), and two, I think this is a result of pre-conceived notions. I thought Maze Runner was going to be so bad, so it probably got a bump from exceeding my expectations. Third item, having seen &quot;Moon,&quot; my thought from the start was that he was a clone. That being said, I did find it refreshing and really enjoyed it. In a second viewing (and reflecting), I'd probably put this above Maze Runner.</comment>
+		<commentable_id>142</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>1</spoiler>
+		<created_at>2015-03-18 15:16:04</created_at>
+		<updated_at>2015-03-18 15:16:04</updated_at>
+		<film_id>212</film_id>
+	</row>
+
+	<row>
+		<id>19</id>
+		<user_id>21</user_id>
+		<comment>I enjoyed this movie...I thought it had a clever story</comment>
+		<commentable_id>142</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-18 18:05:07</created_at>
+		<updated_at>2015-03-18 18:05:07</updated_at>
+		<film_id>212</film_id>
+	</row>
+
+	<row>
+		<id>20</id>
+		<user_id>9</user_id>
+		<comment>No, but some of my most respected filmmakers and film critics love horror, so I am trying to refine my pallet and see what I am missing. You may remember that I watched Hostel in Austin, and was absolutely disgusted by it. That put me off of horror for a few years, but then I went back and watched Alien and The Shining, and realized scary movies can be great. I really liked Let the Right One In, and enjoyed Drag me to Hell. Now I'm trying to get a better sense of what I like and what I don't. Maybe one day I'll work up the courage to watch Arachnaphobia again, which traumatized me as a kid.</comment>
+		<commentable_id>102</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-19 08:28:02</created_at>
+		<updated_at>2015-03-19 08:28:02</updated_at>
+		<film_id>202</film_id>
+	</row>
+
+	<row>
+		<id>21</id>
+		<user_id>9</user_id>
+		<comment>This was ok, but Edge of Tomorrow was so much better.</comment>
+		<commentable_id>142</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-19 08:33:27</created_at>
+		<updated_at>2015-03-19 08:33:27</updated_at>
+		<film_id>212</film_id>
+	</row>
+
+	<row>
+		<id>22</id>
+		<user_id>9</user_id>
+		<comment>This has been on my list for a while, but it's hard to make time for it. Such a weird conceit.</comment>
+		<commentable_id>141</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-19 08:34:27</created_at>
+		<updated_at>2015-03-19 08:34:27</updated_at>
+		<film_id>182</film_id>
+	</row>
+
+	<row>
+		<id>23</id>
+		<user_id>9</user_id>
+		<comment>I'm disappointed that this isn't getting better reviews. I really like con movies, and Ocean's Eleven is one of my favorites. It seems like there hasn't been a good one since The Brother's Bloom.</comment>
+		<commentable_id>140</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-19 08:35:50</created_at>
+		<updated_at>2015-03-19 08:35:50</updated_at>
+		<film_id>136</film_id>
+	</row>
+
+	<row>
+		<id>24</id>
+		<user_id>1</user_id>
+		<comment>I liked it more than you guys, but even if I didnt, I feel like I need to support any sci fi attempt</comment>
+		<commentable_id>142</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-21 02:44:29</created_at>
+		<updated_at>2015-03-21 02:44:29</updated_at>
+		<film_id>212</film_id>
+	</row>
+
+	<row>
+		<id>25</id>
+		<user_id>1</user_id>
+		<comment>yeah, it's  a weird one, and I have a hard time recommending it because I don't think a lot of my friends would like it, but I think you'd appreciate it</comment>
+		<commentable_id>141</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-21 06:58:54</created_at>
+		<updated_at>2015-03-21 06:58:54</updated_at>
+		<film_id>182</film_id>
+	</row>
+
+	<row>
+		<id>26</id>
+		<user_id>1</user_id>
+		<comment>I didn't find it distracting at all.  If I didn't know him already I would have just accepted that he was Irish</comment>
+		<commentable_id>114</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-21 23:23:53</created_at>
+		<updated_at>2015-03-21 23:23:53</updated_at>
+		<film_id>14</film_id>
+	</row>
+
+	<row>
+		<id>27</id>
+		<user_id>1</user_id>
+		<comment>This was produced by Guillermo del toro, since you're on a horror film experiment, be sure to checkout one of his first, &quot;The Devil's Backbone&quot;.</comment>
+		<commentable_id>116</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-22 04:05:09</created_at>
+		<updated_at>2015-03-22 04:05:09</updated_at>
+		<film_id>209</film_id>
+	</row>
+
+	<row>
+		<id>28</id>
+		<user_id>1</user_id>
+		<comment>I have to divide horror films into 2 categories.  There's the Texas Chainsaw Massacres which include movies like The Ring, The Grudge, etc.  I don't like those at all.   But then there are Horror movies like The Shining, Alien, Let the Right One In, The Devil's Backbone, even the Exorcist.  I really like those.  I think the difference is the latter are great dramas that happen to also have very scary elements.  Where the former are movies that exist solely to jump scare, disgust you.</comment>
+		<commentable_id>102</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-22 04:09:36</created_at>
+		<updated_at>2015-03-22 04:09:36</updated_at>
+		<film_id>202</film_id>
+	</row>
+
+	<row>
+		<id>29</id>
+		<user_id>1</user_id>
+		<comment>I just read an article where Neil Blomkamp was saying even he was embarrassed by Elysium.  I've heard mostly bad reviews of this , but one person I know who usually is a safe recommendation said he really liked it so I'm still holding out hope.</comment>
+		<commentable_id>84</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-22 07:20:59</created_at>
+		<updated_at>2015-03-22 07:20:59</updated_at>
+		<film_id>15</film_id>
+	</row>
+
+	<row>
+		<id>30</id>
+		<user_id>1</user_id>
+		<comment>funny, I watched this one this last year.  Sometimes you're just in the mood for a little Sister Act</comment>
+		<commentable_id>144</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-22 18:15:35</created_at>
+		<updated_at>2015-03-22 18:15:35</updated_at>
+		<film_id>221</film_id>
+	</row>
+
+	<row>
+		<id>31</id>
+		<user_id>9</user_id>
+		<comment>Good call. Added to my list.</comment>
+		<commentable_id>116</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-23 08:09:42</created_at>
+		<updated_at>2015-03-23 08:09:42</updated_at>
+		<film_id>209</film_id>
+	</row>
+
+	<row>
+		<id>32</id>
+		<user_id>9</user_id>
+		<comment>I think that this and Nine are the only Daniel Day Lewis films I haven't seen. Let me know what you think. If you haven't seen My Left Foot yet, I highly recommend it. As the father of a child with a muscle disorder, I was blown away by how DDL captured the physicality of it. Similar to Eddie Redmayne in The Theory of Everything, and it won him an Oscar as well.</comment>
+		<commentable_id>119</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-23 08:12:37</created_at>
+		<updated_at>2015-03-23 08:12:37</updated_at>
+		<film_id>223</film_id>
+	</row>
+
+	<row>
+		<id>33</id>
+		<user_id>1</user_id>
+		<comment>A friend of mine very very strongly recommended this one.  I haven't seen very many DDL movies.  I'll checkout My Left Foot as well</comment>
+		<commentable_id>119</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-23 16:46:30</created_at>
+		<updated_at>2015-03-23 16:46:30</updated_at>
+		<film_id>223</film_id>
+	</row>
+
+	<row>
+		<id>34</id>
+		<user_id>1</user_id>
+		<comment>Interesting, I hadn't made the connection between this and John Wick.  What struck me about the Equalizer is that it was a super hero film without really saying it was.  It followed the Superhero formula to a tee, even having him save other people in small sub plots outside of his main storyllne.  Anyway, I thought it was cool, but yeah, I liked John Wick more</comment>
+		<commentable_id>151</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-24 13:33:58</created_at>
+		<updated_at>2015-03-24 13:33:58</updated_at>
+		<film_id>85</film_id>
+	</row>
+
+	<row>
+		<id>35</id>
+		<user_id>4</user_id>
+		<comment>Even though I enjoyed Equalizer, it felt flat to me. I really like you drawing the comparison between the two, because I think they provide a nice contrast in execution of two very similar stories. I agree with what you already stated Wick does better, one of the main things I think Wick does better is getting the audience invested in the character (this is an extension of a longer discussion James and I had). Wick has a great injustice done to him, which I think anyone connects better with. The Equalizer is just a do good er, which everybody likes, but has a harder time connecting with. The great injustice was done to do the girl, and she wasn't as central of a character as I thought she would be. Also, I loved the conflict of the antagonist in Wick. What was he supposed to do?</comment>
+		<commentable_id>151</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>1</spoiler>
+		<created_at>2015-03-24 15:47:49</created_at>
+		<updated_at>2015-03-24 15:47:49</updated_at>
+		<film_id>85</film_id>
+	</row>
+
+	<row>
+		<id>36</id>
+		<user_id>1</user_id>
+		<comment>It's actually amazing how you'll root for a character more due to his dog being killed than if a relative of his was killed.  This solidifies the debate of whether dogs or cats are better.  If his cat were killed would we have cared ?  :)</comment>
+		<commentable_id>151</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-24 15:54:33</created_at>
+		<updated_at>2015-03-24 15:54:33</updated_at>
+		<film_id>85</film_id>
+	</row>
+
+	<row>
+		<id>37</id>
+		<user_id>4</user_id>
+		<comment>Buscemi's AMA comments on this film he wrote and directed: &quot;certainly the character that i wrote for myself in TREES LOUNGE would be an exaggerated version of myself. The idea for that film came to me when I thought what would I be doing if I never left my hometown? If I never went into acting? If I never pursued the things that I did? and was still doing the things in my home town that i was doing when I was young, what might I have become?
+So I guess you could say there's a lot of me in that character, as well.&quot;</comment>
+		<commentable_id>125</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-24 17:14:25</created_at>
+		<updated_at>2015-03-24 17:14:25</updated_at>
+		<film_id>237</film_id>
+	</row>
+
+	<row>
+		<id>38</id>
+		<user_id>4</user_id>
+		<comment>Article James mentioned: http://uproxx.com/movies/2015/02/neill-blomkamp-elysium-alien/
+
+This is where I get hung up with most of my stories. I spend too much time on the idea/concept and not enough on the actual story.</comment>
+		<commentable_id>84</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-24 17:20:11</created_at>
+		<updated_at>2015-03-24 17:20:11</updated_at>
+		<film_id>15</film_id>
+	</row>
+
+	<row>
+		<id>39</id>
+		<user_id>21</user_id>
+		<comment>I thought is was a cute kid movie, but I expected more from it. I thought it would be funnier.</comment>
+		<commentable_id>156</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-26 02:19:01</created_at>
+		<updated_at>2015-03-26 02:19:01</updated_at>
+		<film_id>16</film_id>
+	</row>
+
+	<row>
+		<id>40</id>
+		<user_id>1</user_id>
+		<comment>oh man, for some reason this movie always pops into my head at random times but I never remember to go watch it.  Sounds like that might be for the best.</comment>
+		<commentable_id>159</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-03-27 02:58:07</created_at>
+		<updated_at>2015-03-27 02:58:07</updated_at>
+		<film_id>245</film_id>
+	</row>
+
+	<row>
+		<id>41</id>
+		<user_id>1</user_id>
+		<comment>this one surprised me too, the only reason I even tried it was because Mark Kermode gave it such high praise.</comment>
+		<commentable_id>177</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-04 03:46:33</created_at>
+		<updated_at>2015-04-04 03:46:33</updated_at>
+		<film_id>142</film_id>
+	</row>
+
+	<row>
+		<id>42</id>
+		<user_id>6</user_id>
+		<comment>quite the endorsment.  Now I have rewatch this tonight.</comment>
+		<commentable_id>171</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-04 16:21:54</created_at>
+		<updated_at>2015-04-04 16:21:54</updated_at>
+		<film_id>261</film_id>
+	</row>
+
+	<row>
+		<id>43</id>
+		<user_id>1</user_id>
+		<comment>I never could get through this one, but it was probably 10 years ago since I tried, maybe I need to give it another chance.</comment>
+		<commentable_id>181</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-04 17:48:53</created_at>
+		<updated_at>2015-04-04 17:48:53</updated_at>
+		<film_id>273</film_id>
+	</row>
+
+	<row>
+		<id>44</id>
+		<user_id>9</user_id>
+		<comment>My interests with Kermode on family movies don't always align, but he and Simon gave this such high praise that I had to give it a chance.</comment>
+		<commentable_id>177</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-04 17:55:20</created_at>
+		<updated_at>2015-04-04 17:55:20</updated_at>
+		<film_id>142</film_id>
+	</row>
+
+	<row>
+		<id>45</id>
+		<user_id>6</user_id>
+		<comment>yup, it's still awesome.</comment>
+		<commentable_id>171</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-05 16:57:12</created_at>
+		<updated_at>2015-04-05 16:57:12</updated_at>
+		<film_id>261</film_id>
+	</row>
+
+	<row>
+		<id>46</id>
+		<user_id>4</user_id>
+		<comment>Man, the kids and I have been on a huge Hayao Miyazaki kick lately. I've been patiently waiting for this one to come in from the library.</comment>
+		<commentable_id>191</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-10 02:30:22</created_at>
+		<updated_at>2015-04-10 02:30:22</updated_at>
+		<film_id>289</film_id>
+	</row>
+
+	<row>
+		<id>47</id>
+		<user_id>28</user_id>
+		<comment>You have much higher standards than me. I really thought this was an awesome movie. Maybe I overrated it a bit.</comment>
+		<commentable_id>186</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-12 12:33:30</created_at>
+		<updated_at>2015-04-12 12:33:30</updated_at>
+		<film_id>56</film_id>
+	</row>
+
+	<row>
+		<id>48</id>
+		<user_id>4</user_id>
+		<comment>I really loved this movie and agree with it's awesomeness. I've just seen a lot of movies that I like more.</comment>
+		<commentable_id>186</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-13 14:12:32</created_at>
+		<updated_at>2015-04-13 14:12:32</updated_at>
+		<film_id>56</film_id>
+	</row>
+
+	<row>
+		<id>49</id>
+		<user_id>34</user_id>
+		<comment>It made the top 10 worst movies of 2014 list, and has a 3% rating on rotten tomatoes.  Yeah, I've got to see this.</comment>
+		<commentable_id>167</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-14 19:37:59</created_at>
+		<updated_at>2015-04-14 19:37:59</updated_at>
+		<film_id>295</film_id>
+	</row>
+
+	<row>
+		<id>50</id>
+		<user_id>1</user_id>
+		<comment>I thought this was the best in the series, and a little emotional at the Paul walker send off at the end.  These movies are actually turning into A-Team type movies, group heist action films.</comment>
+		<commentable_id>198</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-17 00:18:47</created_at>
+		<updated_at>2015-04-17 00:18:47</updated_at>
+		<film_id>269</film_id>
+	</row>
+
+	<row>
+		<id>51</id>
+		<user_id>3</user_id>
+		<comment>Thought it was a really fantastic movie as well</comment>
+		<commentable_id>186</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-26 00:45:06</created_at>
+		<updated_at>2015-04-26 00:45:06</updated_at>
+		<film_id>56</film_id>
+	</row>
+
+	<row>
+		<id>52</id>
+		<user_id>3</user_id>
+		<comment>Miyazaki is quite the genius. I've been reading a little about him and can't wait to see his other movies.</comment>
+		<commentable_id>191</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-26 00:47:16</created_at>
+		<updated_at>2015-04-26 00:47:16</updated_at>
+		<film_id>289</film_id>
+	</row>
+
+	<row>
+		<id>53</id>
+		<user_id>4</user_id>
+		<comment>I just got this one, my neighbor totoro, and kiki's delivery service. Kids and I are about to Miyazaki up this weekend.</comment>
+		<commentable_id>191</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-26 03:23:37</created_at>
+		<updated_at>2015-04-26 03:23:37</updated_at>
+		<film_id>289</film_id>
+	</row>
+
+	<row>
+		<id>54</id>
+		<user_id>4</user_id>
+		<comment>Top sci-fi list? I really liked this, but I'm not sure it would make my top 10 indi-sci fi. Let's see here. In no particular order: Moon, Source Code, Primer, District 9, Eternal Sunshine of the Spotless Mind, Gattaca, Her, Safety Not Guaranteed (maybe), About Time, Under our Skin (maybe)</comment>
+		<commentable_id>207</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-28 03:37:57</created_at>
+		<updated_at>2015-04-28 03:37:57</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>55</id>
+		<user_id>1</user_id>
+		<comment>I'm a fan of all of those, but I think I would put this one above &quot;Under our Skin&quot;, &quot;Safety Not Guaranteed&quot;, and &quot;Eternal Sunshine&quot;</comment>
+		<commentable_id>207</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-28 03:46:07</created_at>
+		<updated_at>2015-04-28 03:46:07</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>56</id>
+		<user_id>4</user_id>
+		<comment>I can see that with the first two, but Eternal Sunshine??? Thems fighten' words.</comment>
+		<commentable_id>207</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-28 03:47:53</created_at>
+		<updated_at>2015-04-28 03:47:53</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>57</id>
+		<user_id>21</user_id>
+		<comment>I like this movie too</comment>
+		<commentable_id>206</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-04-28 04:54:46</created_at>
+		<updated_at>2015-04-28 04:54:46</updated_at>
+		<film_id>315</film_id>
+	</row>
+
+	<row>
+		<id>58</id>
+		<user_id>1</user_id>
+		<comment>Mike, compare yours and my ratings for this one, I added mine without looking at yours.  Crazy.</comment>
+		<commentable_id>209</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-05 00:42:11</created_at>
+		<updated_at>2015-05-05 00:42:11</updated_at>
+		<film_id>13</film_id>
+	</row>
+
+	<row>
+		<id>59</id>
+		<user_id>9</user_id>
+		<comment>We're definitely on the same wavelength. What did you think about the humor in this? It felt a bit off to me.</comment>
+		<commentable_id>209</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-06 08:10:10</created_at>
+		<updated_at>2015-05-06 08:10:10</updated_at>
+		<film_id>13</film_id>
+	</row>
+
+	<row>
+		<id>60</id>
+		<user_id>1</user_id>
+		<comment>what made you watch this one?  I added it to my watchlist while ago due to Mark Kermode, but I had never heard of it before that or since until you reviewed it.</comment>
+		<commentable_id>221</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-07 02:10:56</created_at>
+		<updated_at>2015-05-07 02:10:56</updated_at>
+		<film_id>143</film_id>
+	</row>
+
+	<row>
+		<id>61</id>
+		<user_id>1</user_id>
+		<comment>yeah, the humor was definitely off, a lot of things were off, but I kind of appreciated it's offness... weird.  I chuckled to myself everytime Sam Jackson talked, they must've been drunk one night and joked about adding the lisp and then somehow it stuck.</comment>
+		<commentable_id>209</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-07 04:33:48</created_at>
+		<updated_at>2015-05-07 04:33:48</updated_at>
+		<film_id>13</film_id>
+	</row>
+
+	<row>
+		<id>62</id>
+		<user_id>4</user_id>
+		<comment>I read something about it once that left me wanting to watch it. Can't remember where or what, but when it came up on netflix, I thought, why not now.</comment>
+		<commentable_id>221</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-07 14:52:34</created_at>
+		<updated_at>2015-05-07 14:52:34</updated_at>
+		<film_id>143</film_id>
+	</row>
+
+	<row>
+		<id>63</id>
+		<user_id>9</user_id>
+		<comment>I have never been able to get into Studio Ghibli, although many people I respect love Miyazaki's films. Do you suggest starting here?  For reference, I have zero grounding in Japanese animation, and have a hard time imagining myself enjoying it.</comment>
+		<commentable_id>219</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-11 11:58:17</created_at>
+		<updated_at>2015-05-11 11:58:17</updated_at>
+		<film_id>289</film_id>
+	</row>
+
+	<row>
+		<id>64</id>
+		<user_id>4</user_id>
+		<comment>I was in the same boat you were a couple of months ago. I had watched Howl's Moving Castle a few years ago. It was visually amazing, very imaginative, but there was something that just felt off to me about the story. Something too childish? Then a couple of months ago, I figured I would watch all of them with my kids when they became available at the library. We started with Porco Rosso. The kids absolutely loved it, which really enhanced it for me. I soon realized that most Miyazaki's films don't have a traditional villain, which is why the story didn't carry as easily for me. They are more about the themes, setting, and in a very imaginative world (that are pretty awesome). He does a really good job of creating strong/independent girls, which I wanted to rub off on my kids. Anyway, as we watch each one, they have really grown on me, and now I absolutely love em. Spirited Away is definitely his best. Just not sure if you should grow a taste for it first, or if that will immediately incite the flavor.</comment>
+		<commentable_id>219</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-11 17:42:37</created_at>
+		<updated_at>2015-05-11 17:42:37</updated_at>
+		<film_id>289</film_id>
+	</row>
+
+	<row>
+		<id>65</id>
+		<user_id>7</user_id>
+		<comment>I usually love Edward Zwicks movies. The stories are so heroic and heart breaking that they are on the edge of going over the top, but still not going over. Also the places are filmed so beautifully.</comment>
+		<commentable_id>235</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-16 14:55:44</created_at>
+		<updated_at>2015-05-16 14:55:44</updated_at>
+		<film_id>356</film_id>
+	</row>
+
+	<row>
+		<id>67</id>
+		<user_id>1</user_id>
+		<comment>this looks awesome, I came across it while typing in random words to test a filmkeep feature.</comment>
+		<commentable_id>194</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-17 19:42:56</created_at>
+		<updated_at>2015-05-17 19:42:56</updated_at>
+		<film_id>380</film_id>
+	</row>
+
+	<row>
+		<id>68</id>
+		<user_id>9</user_id>
+		<comment>Did you see it in 3D? IMAX?</comment>
+		<commentable_id>237</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 07:18:14</created_at>
+		<updated_at>2015-05-18 07:18:14</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>69</id>
+		<user_id>9</user_id>
+		<comment>I'm surprised you rated this so highly. I may need to give it another chance, but back when I saw it I just remember it being a very generic film where the white guy saves all the heathen colored people. Is that assessment totally off?</comment>
+		<commentable_id>235</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 07:19:25</created_at>
+		<updated_at>2015-05-18 07:19:25</updated_at>
+		<film_id>356</film_id>
+	</row>
+
+	<row>
+		<id>70</id>
+		<user_id>9</user_id>
+		<comment>I'm going to toss out your &quot;indie&quot; qualifier, to see what else I'd add to the list if there were no restrictions. Here are the few that are missing: Children of Men; Contact; Wall-E; Alien; 2001; The Matrix, Edge of Tomorrow; Terminator 1 and 2; The Thing; Jurassic Park, Star Wars, Interstellar. I would remove Safety Not Guaranteed, Source Code, Primer and About Time. I would say that Ex Machina is easily a top 7 sci fi movie in the last 15 years. That list would include Eternal Sunshine, Moon, Children of Men, Ex Machina, Her, Wall-E, Interstellar.</comment>
+		<commentable_id>207</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 07:56:58</created_at>
+		<updated_at>2015-05-18 07:56:58</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>71</id>
+		<user_id>1</user_id>
+		<comment>ha, yeah, it might be a little high.  I enjoy most movies so when I rate one right after seeing it sometimes I'm a little too kind.  I think your assessment is off, mostly because the white guy doesn't really save anyone hence the title.  But I just really like samurai movies and I really like Tom Cruise, so I was bound to like this.</comment>
+		<commentable_id>235</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 18:27:46</created_at>
+		<updated_at>2015-05-18 18:27:46</updated_at>
+		<film_id>356</film_id>
+	</row>
+
+	<row>
+		<id>72</id>
+		<user_id>1</user_id>
+		<comment>2D, I'll only see something in 3D if it's my only choice.  This would have been a great one for IMAX though, the visuals are just stunning.</comment>
+		<commentable_id>237</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 18:29:14</created_at>
+		<updated_at>2015-05-18 18:29:14</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>73</id>
+		<user_id>9</user_id>
+		<comment>I really want to see it in IMAX. Unfortunately,  there isn't a single IMAX theater in Norway.</comment>
+		<commentable_id>237</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 18:30:30</created_at>
+		<updated_at>2015-05-18 18:30:30</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>74</id>
+		<user_id>1</user_id>
+		<comment>totally agree on the ending, but what a great film.</comment>
+		<commentable_id>241</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-18 18:31:51</created_at>
+		<updated_at>2015-05-18 18:31:51</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>75</id>
+		<user_id>9</user_id>
+		<comment>I should have made it clear that I saw this a loooong time ago, before I really became interested in film as an artistic medium, so I was actually serious when I was asking how off my memory was. Clearly I was not remembering very well, because I was thinking Tom played the &quot;last samurai&quot;. I also think that he is eminently watchable, so I should probably re-view this before criticizing. On a side note, what other good samurai films are there?</comment>
+		<commentable_id>235</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-19 06:51:35</created_at>
+		<updated_at>2015-05-19 06:51:35</updated_at>
+		<film_id>356</film_id>
+	</row>
+
+	<row>
+		<id>76</id>
+		<user_id>9</user_id>
+		<comment>Here is some interesting conversation about the ending on Reddit: http://www.reddit.com/r/scifi/comments/36h59a/ex_machina_question_about_the_ending_spoilers/</comment>
+		<commentable_id>241</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-19 12:48:19</created_at>
+		<updated_at>2015-05-19 12:48:19</updated_at>
+		<film_id>74</film_id>
+	</row>
+
+	<row>
+		<id>77</id>
+		<user_id>1</user_id>
+		<comment>13 Assassins, and Twilight Samurai are 2 I've seen recently that I really liked.  (13 Assassins is pretty intense).  I've seen 7 Samurai but didn't enjoy it as much, but it's an extremely influential film, many movies since are basically remakes of it (Magnificent 7, A Bug's Life, Three Amigos to name a few).</comment>
+		<commentable_id>235</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-20 02:01:11</created_at>
+		<updated_at>2015-05-20 02:01:11</updated_at>
+		<film_id>356</film_id>
+	</row>
+
+	<row>
+		<id>78</id>
+		<user_id>9</user_id>
+		<comment>I did a very rare thing, and stopped Blackhat halfway in because I was so bored. I may have been in the wrong kind of mood for this film, because I was expecting some silly action, and instead got a lot of brooding. I somehow forgot that this was directed by Michael Mann, and thought it was a Ridley Scott film. Does anyone recommend starting it again? Is it worth it?</comment>
+		<commentable_id>36</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-27 10:45:08</created_at>
+		<updated_at>2015-05-27 10:45:08</updated_at>
+		<film_id>8</film_id>
+	</row>
+
+	<row>
+		<id>79</id>
+		<user_id>1</user_id>
+		<comment>I finished it, but I don't know that I would recommend anyone else to.  Michael Mann is my favorite director but this one just didn't work for me</comment>
+		<commentable_id>36</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-27 13:06:08</created_at>
+		<updated_at>2015-05-27 13:06:08</updated_at>
+		<film_id>8</film_id>
+	</row>
+
+	<row>
+		<id>80</id>
+		<user_id>1</user_id>
+		<comment>I liked this one, saw it when it first came out and remember really enjoying it.  The premise is definitely absurd, but I found it intriguing and liked that I couldn't predict what they were going to encounter in each train car.</comment>
+		<commentable_id>273</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-28 02:02:12</created_at>
+		<updated_at>2015-05-28 02:02:12</updated_at>
+		<film_id>201</film_id>
+	</row>
+
+	<row>
+		<id>81</id>
+		<user_id>9</user_id>
+		<comment>I'm wondering if I just haven't developed any sensibility for Asian filmmaking. There have been a number of critically acclaimed films and directors from South Korea, Japana and China in the past 10 years that I have tried to enjoy but haven't. It's such a different narrative tradition, with unfamiliar stock characters, unrelatable humor, and a different visual style.</comment>
+		<commentable_id>273</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-28 07:31:34</created_at>
+		<updated_at>2015-05-28 07:31:34</updated_at>
+		<film_id>201</film_id>
+	</row>
+
+	<row>
+		<id>82</id>
+		<user_id>1</user_id>
+		<comment>If you haven't given the south korean film industry a chance, checkout these ones that I thoroughly enjoyed:
+
+-'Castaway on the Moon'  (man stranded on island with city in view, comedy/drama)
+-'The Man from Nowhere' (great action movie)
+-'War of the Arrows'  (robin hood awesomeness)
+-'Memories of Murder' (very similar the David Finchers &quot;The Zodiac&quot;)
+-'Mother' (Drama, mystery)</comment>
+		<commentable_id>273</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-29 00:12:01</created_at>
+		<updated_at>2015-05-29 00:12:01</updated_at>
+		<film_id>201</film_id>
+	</row>
+
+	<row>
+		<id>83</id>
+		<user_id>9</user_id>
+		<comment>You didn't like Ghost Protocol? It wasn't amazing, but I thought it was very entertaining, right up there with the first Mission Impossible.</comment>
+		<commentable_id>274</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-29 10:29:39</created_at>
+		<updated_at>2015-05-29 10:29:39</updated_at>
+		<film_id>408</film_id>
+	</row>
+
+	<row>
+		<id>84</id>
+		<user_id>9</user_id>
+		<comment>Ok, I'll check those out.</comment>
+		<commentable_id>273</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-29 10:32:00</created_at>
+		<updated_at>2015-05-29 10:32:00</updated_at>
+		<film_id>201</film_id>
+	</row>
+
+	<row>
+		<id>85</id>
+		<user_id>4</user_id>
+		<comment>Ghost Protocol was beautifully shot (those dubai scenes were amazing). To me though, the story was so bad, it ruined everything. I'd rank Ghost pretty far behind MI:1 and MI: 3. I had a huge list of complaints about the story, but it's been so long, I might have to re-watch so I can relist them.</comment>
+		<commentable_id>274</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-29 15:14:37</created_at>
+		<updated_at>2015-05-29 15:14:37</updated_at>
+		<film_id>408</film_id>
+	</row>
+
+	<row>
+		<id>86</id>
+		<user_id>4</user_id>
+		<comment>I meant to acknowledge that I know Brad Bird didn't write Ghost Protocol, but I had hoped being the director, he would have had some say over story. Knowing he was more involved with Tomorrowland, and was one of the writers, I allowed myself to get really excited for this (for heaven's sake, this is the man that created Iron Giant and The Incredibles - some of my favorite stories/writing). I might be a little too hard on these movies because my expectations were so high, but man, Tomorrowland had terrible writing, terrible acting, and terrible characters.</comment>
+		<commentable_id>274</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-05-29 21:47:36</created_at>
+		<updated_at>2015-05-29 21:47:36</updated_at>
+		<film_id>408</film_id>
+	</row>
+
+	<row>
+		<id>87</id>
+		<user_id>9</user_id>
+		<comment>Such ludicrous artisty, I loved it. Practical effects with complementary CGI win. A chase movie from start to finish. Tarantino and Gibson eat your heart out. Dialgoue didn't matter, the flame throwing guitar player won me over. If you didn't think of Brigham Young in this desert, polygamous dystopia, then you and I have been reading different history.  Bravo, George Miller.</comment>
+		<commentable_id>225</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-03 18:30:30</created_at>
+		<updated_at>2015-06-03 18:30:30</updated_at>
+		<film_id>183</film_id>
+	</row>
+
+	<row>
+		<id>88</id>
+		<user_id>9</user_id>
+		<comment>Dammit:http://thetalkhouse.com/music/talks/buzz-osborne-the-melvins-talks/. Still an impressive film.</comment>
+		<commentable_id>283</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-10 16:55:34</created_at>
+		<updated_at>2015-06-10 16:55:34</updated_at>
+		<film_id>76</film_id>
+	</row>
+
+	<row>
+		<id>89</id>
+		<user_id>9</user_id>
+		<comment>Dammit:http://thetalkhouse.com/music/talks/buzz-osborne-the-melvins-talks/. Still an impressive film.</comment>
+		<commentable_id>282</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-11 07:50:20</created_at>
+		<updated_at>2015-06-11 07:50:20</updated_at>
+		<film_id>219</film_id>
+	</row>
+
+	<row>
+		<id>90</id>
+		<user_id>23</user_id>
+		<comment>This makes me happy.</comment>
+		<commentable_id>281</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-12 16:05:12</created_at>
+		<updated_at>2015-06-12 16:05:12</updated_at>
+		<film_id>262</film_id>
+	</row>
+
+	<row>
+		<id>91</id>
+		<user_id>4</user_id>
+		<comment>It was a good one for the hocky virgin in me.</comment>
+		<commentable_id>281</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-13 02:13:48</created_at>
+		<updated_at>2015-06-13 02:13:48</updated_at>
+		<film_id>262</film_id>
+	</row>
+
+	<row>
+		<id>94</id>
+		<user_id>9</user_id>
+		<comment>&quot;like how I didn't want the kids to die in this one&quot;.
+
+Ha. Guess I'll have to see it.</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-16 21:04:06</created_at>
+		<updated_at>2015-06-16 21:04:06</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>95</id>
+		<user_id>9</user_id>
+		<comment>&quot;like how I didn't want the kids to die in this one&quot;.
+
+Ha. Guess I'll have to see it.</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-16 21:04:08</created_at>
+		<updated_at>2015-06-16 21:04:08</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>96</id>
+		<user_id>1</user_id>
+		<comment>I think I last saw this when we were in Avendaro, loved it then, need to see it again</comment>
+		<commentable_id>292</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-17 05:41:04</created_at>
+		<updated_at>2015-06-17 05:41:04</updated_at>
+		<film_id>478</film_id>
+	</row>
+
+	<row>
+		<id>97</id>
+		<user_id>6</user_id>
+		<comment>I thought this movie was terrible. So disappointed. Dialog was awfully embarrassing - I found myself looking around the theater for confirmation and even laughing at some points.  Chris Pratt couldn't even carry this one.</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-27 18:26:37</created_at>
+		<updated_at>2015-06-27 18:26:37</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>98</id>
+		<user_id>6</user_id>
+		<comment>Maybe I expected too much?</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-27 18:27:32</created_at>
+		<updated_at>2015-06-27 18:27:32</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>99</id>
+		<user_id>6</user_id>
+		<comment>Can't friggin' wait to see this one!</comment>
+		<commentable_id>236</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-27 18:28:25</created_at>
+		<updated_at>2015-06-27 18:28:25</updated_at>
+		<film_id>484</film_id>
+	</row>
+
+	<row>
+		<id>100</id>
+		<user_id>1</user_id>
+		<comment>wow, not sure what you were expecting.  Go back and watch the first one, I think this one is right there with it.</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-06-27 19:09:07</created_at>
+		<updated_at>2015-06-27 19:09:07</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>101</id>
+		<user_id>6</user_id>
+		<comment>Ok, I went and saw it again.  It was actually better the second time around.  I saw the film twice with two different people.  Person number two was able to enjoy the film while person one just laughed and belittled the film the whole time.  I guess the company your with can alter your perception of the film.  
+
+Still doesn't touch the first one of course; better actors, better writing, and the timing was perfect - nobody ever saw CGI like that before.  Plus Newman was in it (nominated for Best Supporting Actor by some esoteric award academy).</comment>
+		<commentable_id>289</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-07-01 01:05:02</created_at>
+		<updated_at>2015-07-01 01:05:02</updated_at>
+		<film_id>476</film_id>
+	</row>
+
+	<row>
+		<id>102</id>
+		<user_id>4</user_id>
+		<comment>Honestly, I might be more excited for this than Star Wars.</comment>
+		<commentable_id>239</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-07-01 21:41:00</created_at>
+		<updated_at>2015-07-01 21:41:00</updated_at>
+		<film_id>491</film_id>
+	</row>
+
+	<row>
+		<id>103</id>
+		<user_id>1</user_id>
+		<comment>oh man, I remember seeing Tinker Taylor with you, pretty sure I slept through all but 10 minutes of that movie.  Someday I'll revisit it and see if it was me or the movie</comment>
+		<commentable_id>347</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-07-19 03:13:38</created_at>
+		<updated_at>2015-07-19 03:13:38</updated_at>
+		<film_id>562</film_id>
+	</row>
+
+	<row>
+		<id>104</id>
+		<user_id>7</user_id>
+		<comment>Contender for The Incredibles? That woke my intrest because The Incredibles is the best animation movie.</comment>
+		<commentable_id>301</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-07-24 08:59:36</created_at>
+		<updated_at>2015-07-24 08:59:36</updated_at>
+		<film_id>479</film_id>
+	</row>
+
+	<row>
+		<id>105</id>
+		<user_id>4</user_id>
+		<comment>@Renni, I might have been caught up in the emotional moment when writing that review, because I very much agree that The Incredibles is the best animation movie. It's actually in my top 5 movies of all time. Inside Out was really good, but it doesn't hold the rewatchability factor nearly as well as The Incredibles.</comment>
+		<commentable_id>301</commentable_id>
+		<commentable_type>Filmkeep\Review</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-07-26 03:26:50</created_at>
+		<updated_at>2015-07-26 03:26:50</updated_at>
+		<film_id>479</film_id>
+	</row>
+
+	</comments>
+
+</filmkeep_production>

@@ -1,5 +1,5 @@
 require 'stream_rails'
-
+# StreamRails.enabled = false
 if Rails.env.development?
   StreamRails.configure do |config|
     config.api_key     = "4j8dz2dp5vjn"

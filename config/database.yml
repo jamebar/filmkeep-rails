@@ -15,7 +15,7 @@ staging:
   database: filmkeep_rails
 development:
   <<: *default
-  database: filmkeep_2
+  database: fk_import_test
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
