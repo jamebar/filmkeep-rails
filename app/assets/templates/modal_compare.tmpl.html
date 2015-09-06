@@ -13,7 +13,7 @@
         <div ng-repeat="(rIndex,rating) in compares[0].ratings">
           <p>%%rating.rating_type.label%%</p>
           <div class="progress compare%%$index%%" ng-repeat="comp in compares | filter: {active:'true'} | limitTo:6" ng-if="comp.ratings[rIndex].rating_type_id === rating.rating_type_id">
-            <div class="progress-bar" role="progressbar"  aria-valuenow="%%comp.ratings[rIndex].value%%" aria-valuemin="0" aria-valuemax="2000" ng-style="{width: toPercent(comp.ratings[rIndex].value) + '%'}">
+            <div class="progress-bar" role="progressbar"  aria-valuenow="%%comp.ratings[rIndex].value%%" aria-valuemin="0" aria-valuemax="2000" ng-style="{width: toPercent(comp.ratings[rIndex].value) }">
               %%comp.user.name%%
             </div>
           </div>
