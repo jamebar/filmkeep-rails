@@ -17,7 +17,9 @@ class EnrichActivities < Enrich
       activities['activities'].each do |activity|
           assign_values(activity["object"].film) if activity["object"].respond_to? 'film'
       end
+
     end
+    data.delete_if {|a| a['activities'].size == 0}
   end
 
   def assign_values(d)

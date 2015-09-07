@@ -7,6 +7,7 @@ class WatchlistsController < ApplicationController
   end
 
   def add_remove
+    
     action = 'added'
     user_id = current_user.id
     results = Watchlist.where(film_id: params[:film_id], user_id: user_id).first
