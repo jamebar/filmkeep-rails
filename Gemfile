@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 gem 'devise'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -33,6 +33,7 @@ gem 'enceladus'
 gem 'rottentomatoes', '~> 1.1.3'
 gem 'smarter_csv'
 gem 'crack'
+gem 'ngannotate-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

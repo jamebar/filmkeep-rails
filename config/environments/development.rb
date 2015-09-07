@@ -43,4 +43,17 @@ config.cache_store = :null_store
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.threadsafe = true
 
+  #
+# to allow testing assets:precompile in development environment
+# Usage:
+#   time NG_FORCE=true RAILS_ENV=development bundle exec rake assets:clean assets:precompile:primary
+#   NG_FORCE=true rails s -p 3001
+#
+if ENV['NG_FORCE'] == 'true'
+  config.assets.compress = true
+  config.assets.compile = false
+  config.assets.digest = true
+  config.assets.debug = false
+end
+
 end

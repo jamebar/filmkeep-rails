@@ -736,7 +736,7 @@ angular.module('myApp', [
         scope.wheight = $window.innerHeight;
         scope.$apply();
       }
-      $window.addEventListener('resize', update, false);
+      $window.addEventListener('resize', update, false); 
       scope.$on('$destroy', function() {
         $window.removeEventListener('resize', update, false);
       });

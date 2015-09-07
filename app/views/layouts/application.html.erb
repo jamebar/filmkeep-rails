@@ -8,8 +8,10 @@
 </head>
 <body class="body-bg">
   <div class="container">
-    <% if notice or alert %>
+    <% if notice%>
     <div class="alert-box alert no-header" close-me="3000"><%= notice %></div>
+    <% end %>
+    <% if alert%>
     <div class="alert-box alert alert-error alert-danger no-header" close-me="3000"><%= alert %></div>
     <% end %>
     <div class="row">

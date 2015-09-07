@@ -10,9 +10,10 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-staging:
+production:
   <<: *default
-  database: filmkeep_rails
+  database: fk_import_test
+  username: jamesbarlow
 development:
   <<: *default
   database: fk_import_test
