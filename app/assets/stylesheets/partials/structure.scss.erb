@@ -80,10 +80,21 @@ input[type="text"], input[type="number"],input[type="password"], textarea{
 .site-max{
   max-width: 1280px;
   margin:0px auto;
+
 }
 
 ul, ul li{
   margin:0px;
   padding:0px;
+  
   list-style:none;
+}
+
+.color-bleed{
+  position: absolute;
+  right:0;
+  left:-1000px;
+  background-color:#d2544c;
+  height:110%;
+  z-index:-1;
 }

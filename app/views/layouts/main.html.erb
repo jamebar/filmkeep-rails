@@ -69,7 +69,7 @@
         <% if user_signed_in? %>
         <li><a ui-sref='root.feed'>Feed</a></li>
         <li><a ui-sref='root.user.filmkeep({username: header_user.username })'>My Filmkeep</a></li>
-        <li><a ui-sref='root.user.watchlist({username: header_user.username })'>Watchlist</a></li>
+        <li class="hidden-sm"><a ui-sref='root.user.watchlist({username: header_user.username })'>Watchlist</a></li>
 
         <li ><a ng-click="newReview()" target="_self"><span class="glyphicon-plus glyphicon"></span> Review</a></li>
         <li class="dropdown hidden-xs" dropdown >
