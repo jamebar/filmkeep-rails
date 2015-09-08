@@ -25,5 +25,17 @@ module Filmkeep20
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    # ACTION MAILER
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.perform_deliveries = true
+    config.action_mailer.smtp_settings = {
+      address: 'smtp.mandrillapp.com',
+      port:    '587',
+      domain:  'filmkeep.com',
+      user_name: 'james@lemonblock.com',
+      password: 'tINNCjEqtHsblKQAsjoPUQ',
+      authentication: 'login',
+      enable_starttls_auto: true
+    }
   end
 end
