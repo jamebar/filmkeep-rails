@@ -4,10 +4,10 @@ class NotificationsController < ApplicationController
   def index
 
     notification_feed = StreamRails.feed_manager.get_notification_feed(current_user.id)
-    enricher = StreamRails::Enrich.new
+    enricher = Extensions::Enrich.new
     results = notification_feed.get()['results']
     activities = enricher.enrich_aggregated_activities(results)
-    render json: activities
+    render json: EnrichActivities.new(current_user, activities).enrich 
   end
 
   def mark_seen

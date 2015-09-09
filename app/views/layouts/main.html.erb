@@ -38,9 +38,9 @@
       <!-- <ul class="nav nav-pills pull-right visible-xs-inline-block"> -->
         <!-- <a ng-click="newReview()" class="pull-right add-review-mobile visible-xs-inline-block" target="_self"><span class="glyphicon-plus glyphicon" ></span> </a> -->
         <!-- ng-show="notif_new > 0"  -->
-      <span class="dropdown visible-xs-block">
-        <a href="#" class="dropdown-toggle notif-wrapper  add-review-mobile pull-right" data-toggle="dropdown" ng-click="markSeen()"><i class="icon-megaphone"></i> <span class="notif_count" ng-show="notif_new > 0">%%notif_new%%</span></a>
-        <ul class="dropdown-menu notif" role="menu">
+      <span class="dropdown visible-xs-block" dropdown>
+        <a href="#" class="dropdown-toggle notif-wrapper  add-review-mobile pull-right" data-toggle="dropdown" dropdown-toggle ng-click="markSeen()"><i class="icon-megaphone"></i> <span class="notif_count" ng-show="notif_new > 0">%%notif_new%%</span></a>
+        <ul class="dropdown-menu mobile-notif notif" role="menu">
           <li ng-if="notif_items.length < 1">You have no notifications</li>
           <li  ng-repeat="notif_item in notif_items">
             <notif-items></notif-items>
