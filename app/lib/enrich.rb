@@ -29,6 +29,7 @@ class Enrich
   def enrich
     return data if current_user.nil?
     results = Array.wrap(data).map do |d|
+      next if d.nil?
       d = d.with_indifferent_access
       d = assign_values(d) if d.has_key? "tmdb_id"
 
