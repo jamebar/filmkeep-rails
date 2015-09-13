@@ -10,7 +10,7 @@
 -
 - Host: 104.236.116.82 (MySQL 5.5.44-0ubuntu0.14.04.1)
 - Database: filmkeep_production
-- Generation Time Time: 2015-09-06 19:59:28 +0000
+- Generation Time Time: 2015-09-13 23:29:24 +0000
 -
 -->
 
@@ -17043,6 +17043,4713 @@
 		<value>1191.00</value>
 		<created_at>2015-09-01 19:11:48</created_at>
 		<updated_at>2015-09-01 19:11:48</updated_at>
+	</row>
+
+	<row>
+		<id>1894</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>395</review_id>
+		<value>322.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1895</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>395</review_id>
+		<value>991.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1896</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>395</review_id>
+		<value>964.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1897</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>395</review_id>
+		<value>948.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1898</id>
+		<rating_type_id>46</rating_type_id>
+		<review_id>395</review_id>
+		<value>917.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1899</id>
+		<rating_type_id>47</rating_type_id>
+		<review_id>395</review_id>
+		<value>594.00</value>
+		<created_at>2015-09-06 22:25:22</created_at>
+		<updated_at>2015-09-06 22:25:22</updated_at>
+	</row>
+
+	<row>
+		<id>1900</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>396</review_id>
+		<value>1677.00</value>
+		<created_at>2015-09-09 02:40:12</created_at>
+		<updated_at>2015-09-09 02:40:12</updated_at>
+	</row>
+
+	<row>
+		<id>1901</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>396</review_id>
+		<value>1929.00</value>
+		<created_at>2015-09-09 02:40:12</created_at>
+		<updated_at>2015-09-09 02:40:12</updated_at>
+	</row>
+
+	<row>
+		<id>1902</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>396</review_id>
+		<value>1835.00</value>
+		<created_at>2015-09-09 02:40:12</created_at>
+		<updated_at>2015-09-09 02:40:12</updated_at>
+	</row>
+
+	<row>
+		<id>1903</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>396</review_id>
+		<value>1654.00</value>
+		<created_at>2015-09-09 02:40:12</created_at>
+		<updated_at>2015-09-09 02:40:12</updated_at>
+	</row>
+
+	<row>
+		<id>1904</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>397</review_id>
+		<value>1506.00</value>
+		<created_at>2015-09-09 17:09:25</created_at>
+		<updated_at>2015-09-09 17:09:25</updated_at>
+	</row>
+
+	<row>
+		<id>1905</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>397</review_id>
+		<value>1249.00</value>
+		<created_at>2015-09-09 17:09:25</created_at>
+		<updated_at>2015-09-09 17:09:25</updated_at>
+	</row>
+
+	<row>
+		<id>1906</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>397</review_id>
+		<value>1012.00</value>
+		<created_at>2015-09-09 17:09:25</created_at>
+		<updated_at>2015-09-09 17:09:25</updated_at>
+	</row>
+
+	<row>
+		<id>1907</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>397</review_id>
+		<value>950.00</value>
+		<created_at>2015-09-09 17:09:25</created_at>
+		<updated_at>2015-09-09 17:09:25</updated_at>
+	</row>
+
+	<row>
+		<id>1908</id>
+		<rating_type_id>64</rating_type_id>
+		<review_id>397</review_id>
+		<value>577.00</value>
+		<created_at>2015-09-09 17:09:25</created_at>
+		<updated_at>2015-09-09 17:09:25</updated_at>
+	</row>
+
+	<row>
+		<id>1909</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>398</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1910</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>398</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1911</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>398</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1912</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>398</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1913</id>
+		<rating_type_id>81</rating_type_id>
+		<review_id>398</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1914</id>
+		<rating_type_id>82</rating_type_id>
+		<review_id>398</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:42:05</created_at>
+		<updated_at>2015-09-09 19:42:05</updated_at>
+	</row>
+
+	<row>
+		<id>1915</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>399</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1916</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>399</review_id>
+		<value>1772.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1917</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>399</review_id>
+		<value>531.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1918</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>399</review_id>
+		<value>1664.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1919</id>
+		<rating_type_id>81</rating_type_id>
+		<review_id>399</review_id>
+		<value>1659.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1920</id>
+		<rating_type_id>82</rating_type_id>
+		<review_id>399</review_id>
+		<value>1163.00</value>
+		<created_at>2015-09-09 19:44:13</created_at>
+		<updated_at>2015-09-09 19:44:13</updated_at>
+	</row>
+
+	<row>
+		<id>1921</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>400</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1922</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>400</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1923</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>400</review_id>
+		<value>1890.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1924</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>400</review_id>
+		<value>1898.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1925</id>
+		<rating_type_id>81</rating_type_id>
+		<review_id>400</review_id>
+		<value>1871.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1926</id>
+		<rating_type_id>82</rating_type_id>
+		<review_id>400</review_id>
+		<value>1507.00</value>
+		<created_at>2015-09-09 19:46:19</created_at>
+		<updated_at>2015-09-09 19:46:19</updated_at>
+	</row>
+
+	<row>
+		<id>1927</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>401</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1928</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>401</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1929</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>401</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1930</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>401</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1931</id>
+		<rating_type_id>81</rating_type_id>
+		<review_id>401</review_id>
+		<value>1824.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1932</id>
+		<rating_type_id>82</rating_type_id>
+		<review_id>401</review_id>
+		<value>1315.00</value>
+		<created_at>2015-09-09 19:50:00</created_at>
+		<updated_at>2015-09-09 19:50:00</updated_at>
+	</row>
+
+	<row>
+		<id>1933</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>402</review_id>
+		<value>1756.00</value>
+		<created_at>2015-09-10 16:10:53</created_at>
+		<updated_at>2015-09-10 16:10:53</updated_at>
+	</row>
+
+	<row>
+		<id>1934</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>402</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:10:53</created_at>
+		<updated_at>2015-09-10 16:10:53</updated_at>
+	</row>
+
+	<row>
+		<id>1935</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>402</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:10:53</created_at>
+		<updated_at>2015-09-10 16:10:53</updated_at>
+	</row>
+
+	<row>
+		<id>1936</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>402</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:10:53</created_at>
+		<updated_at>2015-09-10 16:10:53</updated_at>
+	</row>
+
+	<row>
+		<id>1937</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>403</review_id>
+		<value>1284.00</value>
+		<created_at>2015-09-10 16:11:56</created_at>
+		<updated_at>2015-09-10 16:11:56</updated_at>
+	</row>
+
+	<row>
+		<id>1938</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>403</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:11:56</created_at>
+		<updated_at>2015-09-10 16:11:56</updated_at>
+	</row>
+
+	<row>
+		<id>1939</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>403</review_id>
+		<value>1693.00</value>
+		<created_at>2015-09-10 16:11:56</created_at>
+		<updated_at>2015-09-10 16:11:56</updated_at>
+	</row>
+
+	<row>
+		<id>1940</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>403</review_id>
+		<value>1823.00</value>
+		<created_at>2015-09-10 16:11:56</created_at>
+		<updated_at>2015-09-10 16:11:56</updated_at>
+	</row>
+
+	<row>
+		<id>1941</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>404</review_id>
+		<value>1207.00</value>
+		<created_at>2015-09-10 16:23:57</created_at>
+		<updated_at>2015-09-10 16:23:57</updated_at>
+	</row>
+
+	<row>
+		<id>1942</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>404</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:23:57</created_at>
+		<updated_at>2015-09-10 16:23:57</updated_at>
+	</row>
+
+	<row>
+		<id>1943</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>404</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:23:57</created_at>
+		<updated_at>2015-09-10 16:23:57</updated_at>
+	</row>
+
+	<row>
+		<id>1944</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>404</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:23:57</created_at>
+		<updated_at>2015-09-10 16:23:57</updated_at>
+	</row>
+
+	<row>
+		<id>1945</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>405</review_id>
+		<value>1004.00</value>
+		<created_at>2015-09-10 16:24:28</created_at>
+		<updated_at>2015-09-10 16:24:28</updated_at>
+	</row>
+
+	<row>
+		<id>1946</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>405</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:24:28</created_at>
+		<updated_at>2015-09-10 16:24:28</updated_at>
+	</row>
+
+	<row>
+		<id>1947</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>405</review_id>
+		<value>1914.00</value>
+		<created_at>2015-09-10 16:24:28</created_at>
+		<updated_at>2015-09-10 16:24:28</updated_at>
+	</row>
+
+	<row>
+		<id>1948</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>405</review_id>
+		<value>1456.00</value>
+		<created_at>2015-09-10 16:24:28</created_at>
+		<updated_at>2015-09-10 16:24:28</updated_at>
+	</row>
+
+	<row>
+		<id>1949</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>406</review_id>
+		<value>335.00</value>
+		<created_at>2015-09-10 16:24:47</created_at>
+		<updated_at>2015-09-10 16:24:47</updated_at>
+	</row>
+
+	<row>
+		<id>1950</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>406</review_id>
+		<value>705.00</value>
+		<created_at>2015-09-10 16:24:47</created_at>
+		<updated_at>2015-09-10 16:24:47</updated_at>
+	</row>
+
+	<row>
+		<id>1951</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>406</review_id>
+		<value>1191.00</value>
+		<created_at>2015-09-10 16:24:47</created_at>
+		<updated_at>2015-09-10 16:24:47</updated_at>
+	</row>
+
+	<row>
+		<id>1952</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>406</review_id>
+		<value>818.00</value>
+		<created_at>2015-09-10 16:24:47</created_at>
+		<updated_at>2015-09-10 16:24:47</updated_at>
+	</row>
+
+	<row>
+		<id>1953</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>407</review_id>
+		<value>1498.00</value>
+		<created_at>2015-09-10 16:25:31</created_at>
+		<updated_at>2015-09-10 16:25:31</updated_at>
+	</row>
+
+	<row>
+		<id>1954</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>407</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 16:25:31</created_at>
+		<updated_at>2015-09-10 16:25:31</updated_at>
+	</row>
+
+	<row>
+		<id>1955</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>407</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 16:25:31</created_at>
+		<updated_at>2015-09-10 16:25:31</updated_at>
+	</row>
+
+	<row>
+		<id>1956</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>407</review_id>
+		<value>697.00</value>
+		<created_at>2015-09-10 16:25:31</created_at>
+		<updated_at>2015-09-10 16:25:31</updated_at>
+	</row>
+
+	<row>
+		<id>1957</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>408</review_id>
+		<value>1506.00</value>
+		<created_at>2015-09-10 16:32:51</created_at>
+		<updated_at>2015-09-10 16:32:51</updated_at>
+	</row>
+
+	<row>
+		<id>1958</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>408</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:32:51</created_at>
+		<updated_at>2015-09-10 16:35:37</updated_at>
+	</row>
+
+	<row>
+		<id>1959</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>408</review_id>
+		<value>1273.00</value>
+		<created_at>2015-09-10 16:32:51</created_at>
+		<updated_at>2015-09-10 16:32:51</updated_at>
+	</row>
+
+	<row>
+		<id>1960</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>408</review_id>
+		<value>1848.00</value>
+		<created_at>2015-09-10 16:32:51</created_at>
+		<updated_at>2015-09-10 16:32:51</updated_at>
+	</row>
+
+	<row>
+		<id>1961</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>409</review_id>
+		<value>1004.00</value>
+		<created_at>2015-09-10 16:34:01</created_at>
+		<updated_at>2015-09-10 16:34:01</updated_at>
+	</row>
+
+	<row>
+		<id>1962</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>409</review_id>
+		<value>670.00</value>
+		<created_at>2015-09-10 16:34:01</created_at>
+		<updated_at>2015-09-10 16:34:01</updated_at>
+	</row>
+
+	<row>
+		<id>1963</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>409</review_id>
+		<value>203.00</value>
+		<created_at>2015-09-10 16:34:01</created_at>
+		<updated_at>2015-09-10 16:34:01</updated_at>
+	</row>
+
+	<row>
+		<id>1964</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>409</review_id>
+		<value>1199.00</value>
+		<created_at>2015-09-10 16:34:01</created_at>
+		<updated_at>2015-09-10 16:34:01</updated_at>
+	</row>
+
+	<row>
+		<id>1965</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>410</review_id>
+		<value>1156.00</value>
+		<created_at>2015-09-10 16:37:47</created_at>
+		<updated_at>2015-09-10 16:37:47</updated_at>
+	</row>
+
+	<row>
+		<id>1966</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>410</review_id>
+		<value>1545.00</value>
+		<created_at>2015-09-10 16:37:47</created_at>
+		<updated_at>2015-09-10 16:37:47</updated_at>
+	</row>
+
+	<row>
+		<id>1967</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>410</review_id>
+		<value>779.00</value>
+		<created_at>2015-09-10 16:37:47</created_at>
+		<updated_at>2015-09-10 16:37:47</updated_at>
+	</row>
+
+	<row>
+		<id>1968</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>410</review_id>
+		<value>1763.00</value>
+		<created_at>2015-09-10 16:37:47</created_at>
+		<updated_at>2015-09-10 16:37:47</updated_at>
+	</row>
+
+	<row>
+		<id>1969</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>411</review_id>
+		<value>1424.00</value>
+		<created_at>2015-09-10 16:39:14</created_at>
+		<updated_at>2015-09-10 16:39:14</updated_at>
+	</row>
+
+	<row>
+		<id>1970</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>411</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:39:14</created_at>
+		<updated_at>2015-09-10 16:39:14</updated_at>
+	</row>
+
+	<row>
+		<id>1971</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>411</review_id>
+		<value>1195.00</value>
+		<created_at>2015-09-10 16:39:14</created_at>
+		<updated_at>2015-09-10 16:39:14</updated_at>
+	</row>
+
+	<row>
+		<id>1972</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>411</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:39:14</created_at>
+		<updated_at>2015-09-10 16:39:14</updated_at>
+	</row>
+
+	<row>
+		<id>1973</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>412</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:51:24</created_at>
+		<updated_at>2015-09-10 16:51:24</updated_at>
+	</row>
+
+	<row>
+		<id>1974</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>412</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:51:24</created_at>
+		<updated_at>2015-09-10 16:51:24</updated_at>
+	</row>
+
+	<row>
+		<id>1975</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>412</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-10 16:51:24</created_at>
+		<updated_at>2015-09-10 16:51:24</updated_at>
+	</row>
+
+	<row>
+		<id>1976</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>412</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:51:24</created_at>
+		<updated_at>2015-09-10 16:51:24</updated_at>
+	</row>
+
+	<row>
+		<id>1977</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>413</review_id>
+		<value>1004.00</value>
+		<created_at>2015-09-10 16:52:13</created_at>
+		<updated_at>2015-09-10 16:52:13</updated_at>
+	</row>
+
+	<row>
+		<id>1978</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>413</review_id>
+		<value>1117.00</value>
+		<created_at>2015-09-10 16:52:13</created_at>
+		<updated_at>2015-09-10 16:52:13</updated_at>
+	</row>
+
+	<row>
+		<id>1979</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>413</review_id>
+		<value>133.00</value>
+		<created_at>2015-09-10 16:52:13</created_at>
+		<updated_at>2015-09-10 16:52:13</updated_at>
+	</row>
+
+	<row>
+		<id>1980</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>413</review_id>
+		<value>1331.00</value>
+		<created_at>2015-09-10 16:52:13</created_at>
+		<updated_at>2015-09-10 16:52:13</updated_at>
+	</row>
+
+	<row>
+		<id>1981</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>414</review_id>
+		<value>717.00</value>
+		<created_at>2015-09-10 16:52:33</created_at>
+		<updated_at>2015-09-10 16:52:33</updated_at>
+	</row>
+
+	<row>
+		<id>1982</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>414</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 16:52:33</created_at>
+		<updated_at>2015-09-10 16:52:33</updated_at>
+	</row>
+
+	<row>
+		<id>1983</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>414</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 16:52:33</created_at>
+		<updated_at>2015-09-10 16:52:33</updated_at>
+	</row>
+
+	<row>
+		<id>1984</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>414</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 16:52:33</created_at>
+		<updated_at>2015-09-10 16:52:33</updated_at>
+	</row>
+
+	<row>
+		<id>1985</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>415</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-10 16:54:01</created_at>
+		<updated_at>2015-09-10 16:54:01</updated_at>
+	</row>
+
+	<row>
+		<id>1986</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>415</review_id>
+		<value>1992.00</value>
+		<created_at>2015-09-10 16:54:01</created_at>
+		<updated_at>2015-09-10 16:54:01</updated_at>
+	</row>
+
+	<row>
+		<id>1987</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>415</review_id>
+		<value>1662.00</value>
+		<created_at>2015-09-10 16:54:01</created_at>
+		<updated_at>2015-09-10 16:54:01</updated_at>
+	</row>
+
+	<row>
+		<id>1988</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>415</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 16:54:01</created_at>
+		<updated_at>2015-09-10 16:54:01</updated_at>
+	</row>
+
+	<row>
+		<id>1989</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>416</review_id>
+		<value>965.00</value>
+		<created_at>2015-09-10 17:26:06</created_at>
+		<updated_at>2015-09-10 17:26:06</updated_at>
+	</row>
+
+	<row>
+		<id>1990</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>416</review_id>
+		<value>1654.00</value>
+		<created_at>2015-09-10 17:26:06</created_at>
+		<updated_at>2015-09-10 17:26:06</updated_at>
+	</row>
+
+	<row>
+		<id>1991</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>416</review_id>
+		<value>829.00</value>
+		<created_at>2015-09-10 17:26:06</created_at>
+		<updated_at>2015-09-10 17:26:06</updated_at>
+	</row>
+
+	<row>
+		<id>1992</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>416</review_id>
+		<value>1448.00</value>
+		<created_at>2015-09-10 17:26:06</created_at>
+		<updated_at>2015-09-10 17:26:06</updated_at>
+	</row>
+
+	<row>
+		<id>1993</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>417</review_id>
+		<value>505.00</value>
+		<created_at>2015-09-10 17:28:57</created_at>
+		<updated_at>2015-09-10 17:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>1994</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>417</review_id>
+		<value>1302.00</value>
+		<created_at>2015-09-10 17:28:57</created_at>
+		<updated_at>2015-09-10 17:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>1995</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>417</review_id>
+		<value>1154.00</value>
+		<created_at>2015-09-10 17:28:57</created_at>
+		<updated_at>2015-09-10 17:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>1996</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>417</review_id>
+		<value>1164.00</value>
+		<created_at>2015-09-10 17:28:57</created_at>
+		<updated_at>2015-09-10 17:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>1997</id>
+		<rating_type_id>83</rating_type_id>
+		<review_id>417</review_id>
+		<value>1607.00</value>
+		<created_at>2015-09-10 17:28:57</created_at>
+		<updated_at>2015-09-10 17:28:57</updated_at>
+	</row>
+
+	<row>
+		<id>1998</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>418</review_id>
+		<value>1255.00</value>
+		<created_at>2015-09-10 17:29:41</created_at>
+		<updated_at>2015-09-10 17:29:41</updated_at>
+	</row>
+
+	<row>
+		<id>1999</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>418</review_id>
+		<value>1360.00</value>
+		<created_at>2015-09-10 17:29:41</created_at>
+		<updated_at>2015-09-10 17:29:41</updated_at>
+	</row>
+
+	<row>
+		<id>2000</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>418</review_id>
+		<value>1306.00</value>
+		<created_at>2015-09-10 17:29:41</created_at>
+		<updated_at>2015-09-10 17:29:41</updated_at>
+	</row>
+
+	<row>
+		<id>2001</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>418</review_id>
+		<value>1593.00</value>
+		<created_at>2015-09-10 17:29:41</created_at>
+		<updated_at>2015-09-10 17:29:41</updated_at>
+	</row>
+
+	<row>
+		<id>2002</id>
+		<rating_type_id>83</rating_type_id>
+		<review_id>418</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-10 17:29:41</created_at>
+		<updated_at>2015-09-10 17:29:41</updated_at>
+	</row>
+
+	<row>
+		<id>2003</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>419</review_id>
+		<value>732.00</value>
+		<created_at>2015-09-10 17:30:04</created_at>
+		<updated_at>2015-09-10 17:30:04</updated_at>
+	</row>
+
+	<row>
+		<id>2004</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>419</review_id>
+		<value>1571.00</value>
+		<created_at>2015-09-10 17:30:04</created_at>
+		<updated_at>2015-09-10 17:30:04</updated_at>
+	</row>
+
+	<row>
+		<id>2005</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>419</review_id>
+		<value>1506.00</value>
+		<created_at>2015-09-10 17:30:04</created_at>
+		<updated_at>2015-09-10 17:30:04</updated_at>
+	</row>
+
+	<row>
+		<id>2006</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>419</review_id>
+		<value>1873.00</value>
+		<created_at>2015-09-10 17:30:04</created_at>
+		<updated_at>2015-09-10 17:30:04</updated_at>
+	</row>
+
+	<row>
+		<id>2007</id>
+		<rating_type_id>83</rating_type_id>
+		<review_id>419</review_id>
+		<value>1626.00</value>
+		<created_at>2015-09-10 17:30:04</created_at>
+		<updated_at>2015-09-10 17:30:04</updated_at>
+	</row>
+
+	<row>
+		<id>2008</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>420</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-10 18:12:45</created_at>
+		<updated_at>2015-09-10 18:12:45</updated_at>
+	</row>
+
+	<row>
+		<id>2009</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>420</review_id>
+		<value>1579.00</value>
+		<created_at>2015-09-10 18:12:45</created_at>
+		<updated_at>2015-09-10 18:12:45</updated_at>
+	</row>
+
+	<row>
+		<id>2010</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>420</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 18:12:45</created_at>
+		<updated_at>2015-09-10 18:12:45</updated_at>
+	</row>
+
+	<row>
+		<id>2011</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>420</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 18:12:45</created_at>
+		<updated_at>2015-09-10 18:12:45</updated_at>
+	</row>
+
+	<row>
+		<id>2012</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>421</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 18:13:21</created_at>
+		<updated_at>2015-09-10 18:13:21</updated_at>
+	</row>
+
+	<row>
+		<id>2013</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>421</review_id>
+		<value>1652.00</value>
+		<created_at>2015-09-10 18:13:21</created_at>
+		<updated_at>2015-09-10 18:13:21</updated_at>
+	</row>
+
+	<row>
+		<id>2014</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>421</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 18:13:21</created_at>
+		<updated_at>2015-09-10 18:13:21</updated_at>
+	</row>
+
+	<row>
+		<id>2015</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>421</review_id>
+		<value>1593.00</value>
+		<created_at>2015-09-10 18:13:21</created_at>
+		<updated_at>2015-09-10 18:13:21</updated_at>
+	</row>
+
+	<row>
+		<id>2016</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>422</review_id>
+		<value>1174.00</value>
+		<created_at>2015-09-10 19:56:21</created_at>
+		<updated_at>2015-09-10 19:56:21</updated_at>
+	</row>
+
+	<row>
+		<id>2017</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>422</review_id>
+		<value>1994.00</value>
+		<created_at>2015-09-10 19:56:21</created_at>
+		<updated_at>2015-09-10 19:56:21</updated_at>
+	</row>
+
+	<row>
+		<id>2018</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>422</review_id>
+		<value>1279.00</value>
+		<created_at>2015-09-10 19:56:21</created_at>
+		<updated_at>2015-09-10 19:56:21</updated_at>
+	</row>
+
+	<row>
+		<id>2019</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>422</review_id>
+		<value>1796.00</value>
+		<created_at>2015-09-10 19:56:21</created_at>
+		<updated_at>2015-09-10 19:56:21</updated_at>
+	</row>
+
+	<row>
+		<id>2020</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>423</review_id>
+		<value>1724.00</value>
+		<created_at>2015-09-10 22:12:10</created_at>
+		<updated_at>2015-09-10 22:12:10</updated_at>
+	</row>
+
+	<row>
+		<id>2021</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>423</review_id>
+		<value>1856.00</value>
+		<created_at>2015-09-10 22:12:10</created_at>
+		<updated_at>2015-09-10 22:12:10</updated_at>
+	</row>
+
+	<row>
+		<id>2022</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>423</review_id>
+		<value>1806.00</value>
+		<created_at>2015-09-10 22:12:10</created_at>
+		<updated_at>2015-09-10 22:12:10</updated_at>
+	</row>
+
+	<row>
+		<id>2023</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>423</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 22:12:10</created_at>
+		<updated_at>2015-09-10 22:12:10</updated_at>
+	</row>
+
+	<row>
+		<id>2024</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>424</review_id>
+		<value>1397.00</value>
+		<created_at>2015-09-10 22:24:09</created_at>
+		<updated_at>2015-09-10 22:24:09</updated_at>
+	</row>
+
+	<row>
+		<id>2025</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>424</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 22:24:09</created_at>
+		<updated_at>2015-09-10 22:24:09</updated_at>
+	</row>
+
+	<row>
+		<id>2026</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>424</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-10 22:24:09</created_at>
+		<updated_at>2015-09-10 22:24:09</updated_at>
+	</row>
+
+	<row>
+		<id>2027</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>424</review_id>
+		<value>1712.00</value>
+		<created_at>2015-09-10 22:24:09</created_at>
+		<updated_at>2015-09-10 22:24:09</updated_at>
+	</row>
+
+	<row>
+		<id>2028</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>425</review_id>
+		<value>545.00</value>
+		<created_at>2015-09-10 22:25:10</created_at>
+		<updated_at>2015-09-10 22:25:10</updated_at>
+	</row>
+
+	<row>
+		<id>2029</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>425</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 22:25:10</created_at>
+		<updated_at>2015-09-10 22:25:10</updated_at>
+	</row>
+
+	<row>
+		<id>2030</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>425</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 22:25:10</created_at>
+		<updated_at>2015-09-10 22:25:10</updated_at>
+	</row>
+
+	<row>
+		<id>2031</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>425</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-10 22:25:10</created_at>
+		<updated_at>2015-09-10 22:25:10</updated_at>
+	</row>
+
+	<row>
+		<id>2032</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>426</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-11 09:54:17</created_at>
+		<updated_at>2015-09-11 09:54:17</updated_at>
+	</row>
+
+	<row>
+		<id>2033</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>426</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-11 09:54:17</created_at>
+		<updated_at>2015-09-11 09:54:17</updated_at>
+	</row>
+
+	<row>
+		<id>2034</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>426</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-11 09:54:17</created_at>
+		<updated_at>2015-09-11 09:54:17</updated_at>
+	</row>
+
+	<row>
+		<id>2035</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>426</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-11 09:54:17</created_at>
+		<updated_at>2015-09-11 09:54:17</updated_at>
+	</row>
+
+	<row>
+		<id>2036</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>427</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-11 09:54:46</created_at>
+		<updated_at>2015-09-11 09:54:46</updated_at>
+	</row>
+
+	<row>
+		<id>2037</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>427</review_id>
+		<value>736.00</value>
+		<created_at>2015-09-11 09:54:46</created_at>
+		<updated_at>2015-09-11 09:54:46</updated_at>
+	</row>
+
+	<row>
+		<id>2038</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>427</review_id>
+		<value>872.00</value>
+		<created_at>2015-09-11 09:54:46</created_at>
+		<updated_at>2015-09-11 09:54:46</updated_at>
+	</row>
+
+	<row>
+		<id>2039</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>427</review_id>
+		<value>1331.00</value>
+		<created_at>2015-09-11 09:54:46</created_at>
+		<updated_at>2015-09-11 09:54:46</updated_at>
+	</row>
+
+	<row>
+		<id>2040</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>428</review_id>
+		<value>1763.00</value>
+		<created_at>2015-09-11 09:55:16</created_at>
+		<updated_at>2015-09-11 09:55:16</updated_at>
+	</row>
+
+	<row>
+		<id>2041</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>428</review_id>
+		<value>192.00</value>
+		<created_at>2015-09-11 09:55:16</created_at>
+		<updated_at>2015-09-11 09:55:16</updated_at>
+	</row>
+
+	<row>
+		<id>2042</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>428</review_id>
+		<value>227.00</value>
+		<created_at>2015-09-11 09:55:16</created_at>
+		<updated_at>2015-09-11 09:55:16</updated_at>
+	</row>
+
+	<row>
+		<id>2043</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>428</review_id>
+		<value>238.00</value>
+		<created_at>2015-09-11 09:55:16</created_at>
+		<updated_at>2015-09-11 09:55:16</updated_at>
+	</row>
+
+	<row>
+		<id>2044</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>429</review_id>
+		<value>1144.00</value>
+		<created_at>2015-09-12 10:53:29</created_at>
+		<updated_at>2015-09-12 10:53:29</updated_at>
+	</row>
+
+	<row>
+		<id>2045</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>429</review_id>
+		<value>1848.00</value>
+		<created_at>2015-09-12 10:53:29</created_at>
+		<updated_at>2015-09-12 15:29:37</updated_at>
+	</row>
+
+	<row>
+		<id>2046</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>429</review_id>
+		<value>1191.00</value>
+		<created_at>2015-09-12 10:53:29</created_at>
+		<updated_at>2015-09-12 10:53:29</updated_at>
+	</row>
+
+	<row>
+		<id>2047</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>429</review_id>
+		<value>1596.00</value>
+		<created_at>2015-09-12 10:53:29</created_at>
+		<updated_at>2015-09-12 10:53:29</updated_at>
+	</row>
+
+	<row>
+		<id>2048</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>429</review_id>
+		<value>993.00</value>
+		<created_at>2015-09-12 10:53:29</created_at>
+		<updated_at>2015-09-12 10:53:29</updated_at>
+	</row>
+
+	<row>
+		<id>2049</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>430</review_id>
+		<value>639.00</value>
+		<created_at>2015-09-12 10:54:08</created_at>
+		<updated_at>2015-09-12 10:54:08</updated_at>
+	</row>
+
+	<row>
+		<id>2050</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>430</review_id>
+		<value>1214.00</value>
+		<created_at>2015-09-12 10:54:08</created_at>
+		<updated_at>2015-09-12 10:54:08</updated_at>
+	</row>
+
+	<row>
+		<id>2051</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>430</review_id>
+		<value>810.00</value>
+		<created_at>2015-09-12 10:54:08</created_at>
+		<updated_at>2015-09-12 10:54:08</updated_at>
+	</row>
+
+	<row>
+		<id>2052</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>430</review_id>
+		<value>1319.00</value>
+		<created_at>2015-09-12 10:54:08</created_at>
+		<updated_at>2015-09-12 10:54:08</updated_at>
+	</row>
+
+	<row>
+		<id>2053</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>430</review_id>
+		<value>1226.00</value>
+		<created_at>2015-09-12 10:54:08</created_at>
+		<updated_at>2015-09-12 10:54:08</updated_at>
+	</row>
+
+	<row>
+		<id>2054</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>431</review_id>
+		<value>530.00</value>
+		<created_at>2015-09-12 10:54:28</created_at>
+		<updated_at>2015-09-12 10:54:28</updated_at>
+	</row>
+
+	<row>
+		<id>2055</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>431</review_id>
+		<value>250.00</value>
+		<created_at>2015-09-12 10:54:28</created_at>
+		<updated_at>2015-09-12 10:54:28</updated_at>
+	</row>
+
+	<row>
+		<id>2056</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>431</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-12 10:54:28</created_at>
+		<updated_at>2015-09-12 10:54:28</updated_at>
+	</row>
+
+	<row>
+		<id>2057</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>431</review_id>
+		<value>849.00</value>
+		<created_at>2015-09-12 10:54:28</created_at>
+		<updated_at>2015-09-12 10:54:28</updated_at>
+	</row>
+
+	<row>
+		<id>2058</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>431</review_id>
+		<value>923.00</value>
+		<created_at>2015-09-12 10:54:28</created_at>
+		<updated_at>2015-09-12 10:54:28</updated_at>
+	</row>
+
+	<row>
+		<id>2059</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>432</review_id>
+		<value>1269.00</value>
+		<created_at>2015-09-12 10:54:45</created_at>
+		<updated_at>2015-09-12 10:54:45</updated_at>
+	</row>
+
+	<row>
+		<id>2060</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>432</review_id>
+		<value>1662.00</value>
+		<created_at>2015-09-12 10:54:45</created_at>
+		<updated_at>2015-09-12 10:54:45</updated_at>
+	</row>
+
+	<row>
+		<id>2061</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>432</review_id>
+		<value>857.00</value>
+		<created_at>2015-09-12 10:54:45</created_at>
+		<updated_at>2015-09-12 10:54:45</updated_at>
+	</row>
+
+	<row>
+		<id>2062</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>432</review_id>
+		<value>1424.00</value>
+		<created_at>2015-09-12 10:54:45</created_at>
+		<updated_at>2015-09-12 10:54:45</updated_at>
+	</row>
+
+	<row>
+		<id>2063</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>432</review_id>
+		<value>1708.00</value>
+		<created_at>2015-09-12 10:54:45</created_at>
+		<updated_at>2015-09-12 10:54:45</updated_at>
+	</row>
+
+	<row>
+		<id>2064</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>433</review_id>
+		<value>907.00</value>
+		<created_at>2015-09-12 10:55:03</created_at>
+		<updated_at>2015-09-12 10:55:03</updated_at>
+	</row>
+
+	<row>
+		<id>2065</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>433</review_id>
+		<value>1529.00</value>
+		<created_at>2015-09-12 10:55:03</created_at>
+		<updated_at>2015-09-12 10:55:03</updated_at>
+	</row>
+
+	<row>
+		<id>2066</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>433</review_id>
+		<value>592.00</value>
+		<created_at>2015-09-12 10:55:03</created_at>
+		<updated_at>2015-09-12 10:55:03</updated_at>
+	</row>
+
+	<row>
+		<id>2067</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>433</review_id>
+		<value>1494.00</value>
+		<created_at>2015-09-12 10:55:03</created_at>
+		<updated_at>2015-09-12 10:55:03</updated_at>
+	</row>
+
+	<row>
+		<id>2068</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>433</review_id>
+		<value>1631.00</value>
+		<created_at>2015-09-12 10:55:03</created_at>
+		<updated_at>2015-09-12 10:55:03</updated_at>
+	</row>
+
+	<row>
+		<id>2069</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>434</review_id>
+		<value>849.00</value>
+		<created_at>2015-09-12 10:55:23</created_at>
+		<updated_at>2015-09-12 10:55:23</updated_at>
+	</row>
+
+	<row>
+		<id>2070</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>434</review_id>
+		<value>1234.00</value>
+		<created_at>2015-09-12 10:55:23</created_at>
+		<updated_at>2015-09-12 10:55:23</updated_at>
+	</row>
+
+	<row>
+		<id>2071</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>434</review_id>
+		<value>588.00</value>
+		<created_at>2015-09-12 10:55:23</created_at>
+		<updated_at>2015-09-12 10:55:23</updated_at>
+	</row>
+
+	<row>
+		<id>2072</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>434</review_id>
+		<value>1199.00</value>
+		<created_at>2015-09-12 10:55:23</created_at>
+		<updated_at>2015-09-12 10:55:23</updated_at>
+	</row>
+
+	<row>
+		<id>2073</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>434</review_id>
+		<value>1230.00</value>
+		<created_at>2015-09-12 10:55:23</created_at>
+		<updated_at>2015-09-12 10:55:23</updated_at>
+	</row>
+
+	<row>
+		<id>2074</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>435</review_id>
+		<value>1448.00</value>
+		<created_at>2015-09-12 10:55:44</created_at>
+		<updated_at>2015-09-12 10:55:44</updated_at>
+	</row>
+
+	<row>
+		<id>2075</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>435</review_id>
+		<value>1557.00</value>
+		<created_at>2015-09-12 10:55:44</created_at>
+		<updated_at>2015-09-12 10:55:44</updated_at>
+	</row>
+
+	<row>
+		<id>2076</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>435</review_id>
+		<value>1347.00</value>
+		<created_at>2015-09-12 10:55:44</created_at>
+		<updated_at>2015-09-12 10:55:44</updated_at>
+	</row>
+
+	<row>
+		<id>2077</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>435</review_id>
+		<value>1382.00</value>
+		<created_at>2015-09-12 10:55:44</created_at>
+		<updated_at>2015-09-12 10:55:44</updated_at>
+	</row>
+
+	<row>
+		<id>2078</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>435</review_id>
+		<value>1296.00</value>
+		<created_at>2015-09-12 10:55:44</created_at>
+		<updated_at>2015-09-12 10:55:44</updated_at>
+	</row>
+
+	<row>
+		<id>2079</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>436</review_id>
+		<value>592.00</value>
+		<created_at>2015-09-12 10:55:59</created_at>
+		<updated_at>2015-09-12 10:55:59</updated_at>
+	</row>
+
+	<row>
+		<id>2080</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>436</review_id>
+		<value>1354.00</value>
+		<created_at>2015-09-12 10:56:00</created_at>
+		<updated_at>2015-09-12 10:56:00</updated_at>
+	</row>
+
+	<row>
+		<id>2081</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>436</review_id>
+		<value>1160.00</value>
+		<created_at>2015-09-12 10:56:00</created_at>
+		<updated_at>2015-09-12 10:56:00</updated_at>
+	</row>
+
+	<row>
+		<id>2082</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>436</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-12 10:56:00</created_at>
+		<updated_at>2015-09-12 10:56:00</updated_at>
+	</row>
+
+	<row>
+		<id>2083</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>436</review_id>
+		<value>1273.00</value>
+		<created_at>2015-09-12 10:56:00</created_at>
+		<updated_at>2015-09-12 10:56:00</updated_at>
+	</row>
+
+	<row>
+		<id>2084</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>437</review_id>
+		<value>1506.00</value>
+		<created_at>2015-09-12 10:56:51</created_at>
+		<updated_at>2015-09-12 10:56:51</updated_at>
+	</row>
+
+	<row>
+		<id>2085</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>437</review_id>
+		<value>814.00</value>
+		<created_at>2015-09-12 10:56:51</created_at>
+		<updated_at>2015-09-12 10:56:51</updated_at>
+	</row>
+
+	<row>
+		<id>2086</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>437</review_id>
+		<value>343.00</value>
+		<created_at>2015-09-12 10:56:51</created_at>
+		<updated_at>2015-09-12 10:56:51</updated_at>
+	</row>
+
+	<row>
+		<id>2087</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>437</review_id>
+		<value>1701.00</value>
+		<created_at>2015-09-12 10:56:51</created_at>
+		<updated_at>2015-09-12 10:56:51</updated_at>
+	</row>
+
+	<row>
+		<id>2088</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>437</review_id>
+		<value>1253.00</value>
+		<created_at>2015-09-12 10:56:51</created_at>
+		<updated_at>2015-09-12 10:56:51</updated_at>
+	</row>
+
+	<row>
+		<id>2089</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>438</review_id>
+		<value>1164.00</value>
+		<created_at>2015-09-12 10:57:20</created_at>
+		<updated_at>2015-09-12 10:57:20</updated_at>
+	</row>
+
+	<row>
+		<id>2090</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>438</review_id>
+		<value>1662.00</value>
+		<created_at>2015-09-12 10:57:20</created_at>
+		<updated_at>2015-09-12 10:57:20</updated_at>
+	</row>
+
+	<row>
+		<id>2091</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>438</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-12 10:57:20</created_at>
+		<updated_at>2015-09-12 10:57:20</updated_at>
+	</row>
+
+	<row>
+		<id>2092</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>438</review_id>
+		<value>1739.00</value>
+		<created_at>2015-09-12 10:57:20</created_at>
+		<updated_at>2015-09-12 10:57:20</updated_at>
+	</row>
+
+	<row>
+		<id>2093</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>438</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 10:57:20</created_at>
+		<updated_at>2015-09-12 10:57:20</updated_at>
+	</row>
+
+	<row>
+		<id>2094</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>439</review_id>
+		<value>1308.00</value>
+		<created_at>2015-09-12 10:57:53</created_at>
+		<updated_at>2015-09-12 10:57:53</updated_at>
+	</row>
+
+	<row>
+		<id>2095</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>439</review_id>
+		<value>1156.00</value>
+		<created_at>2015-09-12 10:57:53</created_at>
+		<updated_at>2015-09-12 10:57:53</updated_at>
+	</row>
+
+	<row>
+		<id>2096</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>439</review_id>
+		<value>1358.00</value>
+		<created_at>2015-09-12 10:57:53</created_at>
+		<updated_at>2015-09-12 10:57:53</updated_at>
+	</row>
+
+	<row>
+		<id>2097</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>439</review_id>
+		<value>977.00</value>
+		<created_at>2015-09-12 10:57:53</created_at>
+		<updated_at>2015-09-12 10:57:53</updated_at>
+	</row>
+
+	<row>
+		<id>2098</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>439</review_id>
+		<value>973.00</value>
+		<created_at>2015-09-12 10:57:53</created_at>
+		<updated_at>2015-09-12 10:57:53</updated_at>
+	</row>
+
+	<row>
+		<id>2099</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>440</review_id>
+		<value>1312.00</value>
+		<created_at>2015-09-12 10:59:56</created_at>
+		<updated_at>2015-09-12 10:59:56</updated_at>
+	</row>
+
+	<row>
+		<id>2100</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>440</review_id>
+		<value>1246.00</value>
+		<created_at>2015-09-12 10:59:56</created_at>
+		<updated_at>2015-09-12 10:59:56</updated_at>
+	</row>
+
+	<row>
+		<id>2101</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>440</review_id>
+		<value>1156.00</value>
+		<created_at>2015-09-12 10:59:56</created_at>
+		<updated_at>2015-09-12 10:59:56</updated_at>
+	</row>
+
+	<row>
+		<id>2102</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>440</review_id>
+		<value>1094.00</value>
+		<created_at>2015-09-12 10:59:56</created_at>
+		<updated_at>2015-09-12 10:59:56</updated_at>
+	</row>
+
+	<row>
+		<id>2103</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>440</review_id>
+		<value>1339.00</value>
+		<created_at>2015-09-12 10:59:56</created_at>
+		<updated_at>2015-09-12 10:59:56</updated_at>
+	</row>
+
+	<row>
+		<id>2104</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>441</review_id>
+		<value>1646.00</value>
+		<created_at>2015-09-12 11:00:22</created_at>
+		<updated_at>2015-09-12 11:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>2105</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>441</review_id>
+		<value>1498.00</value>
+		<created_at>2015-09-12 11:00:22</created_at>
+		<updated_at>2015-09-12 11:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>2106</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>441</review_id>
+		<value>1121.00</value>
+		<created_at>2015-09-12 11:00:22</created_at>
+		<updated_at>2015-09-12 11:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>2107</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>441</review_id>
+		<value>1137.00</value>
+		<created_at>2015-09-12 11:00:22</created_at>
+		<updated_at>2015-09-12 11:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>2108</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>441</review_id>
+		<value>1308.00</value>
+		<created_at>2015-09-12 11:00:22</created_at>
+		<updated_at>2015-09-12 11:00:22</updated_at>
+	</row>
+
+	<row>
+		<id>2109</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>442</review_id>
+		<value>1222.00</value>
+		<created_at>2015-09-12 11:00:38</created_at>
+		<updated_at>2015-09-12 11:00:38</updated_at>
+	</row>
+
+	<row>
+		<id>2110</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>442</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 11:00:38</created_at>
+		<updated_at>2015-09-12 11:00:38</updated_at>
+	</row>
+
+	<row>
+		<id>2111</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>442</review_id>
+		<value>1269.00</value>
+		<created_at>2015-09-12 11:00:38</created_at>
+		<updated_at>2015-09-12 11:00:38</updated_at>
+	</row>
+
+	<row>
+		<id>2112</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>442</review_id>
+		<value>1211.00</value>
+		<created_at>2015-09-12 11:00:38</created_at>
+		<updated_at>2015-09-12 11:00:38</updated_at>
+	</row>
+
+	<row>
+		<id>2113</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>442</review_id>
+		<value>1230.00</value>
+		<created_at>2015-09-12 11:00:38</created_at>
+		<updated_at>2015-09-12 11:00:38</updated_at>
+	</row>
+
+	<row>
+		<id>2114</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>443</review_id>
+		<value>1269.00</value>
+		<created_at>2015-09-12 11:00:54</created_at>
+		<updated_at>2015-09-12 11:00:54</updated_at>
+	</row>
+
+	<row>
+		<id>2115</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>443</review_id>
+		<value>1487.00</value>
+		<created_at>2015-09-12 11:00:54</created_at>
+		<updated_at>2015-09-12 11:00:54</updated_at>
+	</row>
+
+	<row>
+		<id>2116</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>443</review_id>
+		<value>1292.00</value>
+		<created_at>2015-09-12 11:00:54</created_at>
+		<updated_at>2015-09-12 11:00:54</updated_at>
+	</row>
+
+	<row>
+		<id>2117</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>443</review_id>
+		<value>1191.00</value>
+		<created_at>2015-09-12 11:00:54</created_at>
+		<updated_at>2015-09-12 11:00:54</updated_at>
+	</row>
+
+	<row>
+		<id>2118</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>443</review_id>
+		<value>1234.00</value>
+		<created_at>2015-09-12 11:00:54</created_at>
+		<updated_at>2015-09-12 11:00:54</updated_at>
+	</row>
+
+	<row>
+		<id>2119</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>444</review_id>
+		<value>1576.00</value>
+		<created_at>2015-09-12 11:01:53</created_at>
+		<updated_at>2015-09-12 11:01:53</updated_at>
+	</row>
+
+	<row>
+		<id>2120</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>444</review_id>
+		<value>1374.00</value>
+		<created_at>2015-09-12 11:01:53</created_at>
+		<updated_at>2015-09-12 11:01:53</updated_at>
+	</row>
+
+	<row>
+		<id>2121</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>444</review_id>
+		<value>1347.00</value>
+		<created_at>2015-09-12 11:01:53</created_at>
+		<updated_at>2015-09-12 11:01:53</updated_at>
+	</row>
+
+	<row>
+		<id>2122</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>444</review_id>
+		<value>1386.00</value>
+		<created_at>2015-09-12 11:01:53</created_at>
+		<updated_at>2015-09-12 11:01:53</updated_at>
+	</row>
+
+	<row>
+		<id>2123</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>444</review_id>
+		<value>1253.00</value>
+		<created_at>2015-09-12 11:01:53</created_at>
+		<updated_at>2015-09-12 11:01:53</updated_at>
+	</row>
+
+	<row>
+		<id>2124</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>445</review_id>
+		<value>608.00</value>
+		<created_at>2015-09-12 11:02:29</created_at>
+		<updated_at>2015-09-12 11:02:29</updated_at>
+	</row>
+
+	<row>
+		<id>2125</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>445</review_id>
+		<value>1191.00</value>
+		<created_at>2015-09-12 11:02:29</created_at>
+		<updated_at>2015-09-12 11:02:29</updated_at>
+	</row>
+
+	<row>
+		<id>2126</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>445</review_id>
+		<value>580.00</value>
+		<created_at>2015-09-12 11:02:29</created_at>
+		<updated_at>2015-09-12 11:02:29</updated_at>
+	</row>
+
+	<row>
+		<id>2127</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>445</review_id>
+		<value>545.00</value>
+		<created_at>2015-09-12 11:02:29</created_at>
+		<updated_at>2015-09-12 11:02:29</updated_at>
+	</row>
+
+	<row>
+		<id>2128</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>445</review_id>
+		<value>1032.00</value>
+		<created_at>2015-09-12 11:02:29</created_at>
+		<updated_at>2015-09-12 11:02:29</updated_at>
+	</row>
+
+	<row>
+		<id>2129</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>446</review_id>
+		<value>674.00</value>
+		<created_at>2015-09-12 11:02:59</created_at>
+		<updated_at>2015-09-12 11:02:59</updated_at>
+	</row>
+
+	<row>
+		<id>2130</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>446</review_id>
+		<value>993.00</value>
+		<created_at>2015-09-12 11:02:59</created_at>
+		<updated_at>2015-09-12 11:02:59</updated_at>
+	</row>
+
+	<row>
+		<id>2131</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>446</review_id>
+		<value>759.00</value>
+		<created_at>2015-09-12 11:02:59</created_at>
+		<updated_at>2015-09-12 11:02:59</updated_at>
+	</row>
+
+	<row>
+		<id>2132</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>446</review_id>
+		<value>1405.00</value>
+		<created_at>2015-09-12 11:02:59</created_at>
+		<updated_at>2015-09-12 11:02:59</updated_at>
+	</row>
+
+	<row>
+		<id>2133</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>446</review_id>
+		<value>989.00</value>
+		<created_at>2015-09-12 11:02:59</created_at>
+		<updated_at>2015-09-12 11:02:59</updated_at>
+	</row>
+
+	<row>
+		<id>2134</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>447</review_id>
+		<value>1148.00</value>
+		<created_at>2015-09-12 11:03:23</created_at>
+		<updated_at>2015-09-12 11:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>2135</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>447</review_id>
+		<value>1561.00</value>
+		<created_at>2015-09-12 11:03:23</created_at>
+		<updated_at>2015-09-12 11:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>2136</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>447</review_id>
+		<value>1222.00</value>
+		<created_at>2015-09-12 11:03:23</created_at>
+		<updated_at>2015-09-12 11:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>2137</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>447</review_id>
+		<value>1148.00</value>
+		<created_at>2015-09-12 11:03:23</created_at>
+		<updated_at>2015-09-12 11:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>2138</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>447</review_id>
+		<value>989.00</value>
+		<created_at>2015-09-12 11:03:23</created_at>
+		<updated_at>2015-09-12 11:03:23</updated_at>
+	</row>
+
+	<row>
+		<id>2139</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>448</review_id>
+		<value>1634.00</value>
+		<created_at>2015-09-12 11:03:54</created_at>
+		<updated_at>2015-09-12 11:03:54</updated_at>
+	</row>
+
+	<row>
+		<id>2140</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>448</review_id>
+		<value>1378.00</value>
+		<created_at>2015-09-12 11:03:54</created_at>
+		<updated_at>2015-09-12 11:03:54</updated_at>
+	</row>
+
+	<row>
+		<id>2141</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>448</review_id>
+		<value>1176.00</value>
+		<created_at>2015-09-12 11:03:54</created_at>
+		<updated_at>2015-09-12 11:03:54</updated_at>
+	</row>
+
+	<row>
+		<id>2142</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>448</review_id>
+		<value>1654.00</value>
+		<created_at>2015-09-12 11:03:54</created_at>
+		<updated_at>2015-09-12 11:03:54</updated_at>
+	</row>
+
+	<row>
+		<id>2143</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>448</review_id>
+		<value>1572.00</value>
+		<created_at>2015-09-12 11:03:54</created_at>
+		<updated_at>2015-09-12 11:03:54</updated_at>
+	</row>
+
+	<row>
+		<id>2144</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>449</review_id>
+		<value>915.00</value>
+		<created_at>2015-09-12 11:04:38</created_at>
+		<updated_at>2015-09-12 11:04:38</updated_at>
+	</row>
+
+	<row>
+		<id>2145</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>449</review_id>
+		<value>1374.00</value>
+		<created_at>2015-09-12 11:04:38</created_at>
+		<updated_at>2015-09-12 11:04:38</updated_at>
+	</row>
+
+	<row>
+		<id>2146</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>449</review_id>
+		<value>833.00</value>
+		<created_at>2015-09-12 11:04:38</created_at>
+		<updated_at>2015-09-12 11:04:38</updated_at>
+	</row>
+
+	<row>
+		<id>2147</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>449</review_id>
+		<value>1012.00</value>
+		<created_at>2015-09-12 11:04:38</created_at>
+		<updated_at>2015-09-12 11:04:38</updated_at>
+	</row>
+
+	<row>
+		<id>2148</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>449</review_id>
+		<value>1218.00</value>
+		<created_at>2015-09-12 11:04:38</created_at>
+		<updated_at>2015-09-12 11:04:38</updated_at>
+	</row>
+
+	<row>
+		<id>2149</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>450</review_id>
+		<value>927.00</value>
+		<created_at>2015-09-12 11:05:04</created_at>
+		<updated_at>2015-09-12 11:05:04</updated_at>
+	</row>
+
+	<row>
+		<id>2150</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>450</review_id>
+		<value>507.00</value>
+		<created_at>2015-09-12 11:05:04</created_at>
+		<updated_at>2015-09-12 11:05:04</updated_at>
+	</row>
+
+	<row>
+		<id>2151</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>450</review_id>
+		<value>448.00</value>
+		<created_at>2015-09-12 11:05:04</created_at>
+		<updated_at>2015-09-12 11:05:04</updated_at>
+	</row>
+
+	<row>
+		<id>2152</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>450</review_id>
+		<value>367.00</value>
+		<created_at>2015-09-12 11:05:04</created_at>
+		<updated_at>2015-09-12 11:05:04</updated_at>
+	</row>
+
+	<row>
+		<id>2153</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>450</review_id>
+		<value>666.00</value>
+		<created_at>2015-09-12 11:05:04</created_at>
+		<updated_at>2015-09-12 11:05:04</updated_at>
+	</row>
+
+	<row>
+		<id>2154</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>451</review_id>
+		<value>1117.00</value>
+		<created_at>2015-09-12 11:09:10</created_at>
+		<updated_at>2015-09-12 11:09:10</updated_at>
+	</row>
+
+	<row>
+		<id>2155</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>451</review_id>
+		<value>1288.00</value>
+		<created_at>2015-09-12 11:09:10</created_at>
+		<updated_at>2015-09-12 11:09:10</updated_at>
+	</row>
+
+	<row>
+		<id>2156</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>451</review_id>
+		<value>880.00</value>
+		<created_at>2015-09-12 11:09:10</created_at>
+		<updated_at>2015-09-12 11:09:10</updated_at>
+	</row>
+
+	<row>
+		<id>2157</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>451</review_id>
+		<value>1032.00</value>
+		<created_at>2015-09-12 11:09:10</created_at>
+		<updated_at>2015-09-12 11:09:10</updated_at>
+	</row>
+
+	<row>
+		<id>2158</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>451</review_id>
+		<value>1090.00</value>
+		<created_at>2015-09-12 11:09:10</created_at>
+		<updated_at>2015-09-12 11:09:10</updated_at>
+	</row>
+
+	<row>
+		<id>2159</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>452</review_id>
+		<value>997.00</value>
+		<created_at>2015-09-12 11:10:20</created_at>
+		<updated_at>2015-09-12 11:10:20</updated_at>
+	</row>
+
+	<row>
+		<id>2160</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>452</review_id>
+		<value>1242.00</value>
+		<created_at>2015-09-12 11:10:20</created_at>
+		<updated_at>2015-09-12 11:10:20</updated_at>
+	</row>
+
+	<row>
+		<id>2161</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>452</review_id>
+		<value>1316.00</value>
+		<created_at>2015-09-12 11:10:20</created_at>
+		<updated_at>2015-09-12 11:10:20</updated_at>
+	</row>
+
+	<row>
+		<id>2162</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>452</review_id>
+		<value>1160.00</value>
+		<created_at>2015-09-12 11:10:20</created_at>
+		<updated_at>2015-09-12 11:10:20</updated_at>
+	</row>
+
+	<row>
+		<id>2163</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>452</review_id>
+		<value>1292.00</value>
+		<created_at>2015-09-12 11:10:20</created_at>
+		<updated_at>2015-09-12 11:10:20</updated_at>
+	</row>
+
+	<row>
+		<id>2164</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>453</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 11:17:48</created_at>
+		<updated_at>2015-09-12 11:17:48</updated_at>
+	</row>
+
+	<row>
+		<id>2165</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>453</review_id>
+		<value>1864.00</value>
+		<created_at>2015-09-12 11:17:48</created_at>
+		<updated_at>2015-09-12 11:17:48</updated_at>
+	</row>
+
+	<row>
+		<id>2166</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>453</review_id>
+		<value>1514.00</value>
+		<created_at>2015-09-12 11:17:48</created_at>
+		<updated_at>2015-09-12 11:17:48</updated_at>
+	</row>
+
+	<row>
+		<id>2167</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>453</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 11:17:48</created_at>
+		<updated_at>2015-09-12 11:17:48</updated_at>
+	</row>
+
+	<row>
+		<id>2169</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>454</review_id>
+		<value>1187.00</value>
+		<created_at>2015-09-12 11:19:17</created_at>
+		<updated_at>2015-09-12 11:19:17</updated_at>
+	</row>
+
+	<row>
+		<id>2170</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>454</review_id>
+		<value>1716.00</value>
+		<created_at>2015-09-12 11:19:17</created_at>
+		<updated_at>2015-09-12 11:19:17</updated_at>
+	</row>
+
+	<row>
+		<id>2171</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>454</review_id>
+		<value>1463.00</value>
+		<created_at>2015-09-12 11:19:17</created_at>
+		<updated_at>2015-09-12 11:19:17</updated_at>
+	</row>
+
+	<row>
+		<id>2172</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>454</review_id>
+		<value>1440.00</value>
+		<created_at>2015-09-12 11:19:17</created_at>
+		<updated_at>2015-09-12 11:19:17</updated_at>
+	</row>
+
+	<row>
+		<id>2174</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>455</review_id>
+		<value>1767.00</value>
+		<created_at>2015-09-12 11:26:02</created_at>
+		<updated_at>2015-09-12 11:26:02</updated_at>
+	</row>
+
+	<row>
+		<id>2175</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>455</review_id>
+		<value>1631.00</value>
+		<created_at>2015-09-12 11:26:02</created_at>
+		<updated_at>2015-09-12 11:26:02</updated_at>
+	</row>
+
+	<row>
+		<id>2176</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>455</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 11:26:02</created_at>
+		<updated_at>2015-09-12 15:43:59</updated_at>
+	</row>
+
+	<row>
+		<id>2177</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>455</review_id>
+		<value>1592.00</value>
+		<created_at>2015-09-12 11:26:02</created_at>
+		<updated_at>2015-09-12 11:26:02</updated_at>
+	</row>
+
+	<row>
+		<id>2178</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>455</review_id>
+		<value>1638.00</value>
+		<created_at>2015-09-12 11:26:02</created_at>
+		<updated_at>2015-09-12 11:26:02</updated_at>
+	</row>
+
+	<row>
+		<id>2180</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>456</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 11:26:30</created_at>
+		<updated_at>2015-09-12 11:26:30</updated_at>
+	</row>
+
+	<row>
+		<id>2181</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>456</review_id>
+		<value>1650.00</value>
+		<created_at>2015-09-12 11:26:30</created_at>
+		<updated_at>2015-09-12 11:26:30</updated_at>
+	</row>
+
+	<row>
+		<id>2182</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>456</review_id>
+		<value>1491.00</value>
+		<created_at>2015-09-12 11:26:30</created_at>
+		<updated_at>2015-09-12 11:26:30</updated_at>
+	</row>
+
+	<row>
+		<id>2183</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>456</review_id>
+		<value>1736.00</value>
+		<created_at>2015-09-12 11:26:30</created_at>
+		<updated_at>2015-09-12 11:26:30</updated_at>
+	</row>
+
+	<row>
+		<id>2184</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>456</review_id>
+		<value>1526.00</value>
+		<created_at>2015-09-12 11:26:30</created_at>
+		<updated_at>2015-09-12 11:26:30</updated_at>
+	</row>
+
+	<row>
+		<id>2186</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>457</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-12 11:26:56</created_at>
+		<updated_at>2015-09-12 11:26:56</updated_at>
+	</row>
+
+	<row>
+		<id>2187</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>457</review_id>
+		<value>1522.00</value>
+		<created_at>2015-09-12 11:26:56</created_at>
+		<updated_at>2015-09-12 11:26:56</updated_at>
+	</row>
+
+	<row>
+		<id>2188</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>457</review_id>
+		<value>1417.00</value>
+		<created_at>2015-09-12 11:26:56</created_at>
+		<updated_at>2015-09-12 11:26:56</updated_at>
+	</row>
+
+	<row>
+		<id>2189</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>457</review_id>
+		<value>1312.00</value>
+		<created_at>2015-09-12 11:26:56</created_at>
+		<updated_at>2015-09-12 11:26:56</updated_at>
+	</row>
+
+	<row>
+		<id>2190</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>457</review_id>
+		<value>1510.00</value>
+		<created_at>2015-09-12 11:26:56</created_at>
+		<updated_at>2015-09-12 11:26:56</updated_at>
+	</row>
+
+	<row>
+		<id>2192</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>458</review_id>
+		<value>1358.00</value>
+		<created_at>2015-09-12 11:27:22</created_at>
+		<updated_at>2015-09-12 11:27:22</updated_at>
+	</row>
+
+	<row>
+		<id>2193</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>458</review_id>
+		<value>1584.00</value>
+		<created_at>2015-09-12 11:27:22</created_at>
+		<updated_at>2015-09-12 11:27:22</updated_at>
+	</row>
+
+	<row>
+		<id>2194</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>458</review_id>
+		<value>1483.00</value>
+		<created_at>2015-09-12 11:27:22</created_at>
+		<updated_at>2015-09-12 11:27:22</updated_at>
+	</row>
+
+	<row>
+		<id>2195</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>458</review_id>
+		<value>1599.00</value>
+		<created_at>2015-09-12 11:27:22</created_at>
+		<updated_at>2015-09-12 11:27:22</updated_at>
+	</row>
+
+	<row>
+		<id>2196</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>458</review_id>
+		<value>1288.00</value>
+		<created_at>2015-09-12 11:27:22</created_at>
+		<updated_at>2015-09-12 11:27:22</updated_at>
+	</row>
+
+	<row>
+		<id>2198</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>459</review_id>
+		<value>1234.00</value>
+		<created_at>2015-09-12 11:27:51</created_at>
+		<updated_at>2015-09-12 11:27:51</updated_at>
+	</row>
+
+	<row>
+		<id>2199</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>459</review_id>
+		<value>1494.00</value>
+		<created_at>2015-09-12 11:27:51</created_at>
+		<updated_at>2015-09-12 11:27:51</updated_at>
+	</row>
+
+	<row>
+		<id>2200</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>459</review_id>
+		<value>1265.00</value>
+		<created_at>2015-09-12 11:27:51</created_at>
+		<updated_at>2015-09-12 11:27:51</updated_at>
+	</row>
+
+	<row>
+		<id>2201</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>459</review_id>
+		<value>1518.00</value>
+		<created_at>2015-09-12 11:27:51</created_at>
+		<updated_at>2015-09-12 11:27:51</updated_at>
+	</row>
+
+	<row>
+		<id>2202</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>459</review_id>
+		<value>1631.00</value>
+		<created_at>2015-09-12 11:27:51</created_at>
+		<updated_at>2015-09-12 11:27:51</updated_at>
+	</row>
+
+	<row>
+		<id>2204</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>460</review_id>
+		<value>1121.00</value>
+		<created_at>2015-09-12 11:28:10</created_at>
+		<updated_at>2015-09-12 11:28:10</updated_at>
+	</row>
+
+	<row>
+		<id>2205</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>460</review_id>
+		<value>1397.00</value>
+		<created_at>2015-09-12 11:28:10</created_at>
+		<updated_at>2015-09-12 11:28:10</updated_at>
+	</row>
+
+	<row>
+		<id>2206</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>460</review_id>
+		<value>1102.00</value>
+		<created_at>2015-09-12 11:28:10</created_at>
+		<updated_at>2015-09-12 11:28:10</updated_at>
+	</row>
+
+	<row>
+		<id>2207</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>460</review_id>
+		<value>1448.00</value>
+		<created_at>2015-09-12 11:28:10</created_at>
+		<updated_at>2015-09-12 11:28:10</updated_at>
+	</row>
+
+	<row>
+		<id>2208</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>460</review_id>
+		<value>1514.00</value>
+		<created_at>2015-09-12 11:28:10</created_at>
+		<updated_at>2015-09-12 11:28:10</updated_at>
+	</row>
+
+	<row>
+		<id>2210</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>461</review_id>
+		<value>853.00</value>
+		<created_at>2015-09-12 11:28:36</created_at>
+		<updated_at>2015-09-12 11:28:36</updated_at>
+	</row>
+
+	<row>
+		<id>2211</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>461</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 11:28:36</created_at>
+		<updated_at>2015-09-12 11:28:36</updated_at>
+	</row>
+
+	<row>
+		<id>2212</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>461</review_id>
+		<value>892.00</value>
+		<created_at>2015-09-12 11:28:36</created_at>
+		<updated_at>2015-09-12 11:28:36</updated_at>
+	</row>
+
+	<row>
+		<id>2213</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>461</review_id>
+		<value>1432.00</value>
+		<created_at>2015-09-12 11:28:36</created_at>
+		<updated_at>2015-09-12 11:28:36</updated_at>
+	</row>
+
+	<row>
+		<id>2214</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>461</review_id>
+		<value>1603.00</value>
+		<created_at>2015-09-12 11:28:36</created_at>
+		<updated_at>2015-09-12 11:28:36</updated_at>
+	</row>
+
+	<row>
+		<id>2216</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>462</review_id>
+		<value>798.00</value>
+		<created_at>2015-09-12 15:23:59</created_at>
+		<updated_at>2015-09-12 15:23:59</updated_at>
+	</row>
+
+	<row>
+		<id>2217</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>462</review_id>
+		<value>1817.00</value>
+		<created_at>2015-09-12 15:23:59</created_at>
+		<updated_at>2015-09-12 15:23:59</updated_at>
+	</row>
+
+	<row>
+		<id>2218</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>462</review_id>
+		<value>1432.00</value>
+		<created_at>2015-09-12 15:23:59</created_at>
+		<updated_at>2015-09-12 15:23:59</updated_at>
+	</row>
+
+	<row>
+		<id>2219</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>462</review_id>
+		<value>1603.00</value>
+		<created_at>2015-09-12 15:23:59</created_at>
+		<updated_at>2015-09-12 15:23:59</updated_at>
+	</row>
+
+	<row>
+		<id>2220</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>462</review_id>
+		<value>1650.00</value>
+		<created_at>2015-09-12 15:23:59</created_at>
+		<updated_at>2015-09-12 15:23:59</updated_at>
+	</row>
+
+	<row>
+		<id>2222</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>463</review_id>
+		<value>1463.00</value>
+		<created_at>2015-09-12 15:26:47</created_at>
+		<updated_at>2015-09-12 15:26:47</updated_at>
+	</row>
+
+	<row>
+		<id>2223</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>463</review_id>
+		<value>1281.00</value>
+		<created_at>2015-09-12 15:26:47</created_at>
+		<updated_at>2015-09-12 15:26:47</updated_at>
+	</row>
+
+	<row>
+		<id>2224</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>463</review_id>
+		<value>1358.00</value>
+		<created_at>2015-09-12 15:26:47</created_at>
+		<updated_at>2015-09-12 15:26:47</updated_at>
+	</row>
+
+	<row>
+		<id>2225</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>463</review_id>
+		<value>1498.00</value>
+		<created_at>2015-09-12 15:26:47</created_at>
+		<updated_at>2015-09-12 15:26:47</updated_at>
+	</row>
+
+	<row>
+		<id>2226</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>463</review_id>
+		<value>1378.00</value>
+		<created_at>2015-09-12 15:26:47</created_at>
+		<updated_at>2015-09-12 15:26:47</updated_at>
+	</row>
+
+	<row>
+		<id>2228</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>464</review_id>
+		<value>1374.00</value>
+		<created_at>2015-09-12 15:27:43</created_at>
+		<updated_at>2015-09-12 15:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>2229</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>464</review_id>
+		<value>1763.00</value>
+		<created_at>2015-09-12 15:27:43</created_at>
+		<updated_at>2015-09-12 15:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>2230</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>464</review_id>
+		<value>1067.00</value>
+		<created_at>2015-09-12 15:27:43</created_at>
+		<updated_at>2015-09-12 15:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>2231</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>464</review_id>
+		<value>1327.00</value>
+		<created_at>2015-09-12 15:27:43</created_at>
+		<updated_at>2015-09-12 15:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>2232</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>464</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 15:27:43</created_at>
+		<updated_at>2015-09-12 15:27:43</updated_at>
+	</row>
+
+	<row>
+		<id>2234</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>465</review_id>
+		<value>767.00</value>
+		<created_at>2015-09-12 15:28:52</created_at>
+		<updated_at>2015-09-12 15:28:52</updated_at>
+	</row>
+
+	<row>
+		<id>2235</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>465</review_id>
+		<value>1456.00</value>
+		<created_at>2015-09-12 15:28:52</created_at>
+		<updated_at>2015-09-12 15:28:52</updated_at>
+	</row>
+
+	<row>
+		<id>2236</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>465</review_id>
+		<value>1452.00</value>
+		<created_at>2015-09-12 15:28:52</created_at>
+		<updated_at>2015-09-12 15:28:52</updated_at>
+	</row>
+
+	<row>
+		<id>2237</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>465</review_id>
+		<value>1428.00</value>
+		<created_at>2015-09-12 15:28:52</created_at>
+		<updated_at>2015-09-12 15:28:52</updated_at>
+	</row>
+
+	<row>
+		<id>2238</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>465</review_id>
+		<value>1249.00</value>
+		<created_at>2015-09-12 15:28:52</created_at>
+		<updated_at>2015-09-12 15:28:52</updated_at>
+	</row>
+
+	<row>
+		<id>2241</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>466</review_id>
+		<value>1401.00</value>
+		<created_at>2015-09-12 15:30:57</created_at>
+		<updated_at>2015-09-12 15:30:57</updated_at>
+	</row>
+
+	<row>
+		<id>2242</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>466</review_id>
+		<value>1611.00</value>
+		<created_at>2015-09-12 15:30:57</created_at>
+		<updated_at>2015-09-12 15:30:57</updated_at>
+	</row>
+
+	<row>
+		<id>2243</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>466</review_id>
+		<value>1179.00</value>
+		<created_at>2015-09-12 15:30:57</created_at>
+		<updated_at>2015-09-12 15:30:57</updated_at>
+	</row>
+
+	<row>
+		<id>2244</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>466</review_id>
+		<value>1409.00</value>
+		<created_at>2015-09-12 15:30:57</created_at>
+		<updated_at>2015-09-12 15:30:57</updated_at>
+	</row>
+
+	<row>
+		<id>2245</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>466</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 15:30:57</created_at>
+		<updated_at>2015-09-12 15:30:57</updated_at>
+	</row>
+
+	<row>
+		<id>2247</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>467</review_id>
+		<value>1141.00</value>
+		<created_at>2015-09-12 15:31:41</created_at>
+		<updated_at>2015-09-12 15:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>2248</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>467</review_id>
+		<value>1549.00</value>
+		<created_at>2015-09-12 15:31:41</created_at>
+		<updated_at>2015-09-12 15:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>2249</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>467</review_id>
+		<value>837.00</value>
+		<created_at>2015-09-12 15:31:41</created_at>
+		<updated_at>2015-09-12 15:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>2250</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>467</review_id>
+		<value>1541.00</value>
+		<created_at>2015-09-12 15:31:41</created_at>
+		<updated_at>2015-09-12 15:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>2251</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>467</review_id>
+		<value>1397.00</value>
+		<created_at>2015-09-12 15:31:41</created_at>
+		<updated_at>2015-09-12 15:31:41</updated_at>
+	</row>
+
+	<row>
+		<id>2253</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>468</review_id>
+		<value>860.00</value>
+		<created_at>2015-09-12 15:32:04</created_at>
+		<updated_at>2015-09-12 15:32:04</updated_at>
+	</row>
+
+	<row>
+		<id>2254</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>468</review_id>
+		<value>1463.00</value>
+		<created_at>2015-09-12 15:32:04</created_at>
+		<updated_at>2015-09-12 15:32:04</updated_at>
+	</row>
+
+	<row>
+		<id>2255</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>468</review_id>
+		<value>1234.00</value>
+		<created_at>2015-09-12 15:32:04</created_at>
+		<updated_at>2015-09-12 15:32:04</updated_at>
+	</row>
+
+	<row>
+		<id>2256</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>468</review_id>
+		<value>1463.00</value>
+		<created_at>2015-09-12 15:32:04</created_at>
+		<updated_at>2015-09-12 15:32:04</updated_at>
+	</row>
+
+	<row>
+		<id>2257</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>468</review_id>
+		<value>1537.00</value>
+		<created_at>2015-09-12 15:32:04</created_at>
+		<updated_at>2015-09-12 15:32:04</updated_at>
+	</row>
+
+	<row>
+		<id>2259</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>469</review_id>
+		<value>1207.00</value>
+		<created_at>2015-09-12 15:32:53</created_at>
+		<updated_at>2015-09-12 15:32:53</updated_at>
+	</row>
+
+	<row>
+		<id>2260</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>469</review_id>
+		<value>1685.00</value>
+		<created_at>2015-09-12 15:32:53</created_at>
+		<updated_at>2015-09-12 15:32:53</updated_at>
+	</row>
+
+	<row>
+		<id>2261</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>469</review_id>
+		<value>654.00</value>
+		<created_at>2015-09-12 15:32:53</created_at>
+		<updated_at>2015-09-12 15:32:53</updated_at>
+	</row>
+
+	<row>
+		<id>2262</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>469</review_id>
+		<value>1354.00</value>
+		<created_at>2015-09-12 15:32:53</created_at>
+		<updated_at>2015-09-12 15:32:53</updated_at>
+	</row>
+
+	<row>
+		<id>2263</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>469</review_id>
+		<value>1537.00</value>
+		<created_at>2015-09-12 15:32:53</created_at>
+		<updated_at>2015-09-12 15:32:53</updated_at>
+	</row>
+
+	<row>
+		<id>2265</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>470</review_id>
+		<value>1117.00</value>
+		<created_at>2015-09-12 15:33:21</created_at>
+		<updated_at>2015-09-12 15:33:21</updated_at>
+	</row>
+
+	<row>
+		<id>2266</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>470</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 15:33:21</created_at>
+		<updated_at>2015-09-12 15:33:21</updated_at>
+	</row>
+
+	<row>
+		<id>2267</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>470</review_id>
+		<value>1094.00</value>
+		<created_at>2015-09-12 15:33:21</created_at>
+		<updated_at>2015-09-12 15:33:21</updated_at>
+	</row>
+
+	<row>
+		<id>2268</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>470</review_id>
+		<value>1319.00</value>
+		<created_at>2015-09-12 15:33:21</created_at>
+		<updated_at>2015-09-12 15:33:21</updated_at>
+	</row>
+
+	<row>
+		<id>2269</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>470</review_id>
+		<value>1156.00</value>
+		<created_at>2015-09-12 15:33:21</created_at>
+		<updated_at>2015-09-12 15:33:21</updated_at>
+	</row>
+
+	<row>
+		<id>2271</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>471</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-12 15:33:52</created_at>
+		<updated_at>2015-09-12 15:33:52</updated_at>
+	</row>
+
+	<row>
+		<id>2272</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>471</review_id>
+		<value>1907.00</value>
+		<created_at>2015-09-12 15:33:52</created_at>
+		<updated_at>2015-09-12 15:33:52</updated_at>
+	</row>
+
+	<row>
+		<id>2273</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>471</review_id>
+		<value>1312.00</value>
+		<created_at>2015-09-12 15:33:52</created_at>
+		<updated_at>2015-09-12 15:33:52</updated_at>
+	</row>
+
+	<row>
+		<id>2274</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>471</review_id>
+		<value>1806.00</value>
+		<created_at>2015-09-12 15:33:52</created_at>
+		<updated_at>2015-09-12 15:33:52</updated_at>
+	</row>
+
+	<row>
+		<id>2275</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>471</review_id>
+		<value>1771.00</value>
+		<created_at>2015-09-12 15:33:52</created_at>
+		<updated_at>2015-09-12 15:33:52</updated_at>
+	</row>
+
+	<row>
+		<id>2277</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>472</review_id>
+		<value>1078.00</value>
+		<created_at>2015-09-12 15:34:20</created_at>
+		<updated_at>2015-09-12 15:34:20</updated_at>
+	</row>
+
+	<row>
+		<id>2278</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>472</review_id>
+		<value>1545.00</value>
+		<created_at>2015-09-12 15:34:20</created_at>
+		<updated_at>2015-09-12 15:34:20</updated_at>
+	</row>
+
+	<row>
+		<id>2279</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>472</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-12 15:34:20</created_at>
+		<updated_at>2015-09-12 15:34:20</updated_at>
+	</row>
+
+	<row>
+		<id>2280</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>472</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 15:34:20</created_at>
+		<updated_at>2015-09-12 15:34:20</updated_at>
+	</row>
+
+	<row>
+		<id>2281</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>472</review_id>
+		<value>1545.00</value>
+		<created_at>2015-09-12 15:34:20</created_at>
+		<updated_at>2015-09-12 15:34:20</updated_at>
+	</row>
+
+	<row>
+		<id>2283</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>473</review_id>
+		<value>810.00</value>
+		<created_at>2015-09-12 15:34:51</created_at>
+		<updated_at>2015-09-12 15:34:51</updated_at>
+	</row>
+
+	<row>
+		<id>2284</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>473</review_id>
+		<value>1281.00</value>
+		<created_at>2015-09-12 15:34:51</created_at>
+		<updated_at>2015-09-12 15:34:51</updated_at>
+	</row>
+
+	<row>
+		<id>2285</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>473</review_id>
+		<value>1168.00</value>
+		<created_at>2015-09-12 15:34:51</created_at>
+		<updated_at>2015-09-12 15:34:51</updated_at>
+	</row>
+
+	<row>
+		<id>2286</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>473</review_id>
+		<value>1428.00</value>
+		<created_at>2015-09-12 15:34:51</created_at>
+		<updated_at>2015-09-12 15:34:51</updated_at>
+	</row>
+
+	<row>
+		<id>2287</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>473</review_id>
+		<value>1401.00</value>
+		<created_at>2015-09-12 15:34:51</created_at>
+		<updated_at>2015-09-12 15:34:51</updated_at>
+	</row>
+
+	<row>
+		<id>2289</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>474</review_id>
+		<value>755.00</value>
+		<created_at>2015-09-12 15:35:10</created_at>
+		<updated_at>2015-09-12 15:35:10</updated_at>
+	</row>
+
+	<row>
+		<id>2290</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>474</review_id>
+		<value>1642.00</value>
+		<created_at>2015-09-12 15:35:10</created_at>
+		<updated_at>2015-09-12 15:35:10</updated_at>
+	</row>
+
+	<row>
+		<id>2291</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>474</review_id>
+		<value>1483.00</value>
+		<created_at>2015-09-12 15:35:10</created_at>
+		<updated_at>2015-09-12 15:35:10</updated_at>
+	</row>
+
+	<row>
+		<id>2292</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>474</review_id>
+		<value>1728.00</value>
+		<created_at>2015-09-12 15:35:10</created_at>
+		<updated_at>2015-09-12 15:35:10</updated_at>
+	</row>
+
+	<row>
+		<id>2293</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>474</review_id>
+		<value>1323.00</value>
+		<created_at>2015-09-12 15:35:10</created_at>
+		<updated_at>2015-09-12 15:35:10</updated_at>
+	</row>
+
+	<row>
+		<id>2295</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>475</review_id>
+		<value>763.00</value>
+		<created_at>2015-09-12 15:35:34</created_at>
+		<updated_at>2015-09-12 15:35:34</updated_at>
+	</row>
+
+	<row>
+		<id>2296</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>475</review_id>
+		<value>1697.00</value>
+		<created_at>2015-09-12 15:35:34</created_at>
+		<updated_at>2015-09-12 15:35:34</updated_at>
+	</row>
+
+	<row>
+		<id>2297</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>475</review_id>
+		<value>1347.00</value>
+		<created_at>2015-09-12 15:35:34</created_at>
+		<updated_at>2015-09-12 15:35:34</updated_at>
+	</row>
+
+	<row>
+		<id>2298</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>475</review_id>
+		<value>1767.00</value>
+		<created_at>2015-09-12 15:35:34</created_at>
+		<updated_at>2015-09-12 15:35:34</updated_at>
+	</row>
+
+	<row>
+		<id>2299</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>475</review_id>
+		<value>1494.00</value>
+		<created_at>2015-09-12 15:35:34</created_at>
+		<updated_at>2015-09-12 15:35:34</updated_at>
+	</row>
+
+	<row>
+		<id>2301</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>453</review_id>
+		<value>1529.00</value>
+		<created_at>2015-09-12 15:37:04</created_at>
+		<updated_at>2015-09-12 15:37:04</updated_at>
+	</row>
+
+	<row>
+		<id>2302</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>454</review_id>
+		<value>1459.00</value>
+		<created_at>2015-09-12 15:38:29</created_at>
+		<updated_at>2015-09-12 15:38:29</updated_at>
+	</row>
+
+	<row>
+		<id>2303</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>476</review_id>
+		<value>1086.00</value>
+		<created_at>2015-09-12 15:40:23</created_at>
+		<updated_at>2015-09-12 15:40:23</updated_at>
+	</row>
+
+	<row>
+		<id>2304</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>476</review_id>
+		<value>1572.00</value>
+		<created_at>2015-09-12 15:40:23</created_at>
+		<updated_at>2015-09-12 15:40:23</updated_at>
+	</row>
+
+	<row>
+		<id>2305</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>476</review_id>
+		<value>1059.00</value>
+		<created_at>2015-09-12 15:40:23</created_at>
+		<updated_at>2015-09-12 15:40:23</updated_at>
+	</row>
+
+	<row>
+		<id>2306</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>476</review_id>
+		<value>1288.00</value>
+		<created_at>2015-09-12 15:40:23</created_at>
+		<updated_at>2015-09-12 15:40:23</updated_at>
+	</row>
+
+	<row>
+		<id>2307</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>476</review_id>
+		<value>1463.00</value>
+		<created_at>2015-09-12 15:40:23</created_at>
+		<updated_at>2015-09-12 15:40:23</updated_at>
+	</row>
+
+	<row>
+		<id>2308</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>477</review_id>
+		<value>1370.00</value>
+		<created_at>2015-09-12 15:40:45</created_at>
+		<updated_at>2015-09-12 15:40:45</updated_at>
+	</row>
+
+	<row>
+		<id>2309</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>477</review_id>
+		<value>1708.00</value>
+		<created_at>2015-09-12 15:40:45</created_at>
+		<updated_at>2015-09-12 15:40:45</updated_at>
+	</row>
+
+	<row>
+		<id>2310</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>477</review_id>
+		<value>1436.00</value>
+		<created_at>2015-09-12 15:40:45</created_at>
+		<updated_at>2015-09-12 15:40:45</updated_at>
+	</row>
+
+	<row>
+		<id>2311</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>477</review_id>
+		<value>1576.00</value>
+		<created_at>2015-09-12 15:40:45</created_at>
+		<updated_at>2015-09-12 15:40:45</updated_at>
+	</row>
+
+	<row>
+		<id>2312</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>477</review_id>
+		<value>1611.00</value>
+		<created_at>2015-09-12 15:40:45</created_at>
+		<updated_at>2015-09-12 15:40:45</updated_at>
+	</row>
+
+	<row>
+		<id>2313</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>478</review_id>
+		<value>942.00</value>
+		<created_at>2015-09-12 15:41:10</created_at>
+		<updated_at>2015-09-12 15:41:10</updated_at>
+	</row>
+
+	<row>
+		<id>2314</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>478</review_id>
+		<value>1479.00</value>
+		<created_at>2015-09-12 15:41:10</created_at>
+		<updated_at>2015-09-12 15:41:10</updated_at>
+	</row>
+
+	<row>
+		<id>2315</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>478</review_id>
+		<value>1277.00</value>
+		<created_at>2015-09-12 15:41:10</created_at>
+		<updated_at>2015-09-12 15:41:10</updated_at>
+	</row>
+
+	<row>
+		<id>2316</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>478</review_id>
+		<value>1498.00</value>
+		<created_at>2015-09-12 15:41:10</created_at>
+		<updated_at>2015-09-12 15:41:10</updated_at>
+	</row>
+
+	<row>
+		<id>2317</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>478</review_id>
+		<value>1588.00</value>
+		<created_at>2015-09-12 15:41:10</created_at>
+		<updated_at>2015-09-12 15:41:10</updated_at>
+	</row>
+
+	<row>
+		<id>2318</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>479</review_id>
+		<value>720.00</value>
+		<created_at>2015-09-12 15:41:34</created_at>
+		<updated_at>2015-09-12 15:41:34</updated_at>
+	</row>
+
+	<row>
+		<id>2319</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>479</review_id>
+		<value>763.00</value>
+		<created_at>2015-09-12 15:41:34</created_at>
+		<updated_at>2015-09-12 15:41:34</updated_at>
+	</row>
+
+	<row>
+		<id>2320</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>479</review_id>
+		<value>538.00</value>
+		<created_at>2015-09-12 15:41:34</created_at>
+		<updated_at>2015-09-12 15:41:34</updated_at>
+	</row>
+
+	<row>
+		<id>2321</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>479</review_id>
+		<value>1284.00</value>
+		<created_at>2015-09-12 15:41:34</created_at>
+		<updated_at>2015-09-12 15:41:34</updated_at>
+	</row>
+
+	<row>
+		<id>2322</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>479</review_id>
+		<value>1242.00</value>
+		<created_at>2015-09-12 15:41:34</created_at>
+		<updated_at>2015-09-12 15:41:34</updated_at>
+	</row>
+
+	<row>
+		<id>2323</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>480</review_id>
+		<value>1265.00</value>
+		<created_at>2015-09-12 15:41:55</created_at>
+		<updated_at>2015-09-12 15:41:55</updated_at>
+	</row>
+
+	<row>
+		<id>2324</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>480</review_id>
+		<value>1191.00</value>
+		<created_at>2015-09-12 15:41:55</created_at>
+		<updated_at>2015-09-12 15:41:55</updated_at>
+	</row>
+
+	<row>
+		<id>2325</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>480</review_id>
+		<value>1055.00</value>
+		<created_at>2015-09-12 15:41:55</created_at>
+		<updated_at>2015-09-12 15:41:55</updated_at>
+	</row>
+
+	<row>
+		<id>2326</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>480</review_id>
+		<value>1249.00</value>
+		<created_at>2015-09-12 15:41:55</created_at>
+		<updated_at>2015-09-12 15:41:55</updated_at>
+	</row>
+
+	<row>
+		<id>2327</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>480</review_id>
+		<value>1152.00</value>
+		<created_at>2015-09-12 15:41:55</created_at>
+		<updated_at>2015-09-12 15:41:55</updated_at>
+	</row>
+
+	<row>
+		<id>2328</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>481</review_id>
+		<value>1238.00</value>
+		<created_at>2015-09-12 15:42:14</created_at>
+		<updated_at>2015-09-12 15:42:14</updated_at>
+	</row>
+
+	<row>
+		<id>2329</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>481</review_id>
+		<value>1238.00</value>
+		<created_at>2015-09-12 15:42:14</created_at>
+		<updated_at>2015-09-12 15:42:14</updated_at>
+	</row>
+
+	<row>
+		<id>2330</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>481</review_id>
+		<value>1074.00</value>
+		<created_at>2015-09-12 15:42:14</created_at>
+		<updated_at>2015-09-12 15:42:14</updated_at>
+	</row>
+
+	<row>
+		<id>2331</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>481</review_id>
+		<value>1312.00</value>
+		<created_at>2015-09-12 15:42:14</created_at>
+		<updated_at>2015-09-12 15:42:14</updated_at>
+	</row>
+
+	<row>
+		<id>2332</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>481</review_id>
+		<value>1498.00</value>
+		<created_at>2015-09-12 15:42:14</created_at>
+		<updated_at>2015-09-12 15:42:14</updated_at>
+	</row>
+
+	<row>
+		<id>2333</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>482</review_id>
+		<value>1172.00</value>
+		<created_at>2015-09-12 15:42:49</created_at>
+		<updated_at>2015-09-12 15:42:49</updated_at>
+	</row>
+
+	<row>
+		<id>2334</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>482</review_id>
+		<value>1794.00</value>
+		<created_at>2015-09-12 15:42:49</created_at>
+		<updated_at>2015-09-12 15:42:49</updated_at>
+	</row>
+
+	<row>
+		<id>2335</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>482</review_id>
+		<value>1716.00</value>
+		<created_at>2015-09-12 15:42:49</created_at>
+		<updated_at>2015-09-12 15:42:49</updated_at>
+	</row>
+
+	<row>
+		<id>2336</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>482</review_id>
+		<value>1782.00</value>
+		<created_at>2015-09-12 15:42:49</created_at>
+		<updated_at>2015-09-12 15:42:49</updated_at>
+	</row>
+
+	<row>
+		<id>2337</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>482</review_id>
+		<value>1673.00</value>
+		<created_at>2015-09-12 15:42:49</created_at>
+		<updated_at>2015-09-12 15:42:49</updated_at>
+	</row>
+
+	<row>
+		<id>2338</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>483</review_id>
+		<value>1374.00</value>
+		<created_at>2015-09-12 18:36:30</created_at>
+		<updated_at>2015-09-12 18:36:30</updated_at>
+	</row>
+
+	<row>
+		<id>2339</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>483</review_id>
+		<value>1879.00</value>
+		<created_at>2015-09-12 18:36:30</created_at>
+		<updated_at>2015-09-12 18:36:30</updated_at>
+	</row>
+
+	<row>
+		<id>2340</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>483</review_id>
+		<value>1382.00</value>
+		<created_at>2015-09-12 18:36:30</created_at>
+		<updated_at>2015-09-12 18:36:30</updated_at>
+	</row>
+
+	<row>
+		<id>2341</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>483</review_id>
+		<value>1409.00</value>
+		<created_at>2015-09-12 18:36:30</created_at>
+		<updated_at>2015-09-12 18:36:30</updated_at>
+	</row>
+
+	<row>
+		<id>2342</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>483</review_id>
+		<value>1798.00</value>
+		<created_at>2015-09-12 18:36:30</created_at>
+		<updated_at>2015-09-12 18:36:30</updated_at>
+	</row>
+
+	<row>
+		<id>2343</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>484</review_id>
+		<value>1063.00</value>
+		<created_at>2015-09-12 19:56:48</created_at>
+		<updated_at>2015-09-12 19:56:48</updated_at>
+	</row>
+
+	<row>
+		<id>2344</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>484</review_id>
+		<value>1467.00</value>
+		<created_at>2015-09-12 19:56:48</created_at>
+		<updated_at>2015-09-12 19:56:48</updated_at>
+	</row>
+
+	<row>
+		<id>2345</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>484</review_id>
+		<value>1211.00</value>
+		<created_at>2015-09-12 19:56:48</created_at>
+		<updated_at>2015-09-12 19:56:48</updated_at>
+	</row>
+
+	<row>
+		<id>2346</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>484</review_id>
+		<value>1308.00</value>
+		<created_at>2015-09-12 19:56:48</created_at>
+		<updated_at>2015-09-12 19:56:48</updated_at>
+	</row>
+
+	<row>
+		<id>2347</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>484</review_id>
+		<value>1308.00</value>
+		<created_at>2015-09-12 19:56:48</created_at>
+		<updated_at>2015-09-12 19:56:48</updated_at>
+	</row>
+
+	<row>
+		<id>2348</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>485</review_id>
+		<value>1098.00</value>
+		<created_at>2015-09-12 19:58:26</created_at>
+		<updated_at>2015-09-12 19:58:26</updated_at>
+	</row>
+
+	<row>
+		<id>2349</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>485</review_id>
+		<value>654.00</value>
+		<created_at>2015-09-12 19:58:26</created_at>
+		<updated_at>2015-09-12 19:58:26</updated_at>
+	</row>
+
+	<row>
+		<id>2350</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>485</review_id>
+		<value>592.00</value>
+		<created_at>2015-09-12 19:58:26</created_at>
+		<updated_at>2015-09-12 19:58:26</updated_at>
+	</row>
+
+	<row>
+		<id>2351</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>485</review_id>
+		<value>1304.00</value>
+		<created_at>2015-09-12 19:58:26</created_at>
+		<updated_at>2015-09-12 19:58:26</updated_at>
+	</row>
+
+	<row>
+		<id>2352</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>485</review_id>
+		<value>1071.00</value>
+		<created_at>2015-09-12 19:58:26</created_at>
+		<updated_at>2015-09-12 19:58:26</updated_at>
+	</row>
+
+	<row>
+		<id>2353</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>486</review_id>
+		<value>1176.00</value>
+		<created_at>2015-09-12 19:58:39</created_at>
+		<updated_at>2015-09-12 19:58:39</updated_at>
+	</row>
+
+	<row>
+		<id>2354</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>486</review_id>
+		<value>1113.00</value>
+		<created_at>2015-09-12 19:58:39</created_at>
+		<updated_at>2015-09-12 19:58:39</updated_at>
+	</row>
+
+	<row>
+		<id>2355</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>486</review_id>
+		<value>1273.00</value>
+		<created_at>2015-09-12 19:58:39</created_at>
+		<updated_at>2015-09-12 19:58:39</updated_at>
+	</row>
+
+	<row>
+		<id>2356</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>486</review_id>
+		<value>1331.00</value>
+		<created_at>2015-09-12 19:58:39</created_at>
+		<updated_at>2015-09-12 19:58:39</updated_at>
+	</row>
+
+	<row>
+		<id>2357</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>486</review_id>
+		<value>1284.00</value>
+		<created_at>2015-09-12 19:58:39</created_at>
+		<updated_at>2015-09-12 19:58:39</updated_at>
+	</row>
+
+	<row>
+		<id>2358</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>487</review_id>
+		<value>1549.00</value>
+		<created_at>2015-09-12 19:59:02</created_at>
+		<updated_at>2015-09-12 19:59:02</updated_at>
+	</row>
+
+	<row>
+		<id>2359</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>487</review_id>
+		<value>1891.00</value>
+		<created_at>2015-09-12 19:59:02</created_at>
+		<updated_at>2015-09-12 19:59:02</updated_at>
+	</row>
+
+	<row>
+		<id>2360</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>487</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:02</created_at>
+		<updated_at>2015-09-12 19:59:02</updated_at>
+	</row>
+
+	<row>
+		<id>2361</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>487</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:02</created_at>
+		<updated_at>2015-09-12 19:59:02</updated_at>
+	</row>
+
+	<row>
+		<id>2362</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>487</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:02</created_at>
+		<updated_at>2015-09-12 19:59:02</updated_at>
+	</row>
+
+	<row>
+		<id>2363</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>488</review_id>
+		<value>1397.00</value>
+		<created_at>2015-09-12 19:59:24</created_at>
+		<updated_at>2015-09-12 19:59:24</updated_at>
+	</row>
+
+	<row>
+		<id>2364</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>488</review_id>
+		<value>1903.00</value>
+		<created_at>2015-09-12 19:59:24</created_at>
+		<updated_at>2015-09-12 19:59:24</updated_at>
+	</row>
+
+	<row>
+		<id>2365</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>488</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:24</created_at>
+		<updated_at>2015-09-12 19:59:24</updated_at>
+	</row>
+
+	<row>
+		<id>2366</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>488</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:24</created_at>
+		<updated_at>2015-09-12 19:59:24</updated_at>
+	</row>
+
+	<row>
+		<id>2367</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>488</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:24</created_at>
+		<updated_at>2015-09-12 19:59:24</updated_at>
+	</row>
+
+	<row>
+		<id>2368</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>489</review_id>
+		<value>1561.00</value>
+		<created_at>2015-09-12 19:59:43</created_at>
+		<updated_at>2015-09-12 19:59:43</updated_at>
+	</row>
+
+	<row>
+		<id>2369</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>489</review_id>
+		<value>1907.00</value>
+		<created_at>2015-09-12 19:59:43</created_at>
+		<updated_at>2015-09-12 19:59:43</updated_at>
+	</row>
+
+	<row>
+		<id>2370</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>489</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:43</created_at>
+		<updated_at>2015-09-12 19:59:43</updated_at>
+	</row>
+
+	<row>
+		<id>2371</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>489</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:43</created_at>
+		<updated_at>2015-09-12 19:59:43</updated_at>
+	</row>
+
+	<row>
+		<id>2372</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>489</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-12 19:59:43</created_at>
+		<updated_at>2015-09-12 19:59:43</updated_at>
+	</row>
+
+	<row>
+		<id>2373</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>490</review_id>
+		<value>1327.00</value>
+		<created_at>2015-09-12 19:59:58</created_at>
+		<updated_at>2015-09-12 19:59:58</updated_at>
+	</row>
+
+	<row>
+		<id>2374</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>490</review_id>
+		<value>1475.00</value>
+		<created_at>2015-09-12 19:59:58</created_at>
+		<updated_at>2015-09-12 19:59:58</updated_at>
+	</row>
+
+	<row>
+		<id>2375</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>490</review_id>
+		<value>1386.00</value>
+		<created_at>2015-09-12 19:59:58</created_at>
+		<updated_at>2015-09-12 19:59:58</updated_at>
+	</row>
+
+	<row>
+		<id>2376</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>490</review_id>
+		<value>1432.00</value>
+		<created_at>2015-09-12 19:59:58</created_at>
+		<updated_at>2015-09-12 19:59:58</updated_at>
+	</row>
+
+	<row>
+		<id>2377</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>490</review_id>
+		<value>1362.00</value>
+		<created_at>2015-09-12 19:59:58</created_at>
+		<updated_at>2015-09-12 19:59:58</updated_at>
+	</row>
+
+	<row>
+		<id>2378</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>491</review_id>
+		<value>833.00</value>
+		<created_at>2015-09-12 20:33:36</created_at>
+		<updated_at>2015-09-12 20:33:36</updated_at>
+	</row>
+
+	<row>
+		<id>2379</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>491</review_id>
+		<value>1841.00</value>
+		<created_at>2015-09-12 20:33:36</created_at>
+		<updated_at>2015-09-12 20:33:36</updated_at>
+	</row>
+
+	<row>
+		<id>2380</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>491</review_id>
+		<value>1471.00</value>
+		<created_at>2015-09-12 20:33:36</created_at>
+		<updated_at>2015-09-12 20:33:36</updated_at>
+	</row>
+
+	<row>
+		<id>2381</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>491</review_id>
+		<value>1584.00</value>
+		<created_at>2015-09-12 20:33:36</created_at>
+		<updated_at>2015-09-12 20:33:36</updated_at>
+	</row>
+
+	<row>
+		<id>2382</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>491</review_id>
+		<value>1623.00</value>
+		<created_at>2015-09-12 20:33:36</created_at>
+		<updated_at>2015-09-12 20:33:36</updated_at>
+	</row>
+
+	<row>
+		<id>2383</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>492</review_id>
+		<value>1109.00</value>
+		<created_at>2015-09-12 20:34:08</created_at>
+		<updated_at>2015-09-12 20:34:08</updated_at>
+	</row>
+
+	<row>
+		<id>2384</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>492</review_id>
+		<value>1856.00</value>
+		<created_at>2015-09-12 20:34:08</created_at>
+		<updated_at>2015-09-12 20:34:08</updated_at>
+	</row>
+
+	<row>
+		<id>2385</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>492</review_id>
+		<value>1475.00</value>
+		<created_at>2015-09-12 20:34:08</created_at>
+		<updated_at>2015-09-12 20:34:08</updated_at>
+	</row>
+
+	<row>
+		<id>2386</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>492</review_id>
+		<value>1592.00</value>
+		<created_at>2015-09-12 20:34:08</created_at>
+		<updated_at>2015-09-12 20:34:08</updated_at>
+	</row>
+
+	<row>
+		<id>2387</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>492</review_id>
+		<value>1685.00</value>
+		<created_at>2015-09-12 20:34:08</created_at>
+		<updated_at>2015-09-12 20:34:08</updated_at>
+	</row>
+
+	<row>
+		<id>2388</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>493</review_id>
+		<value>1382.00</value>
+		<created_at>2015-09-12 20:35:29</created_at>
+		<updated_at>2015-09-12 20:35:29</updated_at>
+	</row>
+
+	<row>
+		<id>2389</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>493</review_id>
+		<value>1829.00</value>
+		<created_at>2015-09-12 20:35:29</created_at>
+		<updated_at>2015-09-12 20:35:29</updated_at>
+	</row>
+
+	<row>
+		<id>2390</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>493</review_id>
+		<value>1529.00</value>
+		<created_at>2015-09-12 20:35:29</created_at>
+		<updated_at>2015-09-12 20:35:29</updated_at>
+	</row>
+
+	<row>
+		<id>2391</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>493</review_id>
+		<value>1837.00</value>
+		<created_at>2015-09-12 20:35:29</created_at>
+		<updated_at>2015-09-12 20:35:29</updated_at>
+	</row>
+
+	<row>
+		<id>2392</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>493</review_id>
+		<value>1922.00</value>
+		<created_at>2015-09-12 20:35:29</created_at>
+		<updated_at>2015-09-12 20:35:29</updated_at>
+	</row>
+
+	<row>
+		<id>2393</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>494</review_id>
+		<value>1284.00</value>
+		<created_at>2015-09-12 20:35:49</created_at>
+		<updated_at>2015-09-12 20:35:49</updated_at>
+	</row>
+
+	<row>
+		<id>2394</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>494</review_id>
+		<value>1067.00</value>
+		<created_at>2015-09-12 20:35:49</created_at>
+		<updated_at>2015-09-12 20:35:49</updated_at>
+	</row>
+
+	<row>
+		<id>2395</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>494</review_id>
+		<value>1102.00</value>
+		<created_at>2015-09-12 20:35:49</created_at>
+		<updated_at>2015-09-12 20:35:49</updated_at>
+	</row>
+
+	<row>
+		<id>2396</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>494</review_id>
+		<value>1218.00</value>
+		<created_at>2015-09-12 20:35:49</created_at>
+		<updated_at>2015-09-12 20:35:49</updated_at>
+	</row>
+
+	<row>
+		<id>2397</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>494</review_id>
+		<value>1249.00</value>
+		<created_at>2015-09-12 20:35:49</created_at>
+		<updated_at>2015-09-12 20:35:49</updated_at>
+	</row>
+
+	<row>
+		<id>2398</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>495</review_id>
+		<value>888.00</value>
+		<created_at>2015-09-12 20:48:02</created_at>
+		<updated_at>2015-09-12 20:48:02</updated_at>
+	</row>
+
+	<row>
+		<id>2399</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>495</review_id>
+		<value>1864.00</value>
+		<created_at>2015-09-12 20:48:02</created_at>
+		<updated_at>2015-09-12 20:48:02</updated_at>
+	</row>
+
+	<row>
+		<id>2400</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>495</review_id>
+		<value>1074.00</value>
+		<created_at>2015-09-12 20:48:02</created_at>
+		<updated_at>2015-09-12 20:48:02</updated_at>
+	</row>
+
+	<row>
+		<id>2401</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>495</review_id>
+		<value>1778.00</value>
+		<created_at>2015-09-12 20:48:02</created_at>
+		<updated_at>2015-09-12 20:48:02</updated_at>
+	</row>
+
+	<row>
+		<id>2402</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>495</review_id>
+		<value>1949.00</value>
+		<created_at>2015-09-12 20:48:02</created_at>
+		<updated_at>2015-09-12 20:48:02</updated_at>
+	</row>
+
+	<row>
+		<id>2403</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>496</review_id>
+		<value>1125.00</value>
+		<created_at>2015-09-12 21:01:48</created_at>
+		<updated_at>2015-09-12 21:01:48</updated_at>
+	</row>
+
+	<row>
+		<id>2404</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>496</review_id>
+		<value>981.00</value>
+		<created_at>2015-09-12 21:01:48</created_at>
+		<updated_at>2015-09-12 21:01:48</updated_at>
+	</row>
+
+	<row>
+		<id>2405</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>496</review_id>
+		<value>748.00</value>
+		<created_at>2015-09-12 21:01:48</created_at>
+		<updated_at>2015-09-12 21:01:48</updated_at>
+	</row>
+
+	<row>
+		<id>2406</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>496</review_id>
+		<value>1172.00</value>
+		<created_at>2015-09-12 21:01:48</created_at>
+		<updated_at>2015-09-12 21:01:48</updated_at>
+	</row>
+
+	<row>
+		<id>2407</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>496</review_id>
+		<value>1141.00</value>
+		<created_at>2015-09-12 21:01:48</created_at>
+		<updated_at>2015-09-12 21:01:48</updated_at>
+	</row>
+
+	<row>
+		<id>2408</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>497</review_id>
+		<value>1043.00</value>
+		<created_at>2015-09-12 21:02:20</created_at>
+		<updated_at>2015-09-12 21:02:20</updated_at>
+	</row>
+
+	<row>
+		<id>2409</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>497</review_id>
+		<value>1133.00</value>
+		<created_at>2015-09-12 21:02:20</created_at>
+		<updated_at>2015-09-12 21:02:20</updated_at>
+	</row>
+
+	<row>
+		<id>2410</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>497</review_id>
+		<value>1071.00</value>
+		<created_at>2015-09-12 21:02:20</created_at>
+		<updated_at>2015-09-12 21:02:20</updated_at>
+	</row>
+
+	<row>
+		<id>2411</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>497</review_id>
+		<value>1141.00</value>
+		<created_at>2015-09-12 21:02:20</created_at>
+		<updated_at>2015-09-12 21:02:20</updated_at>
+	</row>
+
+	<row>
+		<id>2412</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>497</review_id>
+		<value>1086.00</value>
+		<created_at>2015-09-12 21:02:20</created_at>
+		<updated_at>2015-09-12 21:02:20</updated_at>
+	</row>
+
+	<row>
+		<id>2413</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>498</review_id>
+		<value>1203.00</value>
+		<created_at>2015-09-13 00:12:34</created_at>
+		<updated_at>2015-09-13 00:12:34</updated_at>
+	</row>
+
+	<row>
+		<id>2414</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>498</review_id>
+		<value>1712.00</value>
+		<created_at>2015-09-13 00:12:34</created_at>
+		<updated_at>2015-09-13 00:12:34</updated_at>
+	</row>
+
+	<row>
+		<id>2415</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>498</review_id>
+		<value>1522.00</value>
+		<created_at>2015-09-13 00:12:34</created_at>
+		<updated_at>2015-09-13 00:12:34</updated_at>
+	</row>
+
+	<row>
+		<id>2416</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>498</review_id>
+		<value>1494.00</value>
+		<created_at>2015-09-13 00:12:34</created_at>
+		<updated_at>2015-09-13 00:12:34</updated_at>
+	</row>
+
+	<row>
+		<id>2417</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>498</review_id>
+		<value>1732.00</value>
+		<created_at>2015-09-13 00:12:34</created_at>
+		<updated_at>2015-09-13 00:12:34</updated_at>
+	</row>
+
+	<row>
+		<id>2418</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>499</review_id>
+		<value>1333.00</value>
+		<created_at>2015-09-13 10:22:34</created_at>
+		<updated_at>2015-09-13 10:22:34</updated_at>
+	</row>
+
+	<row>
+		<id>2419</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>499</review_id>
+		<value>1465.00</value>
+		<created_at>2015-09-13 10:22:34</created_at>
+		<updated_at>2015-09-13 10:22:34</updated_at>
+	</row>
+
+	<row>
+		<id>2420</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>499</review_id>
+		<value>1780.00</value>
+		<created_at>2015-09-13 10:22:34</created_at>
+		<updated_at>2015-09-13 10:22:34</updated_at>
+	</row>
+
+	<row>
+		<id>2421</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>499</review_id>
+		<value>1430.00</value>
+		<created_at>2015-09-13 10:22:34</created_at>
+		<updated_at>2015-09-13 10:22:34</updated_at>
+	</row>
+
+	<row>
+		<id>2422</id>
+		<rating_type_id>49</rating_type_id>
+		<review_id>499</review_id>
+		<value>1193.00</value>
+		<created_at>2015-09-13 10:22:34</created_at>
+		<updated_at>2015-09-13 10:22:34</updated_at>
+	</row>
+
+	<row>
+		<id>2423</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>500</review_id>
+		<value>1000.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2424</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>500</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2425</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>500</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2426</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>500</review_id>
+		<value>1848.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2427</id>
+		<rating_type_id>86</rating_type_id>
+		<review_id>500</review_id>
+		<value>2000.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2428</id>
+		<rating_type_id>87</rating_type_id>
+		<review_id>500</review_id>
+		<value>1.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2429</id>
+		<rating_type_id>88</rating_type_id>
+		<review_id>500</review_id>
+		<value>1230.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2430</id>
+		<rating_type_id>89</rating_type_id>
+		<review_id>500</review_id>
+		<value>526.00</value>
+		<created_at>2015-09-13 15:24:35</created_at>
+		<updated_at>2015-09-13 15:24:35</updated_at>
+	</row>
+
+	<row>
+		<id>2431</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>501</review_id>
+		<value>1265.00</value>
+		<created_at>2015-09-13 19:26:36</created_at>
+		<updated_at>2015-09-13 19:26:36</updated_at>
+	</row>
+
+	<row>
+		<id>2432</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>501</review_id>
+		<value>1362.00</value>
+		<created_at>2015-09-13 19:26:36</created_at>
+		<updated_at>2015-09-13 19:26:36</updated_at>
+	</row>
+
+	<row>
+		<id>2433</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>501</review_id>
+		<value>1226.00</value>
+		<created_at>2015-09-13 19:26:36</created_at>
+		<updated_at>2015-09-13 19:26:36</updated_at>
+	</row>
+
+	<row>
+		<id>2434</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>501</review_id>
+		<value>1382.00</value>
+		<created_at>2015-09-13 19:26:36</created_at>
+		<updated_at>2015-09-13 19:26:36</updated_at>
+	</row>
+
+	<row>
+		<id>2435</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>501</review_id>
+		<value>1467.00</value>
+		<created_at>2015-09-13 19:26:36</created_at>
+		<updated_at>2015-09-13 19:26:36</updated_at>
+	</row>
+
+	<row>
+		<id>2436</id>
+		<rating_type_id>22</rating_type_id>
+		<review_id>502</review_id>
+		<value>1214.00</value>
+		<created_at>2015-09-13 22:07:46</created_at>
+		<updated_at>2015-09-13 22:07:46</updated_at>
+	</row>
+
+	<row>
+		<id>2437</id>
+		<rating_type_id>23</rating_type_id>
+		<review_id>502</review_id>
+		<value>1596.00</value>
+		<created_at>2015-09-13 22:07:46</created_at>
+		<updated_at>2015-09-13 22:07:46</updated_at>
+	</row>
+
+	<row>
+		<id>2438</id>
+		<rating_type_id>24</rating_type_id>
+		<review_id>502</review_id>
+		<value>1067.00</value>
+		<created_at>2015-09-13 22:07:46</created_at>
+		<updated_at>2015-09-13 22:07:46</updated_at>
+	</row>
+
+	<row>
+		<id>2439</id>
+		<rating_type_id>25</rating_type_id>
+		<review_id>502</review_id>
+		<value>1335.00</value>
+		<created_at>2015-09-13 22:07:46</created_at>
+		<updated_at>2015-09-13 22:07:46</updated_at>
+	</row>
+
+	<row>
+		<id>2440</id>
+		<rating_type_id>84</rating_type_id>
+		<review_id>502</review_id>
+		<value>1417.00</value>
+		<created_at>2015-09-13 22:07:46</created_at>
+		<updated_at>2015-09-13 22:07:46</updated_at>
 	</row>
 
 	</ratings>

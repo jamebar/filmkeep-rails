@@ -10,7 +10,7 @@
 -
 - Host: 104.236.116.82 (MySQL 5.5.44-0ubuntu0.14.04.1)
 - Database: filmkeep_production
-- Generation Time Time: 2015-09-06 19:59:28 +0000
+- Generation Time Time: 2015-09-13 23:29:24 +0000
 -
 -->
 
@@ -1230,6 +1230,30 @@ Still doesn't touch the first one of course; better actors, better writing, and 
 		<created_at>2015-07-26 03:26:50</created_at>
 		<updated_at>2015-07-26 03:26:50</updated_at>
 		<film_id>479</film_id>
+	</row>
+
+	<row>
+		<id>106</id>
+		<user_id>124</user_id>
+		<comment>Personally for me, I really loved Chappie, I found it emotional, funny and really tense at some parts. I find that Chappie is either an I love this movie or an I hate this movie.</comment>
+		<commentable_id>84</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-09-12 11:22:33</created_at>
+		<updated_at>2015-09-12 11:22:33</updated_at>
+		<film_id>15</film_id>
+	</row>
+
+	<row>
+		<id>107</id>
+		<user_id>9</user_id>
+		<comment>Really good. This is the kind of show that would have been terrible if made by the studio system -- teenagers fighting aliens. But Joe Cornish took the premise seriously, added some social commentary, and it came out a fun, unique alien movie. The young cast was excellent, the special effects were ingeniously simple, and everything looked great.</comment>
+		<commentable_id>31</commentable_id>
+		<commentable_type>Filmkeep\Watchlist</commentable_type>
+		<spoiler>0</spoiler>
+		<created_at>2015-09-13 10:20:42</created_at>
+		<updated_at>2015-09-13 10:20:42</updated_at>
+		<film_id>72</film_id>
 	</row>
 
 	</comments>
