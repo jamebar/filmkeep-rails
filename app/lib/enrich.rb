@@ -41,7 +41,7 @@ class Enrich
       d
     end
 
-    return data.is_a?(Array) ? results : results.first
+    return data.is_a?(Array) ? results.compact : results.first
   end
 
   def assign_values(d)
