@@ -19,6 +19,17 @@
           </div>
         </div>
     </div>
-  </div>
+    <div class="clearfix">
+      <h3>Notes</h3>
+      <div class="media" ng-repeat="review in compares | limitTo: 6" ng-class="{active:review.active}">
+        <div class="media-left">
+          <avatar class="avatar" info="review.user" disable-click="true" ></avatar>
+        </div>
+        <div class="media-body">
+          <p>%%review.notes%%<span ng-if="review.notes.length < 1">%%review.user.name%% didn't have any notes</span></p>
+        </div>
+      </div>
+    </div>
+  </span>
   
 </div>
