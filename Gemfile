@@ -84,4 +84,5 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-angular-elastic'
   # gem 'rails-assets-angular-gestures'
   gem 'rails-assets-getstream'
+  gem 'rails-assets-angular-growl-2'
 end

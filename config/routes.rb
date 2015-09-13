@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   scope :api, defaults: {format: 'json'} do
     get 'me' => 'me#index'
     get 'user/is_authorized' => 'me#is_authorized'
+    get 'user' => 'users#index'
     get 'user/:id' => 'users#show', :constraints => { :id => /[^\/]+/ }
     put 'user/:id' => 'users#update'
     get 'notifications' => 'notifications#index'

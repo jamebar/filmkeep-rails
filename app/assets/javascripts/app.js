@@ -17,7 +17,6 @@ angular.module('myApp', [
     'feed',
     'watchlist',
     'settings',
-    'AlertBox',
     'film',
     'slugifier',
     'ngTouch',
@@ -31,7 +30,8 @@ angular.module('myApp', [
     'ngSanitize',
     'getting-started',
     'custom-criteria',
-    'lists'
+    'lists',
+    'angular-growl'
 ], function($interpolateProvider) {
     $interpolateProvider.startSymbol('%%');
     $interpolateProvider.endSymbol('%%');
@@ -45,10 +45,14 @@ angular.module('myApp', [
   
 }])
 
-.config(['$locationProvider','$stateProvider','$urlRouterProvider','$tooltipProvider','$urlMatcherFactoryProvider', function($locationProvider, $stateProvider,$urlRouterProvider,$tooltipProvider,$urlMatcherFactoryProvider) {
+.config(['$locationProvider','$stateProvider','$urlRouterProvider','$tooltipProvider','$urlMatcherFactoryProvider', 'growlProvider', '$httpProvider', function($locationProvider, $stateProvider,$urlRouterProvider,$tooltipProvider,$urlMatcherFactoryProvider, growlProvider, $httpProvider) {
   $urlMatcherFactoryProvider.caseInsensitive(true);
   $urlMatcherFactoryProvider.strictMode(false);
   $locationProvider.html5Mode(true);
+  growlProvider.globalTimeToLive(5000);
+  growlProvider.globalDisableCountDown(false);
+  growlProvider.globalPosition('bottom-left');
+  $httpProvider.interceptors.push(growlProvider.serverMessagesInterceptor);
 
   // var tooltipFactory = $tooltipProvider.$get[$tooltipProvider.$get.length - 1];
   // $tooltipProvider.$get = [

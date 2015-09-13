@@ -1,3 +1,6 @@
+.ps-container.ps-active-x > .ps-scrollbar-x-rail{
+  display: none !important;
+}
 .gs-header{
   background:$filmkeep-beige;
   padding:1em 2em;
@@ -46,6 +49,14 @@
   }
 }
 
+.gs-1{
+  background-image: image-url('getting-started/intro.jpg');
+}
+
+.gs-5{
+  background-image: image-url('getting-started/theend.jpg');
+}
+
 .gs-1, .gs-5{
   text-align: center;
   padding:10em 5em;
@@ -74,6 +85,7 @@
   height: 370px;
   padding-bottom: 130px;
   padding-right: 20px;
+  overflow: hidden;
 }
 .user-item{
   float:left;

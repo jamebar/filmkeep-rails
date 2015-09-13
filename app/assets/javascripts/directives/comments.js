@@ -4,8 +4,8 @@
   angular.module('fk.comments', [
 ])
 
-  .directive('comments', ['Api','AlertService','$timeout',
-    function(Api,AlertService,$timeout){
+  .directive('comments', ['Api','$timeout','growl',
+    function(Api, $timeout, growl){
         return {
             restrict: 'E',
             scope:{
@@ -40,12 +40,12 @@
                 scope.comment.type_id = scope.commentableId;
                 scope.comment.film_id = scope.filmId;
                 scope.comment.$save(function(response){
-                  AlertService.Notice("Your comment has been added.");
+                  growl.success("Your comment has been added.")
                   scope.comments.push(scope.comment)
                   scope.newComment();
                   scope.flag = false;
                 },function(response){
-                  AlertService.Notice("Whoops, make sure you type a comment.");
+                  growl.error("Whoops, make sure you type a comment.");
                   scope.flag = false;
                 })
               }
@@ -58,7 +58,7 @@
                   scope.comments = _.reject(scope.comments, function(com){
                     return com.id == c.id;
                   })
-                  AlertService.Notice("Your comment has been deleted.");
+                  growl.success("Your comment has been deleted.");
                 });
               }
 

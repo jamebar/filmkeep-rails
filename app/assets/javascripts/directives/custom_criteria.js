@@ -4,8 +4,8 @@
   angular.module('custom-criteria', [
 ])
 
-  .directive('customCriteria', ['AlertService','ReviewService','msgBus','Api',
-    function(AlertService,ReviewService,msgBus,Api){
+  .directive('customCriteria', ['growl','ReviewService','msgBus','Api',
+    function(growl,ReviewService,msgBus,Api){
         return {
             restrict: 'E',
             scope:{},
@@ -39,7 +39,7 @@
                 var t = new Api.RatingTypes();
                 _.assign(t,type);
                 t.$update(function(response){
-                  AlertService.Notice("Your slider is updated");
+                  growl.success("Your slider is updated");
                   type.orig = type.label;
                   type.edit = false;
                 })

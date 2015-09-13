@@ -91,18 +91,22 @@ label{
 }
 
 .alert-box{
-  width:100%;
   position:fixed;
-  top:50px;
+  bottom:50px;
   left:0px;
   text-align:center;
   z-index: 10000;
   border-radius: 0px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
   color:$filmkeep-beige;  
   border:none;
 }
-.alert-box.no-header{
-  top:0px !important;
+.alert-box.no-angular{
+  width:100%;
+  top:0px;
+  bottom:inherit;
+  border-radius:0px;
 }
 .alert-box.success,.alert-box.alert{
   background-color:$filmkeep-blue;

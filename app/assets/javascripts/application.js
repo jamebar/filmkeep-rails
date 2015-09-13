@@ -43,6 +43,7 @@
 //= require ng-sortable
 //= require getstream
 //= require angular-utils-pagination
+//= require angular-growl-2
 
 //= require_tree .
 

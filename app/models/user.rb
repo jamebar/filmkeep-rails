@@ -11,6 +11,7 @@ class User < ActiveRecord::Base
   before_create :ensure_username_uniqueness
   validates :username, :uniqueness => true
   validates :email, :uniqueness => true
+  after_create :follow_self
 
   def self.current
     Thread.current[:user]
@@ -50,6 +51,16 @@ class User < ActiveRecord::Base
       end
       self.username = new_username
     end
+  end
+
+  def follow_self
+    #follow self
+    StreamRails.feed_manager.follow_user(id, id)
+    #folow me and ryan
+    Follower.create(user_id: id, follower_id: 1)
+    StreamRails.feed_manager.follow_user(id, 1)
+    Follower.create(user_id: id, follower_id: 4)
+    StreamRails.feed_manager.follow_user(id, 4)
   end
 
   def find_by_username(username)

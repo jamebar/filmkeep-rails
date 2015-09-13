@@ -4,8 +4,8 @@
   angular.module('lists', ['ng-sortable'
 ])
 
-  .directive('manageList', ['Api', '$filter','$compile', 'AlertService','$timeout',
-    function(Api, $filter, $compile, AlertService, $timeout){
+  .directive('manageList', ['Api', '$filter','$compile', 'growl','$timeout',
+    function(Api, $filter, $compile, growl, $timeout){
         return {
             restrict: 'E',
             scope:{ currentList: '=',
@@ -48,7 +48,7 @@
               scope.saveList = function(){
                 if(scope.list.id){
                   scope.list.$update();
-                  AlertService.Notice("Your list has been updated.");
+                  growl.success("Your list has been updated.");
                   _.forEach(scope.lists, function(l){
                     if(l.id == scope.list.id){
                       _.assign(l, scope.list);
@@ -57,7 +57,7 @@
                 }else{
                   scope.list.$save(function(response){
                     scope.lists.push(response);
-                    AlertService.Notice("Your list has been created, now add films to it.");
+                    growl.info("Your list has been created, now add films to it.");
                   })
                 }
               }
@@ -79,7 +79,7 @@
 
               function addListItem(item)
               {
-                AlertService.Notice("Adding " + item.title + " to your list...");
+                growl.info("Adding " + item.title + " to your list...");
                 var sort_order = scope.list.films || {};
                 Api.addRemoveListItem({tmdb_id: item.tmdb_id, list_action: 'add', list_id: scope.list.id, sort_order: sort_order.length }).then(function(response) {
                   scope.list.films = response;

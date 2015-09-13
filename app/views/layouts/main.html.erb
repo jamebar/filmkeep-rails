@@ -8,6 +8,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Volkhov:400,700italic' rel='stylesheet' type='text/css'>
    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+   <%= stylesheet_link_tag    'gems', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
     <base href="/" />
@@ -105,8 +106,13 @@
   </div><!-- /.container-fluid -->
 </nav>
     <div class="container-fluid main-content" >
-      <!--Error messages from angular -->
-      <alert-box box-class="alert alert-box radius " alert-class="alert" warning-class="warning" notice-class="success" class="admin-alert "></alert-box>
+      <div growl></div>
+      <% if notice%>
+      <div class="alert-box alert no-header" close-me="6000"><%= notice %></div>
+      <% end %>
+      <% if alert%>
+      <div class="alert-box alert alert-error alert-danger no-header" close-me="6000"><%= alert %></div>
+      <% end %>
         <div ui-view autoscroll="true" ></div>
         <%= yield %>
     </div>

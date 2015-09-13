@@ -49,8 +49,8 @@
 
   }])
 
-  .controller('settingsCtrl', ['$scope','bootstrap','AlertService','$state','Api',
-    function ($scope, bootstrap,AlertService,$state,Api) {
+  .controller('settingsCtrl', ['$scope','bootstrap','growl','$state','Api',
+    function ($scope, bootstrap,growl,$state,Api) {
 
       $scope.current_user = new Api.Users();
         _.assign($scope.current_user, bootstrap.me);
@@ -71,16 +71,16 @@
 
   }]) 
 
-  .controller('settingsProfileCtrl', ['$scope','bootstrap','AlertService','msgBus',
-    function ($scope, bootstrap,AlertService,msgBus) {
+  .controller('settingsProfileCtrl', ['$scope','bootstrap','growl','msgBus',
+    function ($scope, bootstrap,growl,msgBus) {
         msgBus.emitMsg('pagetitle::change', "Settings: Profile");
 
         $scope.saveUser = function(){
           $scope.current_user.$update(function(response){
-              AlertService.Notice("Your changes have been saved");
+              growl.success("Your changes have been saved");
               _.assign(bootstrap.me, response);
           },function(response_headers){
-              AlertService.Warning(response_headers.headers('X-API-MESSAGE'));
+              growl.warning(response_headers.headers('X-API-MESSAGE'));
           });
         }
 
@@ -92,8 +92,8 @@
 
   }]) 
 
-  .controller('settingsFilmetersCtrl', ['$scope','bootstrap','AlertService','ReviewService','msgBus','Api',
-    function ($scope, bootstrap,AlertService,ReviewService,msgBus,Api) {
+  .controller('settingsFilmetersCtrl', ['$scope','bootstrap','growl','ReviewService','msgBus','Api',
+    function ($scope, bootstrap,growl,ReviewService,msgBus,Api) {
         msgBus.emitMsg('pagetitle::change', "Settings: Sliders");
         
 

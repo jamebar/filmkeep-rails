@@ -15,8 +15,8 @@ var aeReview = angular.module('ae-review', [
 
     }
 ])
-.directive('addEditReview', ['$rootScope','$filter','$document','$modal','$compile','$timeout', 'msgBus','ReviewService','AlertService',
-    function($rootScope,$filter,$document,$modal,$compile,$timeout,msgBus, ReviewService,AlertService){
+.directive('addEditReview', ['$rootScope','$filter','$document','$modal','$compile','$timeout', 'msgBus','ReviewService','growl',
+    function($rootScope,$filter,$document,$modal,$compile,$timeout,msgBus, ReviewService, growl){
         return {
             restrict: 'E',
             scope:{
@@ -61,7 +61,8 @@ var aeReview = angular.module('ae-review', [
                         scope.loader = false;
                         $rootScope.$broadcast('modal::close');
                         $rootScope.$broadcast('review::updated', scope.review);
-                        AlertService.Notice("Your review of '" + scope.review.film.title + "' has been updated");
+                        growl.success("Your review of '" + scope.review.film.title + "' has been updated");
+
                       });
                     }
                     else
@@ -73,11 +74,11 @@ var aeReview = angular.module('ae-review', [
                           scope.loader = false;
                           $rootScope.$broadcast('modal::close');
                           msgBus.emitMsg('review::added', scope.review);
-                          AlertService.Notice("Your review of '" + scope.review.film.title + "' has been created");
+                          growl.success("Your review of '" + scope.review.film.title + "' has been created");
                         });
                       }
                       else{
-                        AlertService.Alert("Whoops, you must choose a film before saving.");
+                        growl.warning("Whoops, you must choose a film before saving.");
                       }
                     }
                       

@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
   def index
+    render json: User.limit(20).order('id asc ')
   end
 
   def create
