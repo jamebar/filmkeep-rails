@@ -108,10 +108,10 @@
     <div class="container-fluid main-content" >
       <div growl></div>
       <% if notice%>
-      <div class="alert-box alert no-header" close-me="6000"><%= notice %></div>
+      <div class="alert-box alert no-angular  alert-dismissible" close-me="6000"><button type="button" onclick="$('.alert-box').remove();" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><%= notice %> </div>
       <% end %>
       <% if alert%>
-      <div class="alert-box alert alert-error alert-danger no-header" close-me="6000"><%= alert %></div>
+      <div class="alert-box alert alert-error alert-danger  no-angular  alert-dismissible"  close-me="6000"><button type="button" onclick="$('.alert-box').remove();" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button><%= alert %></div>
       <% end %>
         <div ui-view autoscroll="true" ></div>
         <%= yield %>

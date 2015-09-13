@@ -8,7 +8,11 @@
       <div class="page-user-actions">
         <h3><a ui-sref='root.user.filmkeep({username: page_user.username})'>%%page_user.name%%</a></h3>
         <a ng-show="showFollow" ng-click="follow(page_user)"><span class="glyphicon glyphicon-ok" ng-show="page_user.following"></span> %% page_user.following ? "following" : "follow" %%</a> <span ng-show="showFollow" style="margin:0 .5em;"> | </span>
-        <a ui-sref='root.user.watchlist({username: page_user.username})'>watchlist</a>
+        <a ui-sref='root.user.watchlist({username: page_user.username})'>watchlist</a><span  style="margin:0 .5em;"> | </span>
+        <a ng-click="user_lists.length >0 && viewList(user_lists[0])" ng-if="!myPage" >Lists (%%user_lists.length%%)</a>
+        <a ng-click="viewList(user_lists[0])" ng-if="myPage && user_lists.length > 0" >Lists (%%user_lists.length%%)</a>
+        <a ng-click="newList" ng-if="myPage && user_lists.length == 0">Lists (%%user_lists.length%%)</a>
+
       </div>
     </div>
     <div class="col-xs-12 col-sm-6">

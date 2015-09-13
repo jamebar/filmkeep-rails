@@ -4,7 +4,7 @@
 
         <h2>%%list.name%%</h2>
         <div class="list-meta">
-          <p>by: <strong>%%list.user.name%%</strong> <br>last updated: <strong>%%list.updated_at%%</strong></p>
+          <p>by: <strong>%%list.user.name%%</strong> <br>last updated: <strong>%%list.updated_at | date : "MM/dd/yyyy" %%</strong></p>
         </div>
         <p>%%list.description%%</p>
         <span ng-show="all.length > 1">

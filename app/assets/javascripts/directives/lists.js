@@ -173,7 +173,7 @@
             link: function(scope, element, attrs) {
               
               scope.loadList = function(list){
-                Api.Lists.get({id:list.id, include_all: true},function(response) {
+                Api.Lists.get({id: list.id, include_all: true},function(response) {
                   scope.list = response.list;
                   scope.all = response.all;
                 });

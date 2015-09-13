@@ -369,7 +369,7 @@ angular.module('myApp', [
         }
 
         $scope.viewList = function(list){
-          if(bootstrap.me.id == list.user.id)
+          if(list && bootstrap.me.id == list.user_id)
           {
             return $scope.manageList(list);
           }

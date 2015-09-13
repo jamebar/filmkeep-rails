@@ -70,6 +70,10 @@
         $scope.showFollow = angular.isDefined(bootstrap.me) && !$scope.myPage;
 
         $scope.page_user = page_user;
+
+        Api.Lists.query({with_films:true, user_id: page_user.id}, function(results){
+            $scope.user_lists = results;
+        })
                 
         $scope.follow = function(page_user){
 

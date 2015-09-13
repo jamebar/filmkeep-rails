@@ -92,7 +92,7 @@ label{
 
 .alert-box{
   position:fixed;
-  bottom:50px;
+  top:50px;
   left:0px;
   text-align:center;
   z-index: 10000;
@@ -102,6 +102,7 @@ label{
   color:$filmkeep-beige;  
   border:none;
 }
+
 .alert-box.no-angular{
   width:100%;
   top:0px;
