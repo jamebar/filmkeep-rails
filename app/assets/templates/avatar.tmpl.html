@@ -1,9 +1,18 @@
-<a ng-if="!disabled" ui-sref="root.user.filmkeep({username: user.username })" tooltip="%%user.name%%" tooltip-trigger="mouseenter" style="display:inline-block">
-  <img ng-hide="initials" ng-src="%%user.avatar | profileFilter%%" class="avatar-pic"/> 
-  <span ng-show="initials" class="initials">%%initials%%</span>
-</a>
-
-<span ng-if="disabled" >
-  <img ng-hide="initials" ng-src="%%user.avatar | profileFilter%%" class="avatar-pic"/> 
-  <span ng-show="initials" class="initials">%%initials%%</span>
-</span>
+<div class="dropdown" dropdown>
+  <a class="dropdown-toggle" dropdown-toggle data-toggle="dropdown" ng-if="!disabled"  style="display:inline-block">
+    <img ng-hide="initials" ng-src="%%user.avatar | profileFilter%%" class="avatar-pic"/> 
+    <span ng-show="initials" class="initials">%%initials%%</span>
+  </a>
+  <ul class="dropdown-menu user-context" >
+    <span class="user-info">
+      <h3>%%user.name%%</h3>
+      <p>Filmkeeper since: %%user.created_at | date : "MM/dd/yyyy"%%</p>
+    </span>
+    <li><a ui-sref="root.user.filmkeep({username: user.username })">View Filmkeep page</a></li>
+    <li><a ui-sref="root.user.watchlist({username: user.username })">View Watchlist</a></li>
+  </ul>
+  <span ng-if="disabled" >
+    <img ng-hide="initials" ng-src="%%user.avatar | profileFilter%%" class="avatar-pic"/> 
+    <span ng-show="initials" class="initials">%%initials%%</span>
+  </span>
+</div>

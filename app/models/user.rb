@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
   end
 
   def serializable_hash(options = {})
-    options[:only] = [:id, :name, :username, :avatar, :email , :followers, :reviews, :watchlist]
+    options[:only] = [:id, :name, :username, :avatar, :email , :followers, :reviews, :watchlist, :created_at]
     super(options)
   end
 

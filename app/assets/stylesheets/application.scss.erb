@@ -406,6 +406,39 @@ a.action{
 
 }
 
+.dropdown-menu.user-context{
+  &:before{
+    content:none;
+  }
+  background:#333;
+  color:#ccc;
+  li{
+    min-width:250px;
+    background:#222;
+    a{
+      color:$filmkeep-beige;
+      padding:1em;
+      &:hover, &:active{
+        background:#111;
+        color:$filmkeep-beige;
+      }
+    }
+  }
+  
+  .user-info{
+    padding:0em 1em 1em 1em;
+    display: block;
+
+    p{
+      font-size:.8em;
+      color:#777;
+    }
+  }
+  h3{
+    margin-bottom:0em;
+  }
+
+}
 
 .avatar-pic{
   width:60px;

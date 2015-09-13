@@ -4,6 +4,8 @@ class Review < ActiveRecord::Base
   has_many :ratings , -> { order(rating_type_id: :asc) }
   has_many :comments,  as: :commentable
 
+  after_create :remove_from_watchlist
+
   include StreamRails::Activity
   as_activity
 
@@ -16,6 +18,11 @@ class Review < ActiveRecord::Base
       :include => {film: {}, ratings: {:include => :rating_type}, comments: {}, user:{}}
     }.update(options)
     super(options)
+  end
+
+  def remove_from_watchlist
+    #remove from watchlist
+    #need to make the UI respond accordingly otherwise it gets confusing
   end
 
   def activity_object

@@ -28,7 +28,7 @@ class ReviewsController < ApplicationController
     ActiveRecord::Base.transaction do
       user_id = current_user.id
       review = Review.where(film_id: @film.id, user_id: user_id).first_or_initialize(review_params)
-
+      
       if review.id.blank?
         review.save!
         params[:ratings].each do |rating|
