@@ -211,3 +211,13 @@ label{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.btn-group{
+  margin-bottom: 1em;
+
+  .btn{
+    &.active{
+      border:1px solid #ccc !important;
+    }
+  }
+}

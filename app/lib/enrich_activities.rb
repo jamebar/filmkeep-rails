@@ -19,7 +19,7 @@ class EnrichActivities < Enrich
       end
 
     end
-    data.delete_if {|a| a['activities'].size == 0}
+    data.delete_if {|a|  a['activities'].size == 0}
   end
 
   def assign_values(d)

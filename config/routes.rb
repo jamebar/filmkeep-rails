@@ -26,6 +26,7 @@ Rails.application.routes.draw do
     get 'compares' => 'reviews#compares'
     post 'notifications' => 'notifications#mark_seen'
     get 'stream' => 'stream#index'
+    get 'stream/:user_id' => 'stream#user_feed'
     get 'films' => 'films#index'
     get 'films/trailer/:tmdb_id' => 'films#trailer'
     get 'films/nowplaying' => 'films#now_playing'

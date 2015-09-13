@@ -37,15 +37,12 @@
     var stream_user = client.feed('aggregated', bootstrap.me.id, bootstrap.stream.agg_token);
 
     stream_user.subscribe(function(data){
-      console.log(data)
+      // console.log(data)
     })
 
     ReviewService.getRatingTypes().then(function(results){
       $scope.rating_types_new = results;
-        
     });
-
-    
 
     Api.getNowPlaying().then(function(response){
       $scope.now_playing = response;
