@@ -103,7 +103,7 @@
                   }
 
                   if(dataset === 'films'){
-                    $state.go('root.film', {filmId: suggestion.tmdb_id, filmSlug: $filter('slugify')(suggestion.title) });
+                    $state.go('root.film', {filmId: suggestion.tmdb_id, filmSlug: Slug.slugify(suggestion.title) });
                     
                   }
                   $('.tt-input').typeahead('val', null);
