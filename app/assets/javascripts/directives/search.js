@@ -4,8 +4,8 @@
   angular.module('search', [
 ])
 
-  .directive('search', ['$document','$filter','$state',
-    function($document,$filter,$state){
+  .directive('search', ['$document','$filter','$state','Slug',
+    function($document,$filter,$state, Slug){
         return {
             restrict: 'E',
             scope:{},
