@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width"  />
   <title>Filmkeep</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'gems', media: 'all', 'data-turbolinks-track' => true %>
@@ -12,7 +13,7 @@
     <div growl></div>
     
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12">
           <div class="login-logo"><%= image_tag('filmkeep-logo-large.png') %></div>
           <% if notice%>
           <div class="alert-box alert no-header no-angular  alert-dismissible" ><button type="button" onclick="$('.alert-box').remove();" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><%= notice %> </div>
