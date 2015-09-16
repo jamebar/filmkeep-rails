@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root to: "pages#index"
   get '/users/login', to: redirect('/users/sign_in')
+  get '/users/create', to: redirect('/users/sign_up')
   # get '/auth/:provider/callback', :to => 'sessions#create'
   get '/auth/failure', :to => 'sessions#failure'
 
