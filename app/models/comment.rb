@@ -17,8 +17,8 @@ class Comment < ActiveRecord::Base
     super(options)
   end
 
-  def activity_lazy_loading
-    [:film, :commentable]
+  def activity_extra_data
+    {'title' => commentable.title}
   end
 
   def activity_object

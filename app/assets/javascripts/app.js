@@ -190,6 +190,11 @@ angular.module('myApp', [
         $scope.page_title = data;
       });
 
+      $scope.getVerb = function(v)
+      {
+        return v.split('\\').pop().toLowerCase();
+      }
+
       $scope.getBackgroundOpacity = function(scroll){
         return 'rgba(50, 50, 50, ' + ((scroll/300) +.4) + ')';
       }
@@ -215,6 +220,51 @@ angular.module('myApp', [
               backdrop: 'static'
         
           });
+      }
+
+      Api.Lists.query({with_films:true}, function(results){
+          $scope.lists = results;
+        })
+
+      
+      $scope.newList = function(){
+        $scope.current_list = new Api.Lists();
+        manageListModal();
+      }
+
+      $scope.manageList = function(list){
+        $scope.current_list = list;
+        manageListModal();
+      }
+
+      $scope.viewList = function(list){
+        if(list && $scope.header_user.id == list.user_id)
+        {
+          return $scope.manageList(list);
+        }
+        else{
+          $scope.view_list = list;
+          viewListModal();
+        }
+        
+      }
+
+      function manageListModal(id){
+        var modalInstance = $modal.open({
+            scope: $scope,
+            size:'lg',
+            templateUrl: 'modal_manage_list.tmpl.html',
+            // backdrop: 'static'
+        });
+      }
+
+      function viewListModal(id){
+        var modalInstance = $modal.open({
+            scope: $scope,
+            size:'lg',
+            templateUrl: 'modal_view_list.tmpl.html',
+            // backdrop: 'static'
+        });
       }
 
       $rootScope.$on('$stateChangeStart', 
@@ -354,50 +404,8 @@ angular.module('myApp', [
           });
         }
 
-        Api.Lists.query({with_films:true}, function(results){
-          $scope.lists = results;
-        })
         
-        $scope.newList = function(){
-          $scope.current_list = new Api.Lists();
-          manageListModal();
-        }
-
-        $scope.manageList = function(list){
-          $scope.current_list = list;
-          manageListModal();
-        }
-
-        $scope.viewList = function(list){
-          if(list && bootstrap.me.id == list.user_id)
-          {
-            return $scope.manageList(list);
-          }
-          else{
-            $scope.view_list = list;
-            viewListModal();
-          }
-          
-        }
-
-        function manageListModal(id){
-          var modalInstance = $modal.open({
-              scope: $scope,
-              size:'lg',
-              templateUrl: 'modal_manage_list.tmpl.html',
-              // backdrop: 'static'
-          });
-        }
-
-        function viewListModal(id){
-          var modalInstance = $modal.open({
-              scope: $scope,
-              size:'lg',
-              templateUrl: 'modal_view_list.tmpl.html',
-              // backdrop: 'static'
-          });
-        }
-
+        
         function trailerModal(){
           var modalInstance = $modal.open({
               scope: $scope,

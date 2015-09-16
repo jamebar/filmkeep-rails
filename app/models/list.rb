@@ -1,6 +1,7 @@
 class List < ActiveRecord::Base
   has_many :film_list
   has_many :films, :through => :film_list
+  has_many :comments,  as: :commentable
   belongs_to :user
   before_destroy :detach_films
 
@@ -8,12 +9,16 @@ class List < ActiveRecord::Base
   as_activity
 
   def self.default_scope
-    includes(:films, :user)
+    includes(:films, :user, :comments)
+  end
+
+  def title
+    name
   end
 
   def serializable_hash(options={})
     options = { 
-      :include => [:user, :films]
+      :include => [:user, :films, :comments]
     }.update(options)
     super(options)
   end

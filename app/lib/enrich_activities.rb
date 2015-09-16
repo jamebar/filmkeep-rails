@@ -4,7 +4,7 @@ class EnrichActivities < Enrich
     @ids ||= begin
       data.flat_map do |activities|
         activities['activities'].map do |activity|
-          activity["object"].film.id if activity["object"].respond_to? 'film'
+          activity["object"].film.try(:id) if activity["object"].respond_to? :film
         end
       end
     end
@@ -15,7 +15,7 @@ class EnrichActivities < Enrich
     data.each do |activities|
       activities['activities'].delete_if {|a|  a["object"].class == String }
       activities['activities'].each do |activity|
-          assign_values(activity["object"].film) if activity["object"].respond_to? 'film'
+          assign_values(activity["object"].film) if activity["object"].respond_to? :film
       end
 
     end
@@ -23,6 +23,7 @@ class EnrichActivities < Enrich
   end
 
   def assign_values(d)
+    return if d.nil?
     d.on_watchlist = watchlist_items.include?(d.id) 
     d.reviewed = review_items.include?(d.id) 
   end

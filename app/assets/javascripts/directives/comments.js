@@ -17,17 +17,25 @@
             link: function(scope, element, attrs) {
               scope.flag = false;
 
-              $timeout(function() {
-                element.find('.comment_input').focus();
-              });
+              // $timeout(function() {
+              //   element.find('.comment_input').focus();
+              // });
 
               if (scope.type.indexOf('Filmkeep') > -1) {
                 scope.type = scope.type.split('\\')[1].toLowerCase();
               };
               
-              Api.Comments.query({type: scope.type, type_id: scope.commentableId}, function(response){
-                scope.comments = response;
-              });
+              var fetchComments = function(){
+                Api.Comments.query({type: scope.type, type_id: scope.commentableId}, function(response){
+                  scope.comments = response;
+                });
+              }
+              
+              scope.$watch('commentableId' , function() {
+                console.log("it changed")
+                 fetchComments();
+             });
+
               scope.bootstrap = Api.meData();
 
               scope.newComment = function(){
@@ -63,6 +71,7 @@
               }
 
               scope.newComment();
+              
 
             }
 

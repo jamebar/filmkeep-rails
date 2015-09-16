@@ -9,7 +9,7 @@ class CommentsController < ApplicationController
 
   def create
     object = klass(params[:type], params[:type_id])
-    results = object.comments.create(user_id: current_user.id, comment: params[:description], spoiler: params.has_key?(:spoiler), film_id: params[:film_id])
+    results = object.comments.create(user_id: current_user.id, comment: params[:description], spoiler: params.has_key?(:spoiler), film_id: params.fetch(:film_id, nil))
     render json: results
   end
 
@@ -23,9 +23,10 @@ class CommentsController < ApplicationController
 
   private
   def klass(type, id)
-    case type
+    case type.downcase
     when 'review' then Review.find(id)
     when 'watchlist' then Watchlist.find(id)
+    when 'list' then List.find(id)
     end
   end
 

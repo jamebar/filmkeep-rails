@@ -14,6 +14,9 @@ class Watchlist < ActiveRecord::Base
     super(options)
   end
   
+  def title
+    film.title
+  end
   include StreamRails::Activity
   as_activity
 

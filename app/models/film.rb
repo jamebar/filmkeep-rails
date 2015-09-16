@@ -12,6 +12,8 @@ class Film < ActiveRecord::Base
     super.merge(options)
   end
 
+  
+
   def self.digest(ids)
     ids = Array.wrap(ids)
     films = where(tmdb_id: ids).index_by(&:tmdb_id)

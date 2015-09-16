@@ -13,6 +13,10 @@ class Review < ActiveRecord::Base
     includes(:film, :comments, :user, ratings: :rating_type)
   end
 
+  def title
+    film.title
+  end
+
   def serializable_hash(options={})
     options = { 
       :include => {film: {}, ratings: {:include => :rating_type}, comments: {}, user:{}}

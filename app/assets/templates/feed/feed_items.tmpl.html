@@ -123,7 +123,7 @@
         <div ng-repeat="activity in feed_item.activities | limitTo:3" >
           <div class="media">
             <div class="media-body">
-              <a ng-click="openComments(activity.object)">%%activity.object.film.title%%</a><br>
+              <a ng-click="openComments(activity.object)">%%activity.object.film.title || activity.title%%</a><br>
               <p class="feed-commentable" ng-class="{spoiler: activity.object.spoiler == true && activity.object.user.id !== me.id}" text-more="%%activity.object.comment%%" max="50"></p>
             </div>
             <div class="media-right"><span class="feed-date pull-right">%%activity.object.updated_at | fDate %%</span></div>

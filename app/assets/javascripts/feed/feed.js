@@ -77,13 +77,22 @@
     }
 
     $scope.openComments = function(obj){
-      if(obj.commentable_type == 'Review')
-        $state.go('root.review', {reviewId: obj.commentable_id });
-      else
-        $scope.watchlistModal(obj);
+      switch(obj.commentable_type){
+        case 'Review':
+          $state.go('root.review', {reviewId: obj.commentable_id });
+          break;
+        case 'Watchlist':
+          $scope.watchlistModal(obj)
+          break;
+        case 'List':
+          var list = {'user_id': obj.user_id, 'id' : obj.commentable_id}
+          $scope.viewList(list)
+          break;
+      }
     }
 
     getFeed();
+
   }])
 
 .directive('feedItems', [
