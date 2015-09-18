@@ -23,14 +23,10 @@ class ExternalFilmService
 
 
     def now_playing
-      results = Rails.cache.read('EFS_nowplaying', expires_in: 1.day) 
-      if(results.nil?)
+      Rails.cache.fetch("EFS_nowplaying_m", expires_in: 10.minutes) do
         films = Enceladus::Movie.now_playing.results_per_page.first
         results = Film.digest(films.map(&:id))
       end
-
-      Rails.cache.write('EFS_nowplaying', results, expires_in: 1.day) if results.kind_of?(Array)
-      results
     end
   end
 end
