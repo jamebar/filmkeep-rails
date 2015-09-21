@@ -24,7 +24,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pg'
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', group: :production
+gem 'intercom-rails'
 
 gem 'omniauth',  '>= 1.0.0'
 gem 'omniauth-facebook'
