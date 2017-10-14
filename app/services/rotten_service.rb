@@ -15,6 +15,7 @@ class RottenService
   def rating(id)
     Rails.cache.fetch("Rotten_critics_score_#{id}", expires_in: 3.days) do
       @movie = film_by_imdb(id.split('t').last)
+      next if @movie.blank?
       @movie.ratings.to_h if @movie.ratings
     end
   end
